@@ -7,7 +7,7 @@
     <p> OPs ! (( ERROR 404 </p>
     </h1>
 
-    <a href="/" class="btn btn-info">Leave a Review</a>
+    <a href="/" class="btn btn-info">Home</a>
 </div>
 </div>
 <!-- Bootstrap core JavaScript -->
