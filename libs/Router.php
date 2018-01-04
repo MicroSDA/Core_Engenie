@@ -31,8 +31,8 @@ class Router {
        switch ($this->routing()){
 
            case 'index':
-               require 'controllers/Index.php';
-               $app_controller = new Index();
+               require 'controllers/index.php';
+               $app_controller = new index();
                $app_controller->index();
                break;
            case 'class':
@@ -47,8 +47,8 @@ class Router {
                $app_controller->$method($this->controller['parameters']);
                break;
            case 'error':
-              require 'controllers/Error_404.php';
-              $app_controller = new Error_404();
+              require 'controllers/error_404.php';
+              $app_controller = new error_404();
 
               break;
 

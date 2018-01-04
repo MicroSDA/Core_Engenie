@@ -7,7 +7,7 @@
 
 require 'models/Test_model.php';
 
-class Test extends Controller
+class test extends Controller
 {
 
    public function __construct(){

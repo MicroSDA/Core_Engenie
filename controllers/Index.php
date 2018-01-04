@@ -8,7 +8,7 @@
 
 require 'models/Index_model.php';
 
-class Index extends Controller
+class index extends Controller
 {
 
     public function __construct(){

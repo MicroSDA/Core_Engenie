@@ -8,7 +8,7 @@
 
 require 'models/Error_404_model.php';
 
-class Error_404 extends Controller
+class error_404 extends Controller
 {
 
     public function __construct(){
