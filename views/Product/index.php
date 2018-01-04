@@ -51,7 +51,7 @@
                 $row = $slq_result->fetch_assoc();
 
                 echo '<div class="card mt-4">';
-                echo '<img class="card-img-top img-fluid" src="/'.$row['Image'].'" alt="">';
+                echo '<img class="card-img-top img-fluid" src="'.$row['Image'].'" alt="">';
                 echo '<div class="card-body">';
                 echo '<h3 class="card-title">'.$row['Title'].'</h3>';
                 echo '<h4>'.$row['Currency'].$row['Price'].'</h4>';
