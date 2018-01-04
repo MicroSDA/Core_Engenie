@@ -61,36 +61,30 @@
                 echo '</div>';
                 echo '</div>';
 
+                echo '
+                      <div class="jumbotron">
+                      <div class="card-header">
+                      <h3 class="card-title">'.$row['Title'].'</h3>
+                      </div>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
+                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
+                    mollitia, necessitatibus quae sint natus.Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
+                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
+                    mollitia, necessitatibus quae sint natus.Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
+                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
+                    mollitia, necessitatibus quae sint natus.</p>
+                   <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+                   <hr>
+                   <a href="/" class="btn btn-outline-danger">Buy</a>
+                   </div>';
+
                 ?>
 
             <!-- /.card -->
 
-            <div class="card card-outline-secondary my-4">
-                <div class="card-header">
-                    Product Reviews
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-
-                </div>
-            </div>
             <!-- /.card -->
 
         </div>
