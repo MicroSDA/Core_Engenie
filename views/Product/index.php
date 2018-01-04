@@ -9,13 +9,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="/">Home
-                      <span class="sr-only">(current)</span>
                   </a>
               </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products">Products</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/products">Products
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-us">About</a>
@@ -44,19 +45,24 @@
 
         <div class="col-lg-9">
 
-            <div class="card mt-4">
-                <img class="card-img-top img-fluid" src="public/images/900x400.png" alt="">
-                <div class="card-body">
-                    <h3 class="card-title">Product Name</h3>
-                    <h4>$24.99</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam
-                        itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur
-                        praesentium animi perspiciatis molestias iure, ducimus!</p>
-                    <span class="text-warning">★ ★ ★ ★ ☆</span>
-                    4.0 stars
-                </div>
-            </div>
+
+                <?php
+
+                $row = $slq_result->fetch_assoc();
+
+                echo '<div class="card mt-4">';
+                echo '<img class="card-img-top img-fluid" src="/'.$row['Image'].'" alt="">';
+                echo '<div class="card-body">';
+                echo '<h3 class="card-title">'.$row['Title'].'</h3>';
+                echo '<h4>'.$row['Currency'].$row['Price'].'</h4>';
+                echo '<p class="card-text">'.$row['Description'].'</p>';
+                echo ' <span class="text-warning">★ ★ ★ ★ ☆</span>';
+                echo ' 4.0 stars';
+                echo '</div>';
+                echo '</div>';
+
+                ?>
+
             <!-- /.card -->
 
             <div class="card card-outline-secondary my-4">
