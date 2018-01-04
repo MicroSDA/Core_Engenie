@@ -34,23 +34,26 @@ class Router {
                require 'controllers/index.php';
                $app_controller = new index();
                $app_controller->index();
+
+               break;
+           case 'error':
+               require 'controllers/error_404.php';
+               $app_controller = new error_404();
+               $app_controller->index();
+
                break;
            case 'class':
                //require 'controllers/' . $this->controller['class'] .'.php';
                $app_controller = new $this->controller['class'];
                $app_controller->index();
+
                break;
            case 'class/method':
-               //require 'controllers/' . $this->controller['class'] .'.php';
                $app_controller = new $this->controller['class'];
                $method = $this->controller['method'];
                $app_controller->$method($this->controller['parameters']);
-               break;
-           case 'error':
-              require 'controllers/error_404.php';
-              $app_controller = new error_404();
 
-              break;
+               break;
 
        }
 
@@ -66,21 +69,25 @@ class Router {
        $this->URL = explode('/',$this->URL);
        // Prepare controller name for check
 
+       /**
+        * Check input values and change register
+        */
+
        if(!empty($this->URL[1])){
 
            //if class name isn't null
-           $this->controller['class'] = $this->URL[1];
+           $this->controller['class'] = mb_strtolower($this->URL[1],'UTF-8');
        }
 
        if(!empty($this->URL[2])){
 
            //if method name isn't null
-           $this->controller['method'] = $this->URL[2];
+           $this->controller['method'] = mb_strtolower($this->URL[2],'UTF-8');
        }
 
        if(!empty($this->URL[3])){
            //if method name isn't null
-           $this->controller['parameters'] = $this->URL[3];
+           $this->controller['parameters'] = mb_strtolower($this->URL[3],'UTF-8');
        }
 
 
