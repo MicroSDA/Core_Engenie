@@ -9,9 +9,17 @@
 
 
 
+
+
+
 class Products_model extends Model
 {
-    public function __construct(){
+
+    private $plugin_data;
+
+    public function __construct($plugin_data_income){
+
+        $this->plugin_data = $plugin_data_income;
 
 
 
@@ -52,11 +60,28 @@ class Products_model extends Model
 
     public function index(){
 
-        $slq_result = $this->get_all_products();
+        foreach ($this->plugin_data as $key => $value){
 
-        require 'views/Header.php';
-        require 'views/Products/index.php';
-        require 'views/Footer.php';
+            if($value['for'] =='products'){
+
+               require $value['file'];
+
+                $slq_result=  $value['function']();
+
+                require 'views/Header.php';
+                require 'views/Products/index.php';
+                require 'views/Footer.php';
+
+            }else {
+
+
+                require 'views/Header.php';
+                require 'views/Products/index.php';
+                require 'views/Footer.php';
+
+            }
+        }
+
 
     }
 

@@ -6,6 +6,8 @@
  * Time: 5:56 PM
  */
 
+
+require 'plugins_search.php';
 require 'libs/Router.php';
 require 'controllers/Controller.php';
 require 'models/Model.php';

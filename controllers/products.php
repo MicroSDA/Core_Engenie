@@ -11,15 +11,18 @@ require 'models/Products_model.php';
 
 class products extends Controller
 {
+
+    private $plugin_data;
     public function __construct(){
 
         parent::__construct();
 
     }
 
-    public function index(){
+    public function index($plugin_data_income){
 
-        $models = new Products_model();
+        $this->plugin_data = $plugin_data_income;
+        $models = new Products_model($this->plugin_data);
         $models->index();
     }
 
@@ -31,7 +34,7 @@ class products extends Controller
 
         if($parameters[0] == 'id' && is_numeric($parameters[1])){
 
-            $models = new Products_model();
+            $models = new Products_model($this->plugin_data);
             $models->product_disply($parameters[1]);
 
         }else {

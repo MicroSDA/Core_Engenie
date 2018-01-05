@@ -10,9 +10,11 @@ class Router {
 
     private $URL ;
     private $controller;
+    private $plugin_data;
 
-    public function __construct(){
+    public function __construct($plugin_data_income){
 
+        $this->plugin_data = $plugin_data_income;
         /**
          * Simple example regarding OOP
          * How can you see, this constructor will do everything in short section of your code
@@ -33,7 +35,7 @@ class Router {
            case 'index':
                require 'controllers/index.php';
                $app_controller = new index();
-               $app_controller->index();
+               $app_controller->index($this->plugin_data);
 
                break;
            case 'error':
@@ -45,14 +47,13 @@ class Router {
            case 'class':
                //require 'controllers/' . $this->controller['class'] .'.php';
                $app_controller = new $this->controller['class'];
-               $app_controller->index();
+               $app_controller->index($this->plugin_data);
 
                break;
            case 'class/method':
                $app_controller = new $this->controller['class'];
                $method = $this->controller['method'];
                $app_controller->$method($this->controller['parameters']);
-
                break;
 
        }

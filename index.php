@@ -7,5 +7,6 @@
 
 require 'libs/bootstrap.php';
 
+$plugin = new plugins_search();
 
-$router = new Router();
+$router = new Router($plugin->getPluginsData());
