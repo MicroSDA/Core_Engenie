@@ -13,9 +13,10 @@ class Error_404_model extends Model
 {
 
 
-    public function __construct(){
+    public function __construct($plugin_data_income){
 
-        parent::__construct();
+
+        parent::__construct($plugin_data_income);
 
     }
 

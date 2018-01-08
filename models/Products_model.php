@@ -15,15 +15,12 @@
 class Products_model extends Model
 {
 
-    private $plugin_data;
+   // private $plugin_data;
 
     public function __construct($plugin_data_income){
 
-        $this->plugin_data = $plugin_data_income;
 
-
-
-        parent::__construct();
+        parent::__construct($plugin_data_income);
 
     }
 
@@ -58,32 +55,7 @@ class Products_model extends Model
 
     }
 
-    public function index(){
 
-        foreach ($this->plugin_data as $key => $value){
-
-            if($value['for'] =='products'){
-
-               require $value['file'];
-
-                $slq_result=  $value['function']();
-
-                require 'views/Header.php';
-                require 'views/Products/index.php';
-                require 'views/Footer.php';
-
-            }else {
-
-
-                require 'views/Header.php';
-                require 'views/Products/index.php';
-                require 'views/Footer.php';
-
-            }
-        }
-
-
-    }
 
 
 }

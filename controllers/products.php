@@ -12,7 +12,7 @@ require 'models/Products_model.php';
 class products extends Controller
 {
 
-    private $plugin_data;
+
     public function __construct(){
 
         parent::__construct();
@@ -25,7 +25,6 @@ class products extends Controller
         $models = new Products_model($this->plugin_data);
         $models->index();
     }
-
 
 
     public function product($income_parameters){

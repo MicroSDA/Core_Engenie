@@ -41,7 +41,7 @@ class Router {
            case 'error':
                require 'controllers/error_404.php';
                $app_controller = new error_404();
-               $app_controller->index();
+               $app_controller->index($this->plugin_data);
 
                break;
            case 'class':

@@ -16,9 +16,11 @@ class error_404 extends Controller
         parent::__construct();
     }
 
-    public function index(){
+    public function index($plugin_data_income){
 
-        $models = new Error_404_model();
+        $this->plugin_data = $plugin_data_income;
+
+        $models = new Error_404_model($this->plugin_data);
         $models->index();
 
     }

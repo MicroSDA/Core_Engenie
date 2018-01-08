@@ -13,7 +13,7 @@ $db_name = 'core';
 $db_table_name = 'c_products';
 $db_user_name ='root';
 $db_password = '';
-
+$db_admin_table ='c_admin';
 
 $db_connection  = mysqli_connect($db_host, $db_user_name, $db_password, $db_name);
 

@@ -17,9 +17,10 @@ class index extends Controller
 
     }
 
-    public function index(){
+    public function index($plugin_data_income){
 
-        $models = new Index_model();
+        $this->plugin_data = $plugin_data_income;
+        $models = new Index_model($this->plugin_data);
         $models->index();
     }
 
