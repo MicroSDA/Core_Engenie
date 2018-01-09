@@ -20,9 +20,9 @@ class  Test_model extends Model
 
     public function index(){
 
-        require 'views/Header.php';
-        require 'views/Test/index.php';
-        require 'views/Footer.php';
+        require_once 'views/Header.php';
+        require_once 'views/Test/index.php';
+        require_once 'views/Footer.php';
 
     }
 }

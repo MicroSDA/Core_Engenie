@@ -37,21 +37,54 @@
 <!-- Page Content -->
 <div class="container">
     <div id="sample">
+        <div id="err_a">
+
+        </div>
         <script type="text/javascript" src="/public/js/nicEdit.js"></script>
         <script type="text/javascript">
-            bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+            bkLib.onDomLoaded(function() {
+                new nicEditor({fullPanel : true, onSave : function(content, id, instance) {
+
+                        var text = nicEditor.findEditor('sd').getContent();
+
+                        //var data = $('#sd').find('.nicEdit-main').text()
+                        $.ajax({
+                            type: 'POST',
+                            url: '/libs/save_post.php',
+                            data:{
+                              Text: text
+                            },
+
+                            success: function (html){
+                                $('#err_a').empty();
+                                $('#err_a').append(html);
+                            }
+
+                        });
+
+
+
+                       // alert('save button clicked for element '+id+' = '+content);
+
+                    }}).panelInstance('sd');
+            });
         </script>
 
         <h4>Textarea</h4>
-        <textarea id="sd" name="area3" cols="100" style="min-height: 700px;">
+        <textarea id="sd" name="area3" style="width: 100%; min-height: 300px">
 		    <?php
 
             $op_header_url ='public/text.txt';
-            $op_header=fopen($op_header_url,'r');$op_header_r=fread($op_header,filesize($op_header_url));
+            $op_header = fopen($op_header_url,'r');$op_header_r=fread($op_header,filesize($op_header_url));
 
-            echo '<pre>'.$op_header_r.'</pre>';
+            fclose($op_header);
+            echo $op_header_r;
             ?>
       </textarea>
+        <script type="text/javascript">
+            nicEditor.findEditor('sd').saveContent();
+        </script>
+
     </div>
 
 </div>

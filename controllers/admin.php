@@ -8,8 +8,8 @@
 
 
 
-require 'models/Admin_model.php';
-require 'models/Error_404_model.php';
+require_once 'models/Admin_model.php';
+require_once 'models/Error_404_model.php';
 
 class admin extends Controller
 {
@@ -33,10 +33,11 @@ class admin extends Controller
 
     public function login($income_parameters){
 
+
         $parameters =  explode('=', $income_parameters);
 
 
-        require 'libs/Database.php';
+        require_once 'libs/Database.php';
         $slq_request = "SELECT * FROM ".$db_admin_table." ";
         $slq_result = $db_connection->query($slq_request);
 
@@ -49,13 +50,13 @@ class admin extends Controller
             if($parameters[0] == 'href' && $parameters[1] == $admin_data['Href']){
 
                 //Грузим нашу модель
+
                 $models = new Admin_model($this->plugin_data);
                 $models->login_index($parameters[1]);
 
             }else {
 
                 //$this->plugin_data = $plugin_data_income;
-
                 $models = new Error_404_model($this->plugin_data);
                 $models->index();
             }

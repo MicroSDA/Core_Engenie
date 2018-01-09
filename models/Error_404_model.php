@@ -9,8 +9,7 @@
 
 
 
-class Error_404_model extends Model
-{
+class Error_404_model extends Model {
 
 
     public function __construct($plugin_data_income){
@@ -22,9 +21,10 @@ class Error_404_model extends Model
 
     public function index(){
 
-        require 'views/Header.php';
-        require 'views/Error_404/index.php';
-        require 'views/Footer.php';
+        require_once 'views/Header.php';
+        require_once 'views/Error_404/index.php';
+        require_once 'views/Footer.php';
 
     }
+
 }

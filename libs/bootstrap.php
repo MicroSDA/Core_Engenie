@@ -7,7 +7,7 @@
  */
 
 
-require 'plugins_search.php';
-require 'libs/Router.php';
-require 'controllers/Controller.php';
-require 'models/Model.php';
+require_once 'plugins_search.php';
+require_once 'libs/Router.php';
+require_once 'controllers/Controller.php';
+require_once 'models/Model.php';

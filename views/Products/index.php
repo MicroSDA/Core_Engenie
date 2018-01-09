@@ -52,17 +52,17 @@
 
                 <?php
 
-                while($row = $slq_result->fetch_assoc()){
+                foreach ($this->product_arry as $product_draw){
 
                     echo '<div class="card">';
-                    echo '<img data-src="holder.js/100px280/thumb"  style="height: 300px; width: 100%; display: block;" src="'.$row['Image'].'" data-holder-rendered="true">';
-                    echo '<p class="card-body"><h2><a href="products/product/id='.$row['id'].'">'.$row['Title'].'</a></h2></p>';
+                    echo '<img data-src="holder.js/100px280/thumb"  style="height: 300px; width: 100%; display: block;" src="'.$product_draw->getProductImage().'" data-holder-rendered="true">';
+                    echo '<p class="card-body"><h2><a href="products/product/id='.$product_draw->getProductId().'">'.$product_draw->getProductTitle().'</a></h2></p>';
                     echo '<hr>';
-                    echo '<p class="card-text"><h4>'.$row['Description'].'</h4></p>';
-                    echo '<p class="card-text"><h2>'.$row['Price'].' '.$row['Currency'].'</h2></p>';
+                    echo '<p class="card-text"><h4>'.$product_draw->getProductDescription().'</h4></p>';
+                    echo '<p class="card-text"><h2>'.$product_draw->getProductPrice().' '.$product_draw->getProductCurrency().'</h2></p>';
                     echo '</div>';
-                }
 
+                }
                 ?>
             </div>
 

@@ -6,7 +6,7 @@
  */
 
 
-require 'models/Error_404_model.php';
+require_once 'models/Error_404_model.php';
 
 class error_404 extends Controller
 {

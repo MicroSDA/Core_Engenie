@@ -6,6 +6,9 @@
  * Time: 8:32 PM
  */
 
+
+require_once "libs/check_cookie.php";
+
 class Admin_model extends Model
 {
     public function __construct($plugin_data_income){
@@ -18,9 +21,9 @@ class Admin_model extends Model
 
     public function admin_main_page(){
 
-        require 'views/Header.php';
-        require 'views/Admin/index.php';
-        require 'views/Footer.php';
+        require_once 'views/Header.php';
+        require_once 'views/admin/index.php';
+        require_once 'views/Footer.php';
 
     }
 
@@ -30,8 +33,7 @@ class Admin_model extends Model
         if(isset($_POST['submit'])){
 
 
-
-         require 'libs/Database.php';
+            require 'libs/Database.php';
 
          $query = mysqli_query($db_connection,"SELECT * FROM ".$db_admin_table." WHERE Login='".mysqli_real_escape_string($db_connection, $_POST['login'])."'") or die($query);
 
@@ -120,7 +122,7 @@ class Admin_model extends Model
              ';
 
         if(isset( $_SESSION['err'])){
-            echo "<script> document.getElementById('error_message').innerHTML ='<div class=\"alert alert-danger\">".$_SESSION['err']."</div>'</script>";
+           // echo "<script> document.getElementById('error_message').innerHTML ='<div class=\"alert alert-danger\">".$_SESSION['err']."</div>'</script>";
         }
 
         require 'views/Footer.php';
@@ -130,9 +132,9 @@ class Admin_model extends Model
 
     public function login_index($parameters){
 
-        require 'libs/check_cookie.php';
 
-        if(!Check_cookie()){
+
+        if(!check_cookie()){
 
            $this->login($parameters);
 

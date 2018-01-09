@@ -45,17 +45,13 @@
 
         <div class="col-lg-9">
 
-
                 <?php
-
-                $row = $slq_result->fetch_assoc();
-
                 echo '<div class="card mt-4">';
-                echo '<img class="card-img-top img-fluid" src="'.$row['Image'].'" alt="">';
+                echo '<img class="card-img-top img-fluid" src="'.$this->product->getProductImage().'" alt="">';
                 echo '<div class="card-body">';
-                echo '<h3 class="card-title">'.$row['Title'].'</h3>';
-                echo '<h4>'.$row['Currency'].$row['Price'].'</h4>';
-                echo '<p class="card-text">'.$row['Description'].'</p>';
+                echo '<h3 class="card-title">'.$this->product->getProductTitle().'</h3>';
+                echo '<h4>'.$this->product->getProductCurrency().' '.$this->product->getProductPrice().'</h4>';
+                echo '<p class="card-text">'.$this->product->getProductDescription().'</p>';
                 echo ' <span class="text-warning">★ ★ ★ ★ ☆</span>';
                 echo ' 4.0 stars';
                 echo '</div>';
@@ -64,7 +60,7 @@
                 echo '
                       <div class="jumbotron">
                       <div class="card-header">
-                      <h3 class="card-title">'.$row['Title'].'</h3>
+                      <h3 class="card-title">'.$this->product->getProductTitle().'</h3>
                       </div>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Omnis et enim aperiam inventore, similique necessitatibus neque

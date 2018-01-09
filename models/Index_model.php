@@ -18,9 +18,9 @@ class Index_model extends Model
 
     public function index(){
 
-        require 'views/Header.php';
-        require 'views/index/index.php';
-        require 'views/Footer.php';
+        require_once 'views/Header.php';
+        require_once 'views/index/index.php';
+        require_once 'views/Footer.php';
 
     }
 }
