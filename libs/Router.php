@@ -25,7 +25,9 @@ class Router {
         //Default initialization
         $this->controller['class'] = '';
         $this->controller['method'] = '';
-        $this->controller['parameters'] = '';
+        $this->controller['parameters']['first']= '';
+        $this->controller['parameters']['second']= '';
+        $this->controller['parameters']['third']= '';
         $this->controller['flag'] = '';
 
         $this->parse();
@@ -88,9 +90,18 @@ class Router {
 
        if(!empty($this->URL[3])){
            //if method name isn't null
-           $this->controller['parameters'] = mb_strtolower($this->URL[3],'UTF-8');
+           $this->controller['parameters']['first'] = mb_strtolower($this->URL[3],'UTF-8');
        }
 
+       if(!empty($this->URL[4])){
+           //if method name isn't null
+           $this->controller['parameters']['second'] = mb_strtolower($this->URL[4],'UTF-8');
+       }
+
+       if(!empty($this->URL[5])){
+           //if method name isn't null
+           $this->controller['parameters']['third'] = mb_strtolower($this->URL[5],'UTF-8');
+       }
 
    }
 

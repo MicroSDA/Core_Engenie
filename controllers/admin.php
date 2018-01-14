@@ -33,8 +33,9 @@ class admin extends Controller
 
     public function login($income_parameters){
 
+        $income_parameters_data = $income_parameters;
 
-        $parameters =  explode('=', $income_parameters);
+        $parameters_refer =  explode('=', $income_parameters['first']);
 
 
         require_once 'libs/Database.php';
@@ -47,12 +48,13 @@ class admin extends Controller
             $admin_data = $slq_result->fetch_assoc();
 
             // Проверяем токен ссылки равен ли тому что у нас в бд. Если нет то кидаем на еррор 404
-            if($parameters[0] == 'href' && $parameters[1] == $admin_data['Href']){
+            if($parameters_refer[0] == 'href' && $parameters_refer[1] == $admin_data['Href']){
 
                 //Грузим нашу модель
 
                 $models = new Admin_model($this->plugin_data);
-                $models->login_index($parameters[1]);
+                $models->login_index($income_parameters_data);
+
 
             }else {
 

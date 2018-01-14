@@ -30,19 +30,31 @@ class products extends Controller
 
     public function product($income_parameters){
 
-        $parameters =  explode('=', $income_parameters);
+        if(!empty($income_parameters['second'])){
 
-        if($parameters[0] == 'id' && is_numeric($parameters[1])){
-
-            $models = new Products_model($this->plugin_data);
-            $models->product($parameters[1]);
-
-        }else {
-
+            //Если есть что то еще кроме id редирект на еррор
             $this->models = new Error_404_model($this->plugin_data);
             $this->models->index();
-           // error_404::index($this->plugin_data);
+        }else{
+
+            $parameters =  explode('=', $income_parameters['first']);
+
+
+            if($parameters[0] == 'id' && is_numeric($parameters[1])){
+
+
+                $models = new Products_model($this->plugin_data);
+                $models->product($parameters[1]);
+
+            }else {
+
+                $this->models = new Error_404_model($this->plugin_data);
+                $this->models->index();
+                // error_404::index($this->plugin_data);
+            }
         }
+
+
 
     }
 }

@@ -1,98 +1,50 @@
-<body>
-
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="/">Home
-                      <span class="sr-only">(current)</span>
-                  </a>
-              </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="products">Products</a>
+                    <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us">About</a>
+                    <a class="nav-link" href="/products">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services">Services</a>
+                    <a class="nav-link" href="/about_us">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact">Contact</a>
+                    <a class="nav-link" href="/contact_us">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register">Register</a>
+                    <a class="nav-link" href="/articles">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="/admin/login/href=be0275fad331666c5484a35df98966a">Admin</a>
                 </li>
             </ul>
+            <!--<form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
         </div>
-    </div>
-</nav>
-
-<!-- Page Content -->
-<div class="container">
-
-    <div class="row">
-
-
-        <!-- /.col-lg-3 -->
-
-        <div class="col-lg-9">
-
-            <div class="card mt-4">
-                <img class="card-img-top img-fluid" src="public/images/900x400.png" alt="">
-                <div class="card-body">
-                    <h3 class="card-title">Product Name</h3>
-                    <h4>$24.99</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam
-                        itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur
-                        praesentium animi perspiciatis molestias iure, ducimus!</p>
-                    <span class="text-warning">★ ★ ★ ★ ☆</span>
-                    4.0 stars
-                </div>
-            </div>
-            <!-- /.card -->
-
-            <div class="card card-outline-secondary my-4">
-                <div class="card-header">
-                    Product Reviews
-                </div>
-                <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                        non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                        mollitia, necessitatibus quae sint natus.</p>
-                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                    <hr>
-
-                </div>
-            </div>
-            <!-- /.card -->
-
+    </nav>
+</header>
+<main role="main" class="container">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Home</h1>
+            <p class="lead text-muted">Something short and leading about
+                the collection below—its contents, the creator, etc. Make it short and
+                sweet, but not too short so folks don't simply skip over it entirely.</p>
+            <p>
+                <a href="#" class="btn btn-primary">Main call to action</a>
+                <a href="#" class="btn btn-secondary">Secondary action</a>
+            </p>
         </div>
-        <!-- /.col-lg-9 -->
-
-    </div>
-    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
-    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
-
-</div>
-<!-- /.container -->
+    </section>
+</main>
