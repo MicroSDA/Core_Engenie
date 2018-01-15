@@ -21,9 +21,22 @@
     <link rel="stylesheet" href="/views/admin/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="/views/admin/img/favicon.ico">
+    <link href="/views/admin/dist/summernote-bs4.css" rel="stylesheet">
+
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+
+    <script src="/views/admin/js/jquery-3.2.1.min.js"></script>
+    <script src="/views/admin/js/popper.min.js"> </script>
+    <script src="/views/admin/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/views/admin/vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="/views/admin/vendor/chart.js/Chart.min.js"></script>
+    <script src="/views/admin/js/charts-home.js"></script>
+    <script src="/views/admin/js/front.js"></script>
+    <script src="/views/admin/dist/summernote-bs4.js"></script>
+    <script src="/views/admin/js/add_product.js"></script>
 </head>
 <body>
 <header class="header">
@@ -180,10 +193,7 @@
             </div>
         </div><span class="heading">Main</span>
         <ul class="list-unstyled">
-            <li><a href="/<?php echo $this->getThisUrl(); ?>"> <i class="icon-home"></i>Home </a></li>
-            <li><a href="/<?php echo $this->getThisUrl(); ?>tables"> <i class="icon-grid"></i>Tables </a></li>
-            <li><a href="/<?php echo $this->getThisUrl(); ?>charts"> <i class="fa fa-bar-chart"></i>Charts </a></li>
-            <li><a href="/<?php echo $this->getThisUrl(); ?>forms"> <i class="icon-padnote"></i>Forms </a></li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>"> <i class="icon-home"></i>Dashboard</a></li>
             <li class="active"><a  href="#products" aria-expanded="false" data-toggle="collapse"> <i class="icon-new-file"></i>Products</a>
                 <ul id="products" class="collapse list-unstyled ">
                     <li><a href="/<?php echo $this->getThisUrl(); ?>products/all">All Products</a></li>
@@ -198,6 +208,9 @@
                     <li><a href="#">Edit Article</a></li>
                 </ul>
             </li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>tables"> <i class="icon-grid"></i>Tables </a></li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>charts"> <i class="fa fa-bar-chart"></i>Charts </a></li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>forms"> <i class="icon-padnote"></i>Forms </a></li>
             <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
         </ul><span class="heading">Extras</span>
         <ul class="list-unstyled">
@@ -271,64 +284,100 @@
             </div>
         </section>
         <section>
+            <div id="add_warning">
+                <?php
+                ?>
+            </div>
+        </section>
+        <section>
             <!-- Form Elements -->
             <div class="col-lg-12">
                 <div class="block">
                     <div class="title"><strong>Add new</strong></div>
                     <div class="block-body">
-                        <form method="POST"class="form-horizontal">
+                        <form nctype="multipart/form-data" method="POST" class="form-horizontal" action="javascript:send();">
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label" >Title</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control">
+                                    <input id="add_title" name="title" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">Anchor</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control">
+                                    <input id="add_anchor" name="anchor" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">URL</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control">
+                                    <input id="add_url" name="url" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">Keywords</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control">
+                                    <input id="add_keywords" name="keywords" type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">Description</label>
                                 <div class="col-sm-9">
-                                    <textarea type="text" class="form-control" style="min-height: 400px"></textarea>
+                                    <textarea id="add_description" name="description" type="text" class="form-control note-editor note-frame card"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">Product Type</label>
                                 <div class="col-sm-9 select">
-                                    <select name="account" class="form-control mb-3">
+                                    <select id="add_product_type" name="product_type" class="form-control mb-3">
                                         <option>Universal</option>
                                         <option>Bundle</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group row">
+                                <label class="col-sm-3 form-control-label"></label>
+                                <div class="col-sm-9">
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input id="add_price" name="price" type="text" class="form-control" placeholder="Price">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <input id="add_currency" name="currency" type="text" class="form-control" placeholder="Currency">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <script src="/libs/image_upload/script.js"></script>
+                            <div class="form-group row">
                                 <label class="col-sm-3 form-control-label">Image</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control">
+                                    <div class="form-control" id="image_file" style="min-height:40px; "> </div>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-9 ml-auto">
-                                    <button type="submit" class="btn btn-outline-primary">Save changes</button>
-                                    <button type="submit" class="btn btn-outline-info">Preview</button>
+                                    <button  type="submit" name="save" class="btn btn-outline-primary">Save changes</button>
+                                    <button  type="button" class="btn btn-outline-info" OnClick="showMessage();">Preview</button>
                                 </div>
                             </div>
                         </form>
+
+                        <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+                            <div id="image_preview"><img id="previewing" src="" /></div>
+                            <hr id="line">
+                            <div id="selectImage">
+                                <label>Select Your Image</label><br/>
+                                <input class="btn btn-outline-info" type="file" name="file" id="file" required />
+                                <br>
+                                <br>
+                                <input class="btn btn-outline-info" type="submit" value="Upload" class="submit" />
+                                <hr>
+                                <h4 id='loading'> </h4>
+                            </div>
+                        </form>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -344,12 +393,5 @@
     </div>
 </div>
 <!-- Javascript files-->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
-<script src="/views/admin/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="/views/admin/vendor/jquery.cookie/jquery.cookie.js"> </script>
-<script src="/views/admin/vendor/chart.js/Chart.min.js"></script>
-<script src="/views/admin/js/charts-home.js"></script>
-<script src="/views/admin/js/front.js"></script>
 </body>
 </html>

@@ -68,6 +68,8 @@ class Admin_model extends Model
 
 
     public function add_products(){
+
+        session_start();
         require_once 'views/admin/products_add.php';
     }
 

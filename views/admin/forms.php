@@ -180,10 +180,7 @@
             </div>
         </div><span class="heading">Main</span>
         <ul class="list-unstyled">
-            <li><a href="/<?php echo $this->getThisUrl(); ?>"> <i class="icon-home"></i>Home </a></li>
-            <li><a href="/<?php echo $this->getThisUrl(); ?>tables"> <i class="icon-grid"></i>Tables </a></li>
-            <li><a href="/<?php echo $this->getThisUrl(); ?>charts"> <i class="fa fa-bar-chart"></i>Charts </a></li>
-            <li class="active"><a href="/<?php echo $this->getThisUrl(); ?>forms"> <i class="icon-padnote"></i>Forms </a></li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>"> <i class="icon-home"></i>Dashboard</a></li>
             <li><a href="#products" aria-expanded="false" data-toggle="collapse"> <i class="icon-new-file"></i>Products</a>
                 <ul id="products" class="collapse list-unstyled ">
                     <li><a href="/<?php echo $this->getThisUrl(); ?>products/all">All Products</a></li>
@@ -198,6 +195,10 @@
                     <li><a href="#">Edit Article</a></li>
                 </ul>
             </li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>tables"> <i class="icon-grid"></i>Tables </a></li>
+            <li><a href="/<?php echo $this->getThisUrl(); ?>charts"> <i class="fa fa-bar-chart"></i>Charts </a></li>
+            <li class="active"><a href="/<?php echo $this->getThisUrl(); ?>forms"> <i class="icon-padnote"></i>Forms </a></li>
+
             <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
         </ul><span class="heading">Extras</span>
         <ul class="list-unstyled">

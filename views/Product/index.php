@@ -44,48 +44,29 @@
         </div>
     </section>
     <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <!-- /.col-lg-3 -->
-            <div class="col-lg-9">
-                <?php
-                echo '<div class="card mt-4">';
-                echo '<img class="card-img-top img-fluid" src="' . $this->product->getProductImage() . '" alt="">';
-                echo '<div class="card-body">';
-                echo '<h3 class="card-title">' . $this->product->getProductTitle() . '</h3>';
-                echo '<h4>' . $this->product->getProductCurrency() . ' ' . $this->product->getProductPrice() . '</h4>';
-                echo '<p class="card-text">' . $this->product->getProductDescription() . '</p>';
-                echo ' <span class="text-warning">★ ★ ★ ★ ☆</span>';
-                echo ' 4.0 stars';
-                echo '</div>';
-                echo '</div>';
+    <section>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-lg-3">
 
-                echo '
-                      <div class="jumbotron">
-                      <div class="card-header">
-                      <h3 class="card-title">' . $this->product->getProductTitle() . '</h3>
-                      </div>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                    mollitia, necessitatibus quae sint natus.Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                    mollitia, necessitatibus quae sint natus.Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Omnis et enim aperiam inventore, similique necessitatibus neque
-                    non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi
-                    mollitia, necessitatibus quae sint natus.</p>
-                   <small class="text-muted">Posted by Anonymous on 3/1/17</small>
-                   <hr>
-                   <a href="/" class="btn btn-outline-danger">Buy</a>
-                   </div>';
-
-                ?>
-                <!-- /.card -->
-                <!-- /.card -->
+                    <?php
+                     echo '<br>';
+                     echo '<br>';
+                     echo '<br>';
+                     echo '<img class="card-img-top img-fluid" src="' . $this->product->getProductImage() . '" alt="">';
+                     echo '<hr>';
+                     echo '<h3 class="card-title">' . $this->product->getProductTitle() . '</h3>';
+                     echo '<hr>';
+                     echo '<h4>'.$this->product->getProductCurrency() .' '. $this->product->getProductPrice() . '.</h4>';
+                     echo '<hr>';
+                     echo '<span class="text-warning">★ ★ ★ ★ ☆</span>';
+                     ?>
             </div>
-            <!-- /.col-lg-9 -->
+                <div class="col-lg-9">
+                    <?php  echo '<p class="card-text">' . $this->product->getProductDescription() . '</p>'; ?>
+                </div>
         </div>
-    </div>
+    </section>
     <!-- /.container -->
 </main>

@@ -19,17 +19,12 @@ $slq_result = $db_connection->query($slq_request);
 
 if ($slq_result->num_rows > 0) {
 
-    //$this->product_arry = new p_product();
-    $this->product_arry = array();
     $json_arr = array();
     $temp_ar = array();
 
     $i=0;
 
     while($row = $slq_result->fetch_assoc()){
-
-        $product_temp = new p_universal_product();
-        $product_temp->fillFromDb($row['id'],$row['Title'],$row['Description'],$row['Price'],$row['Currency'],$row['Image']);
 
         $json_arr['data'][$i]['id'] = '<a href="/products/product/id='.$row['id'].'">'.$row['id'].'</a>';
         $json_arr['data'][$i]['Title'] = $row['Title'];
@@ -41,7 +36,6 @@ if ($slq_result->num_rows > 0) {
     }
 
     $for_input = json_encode($json_arr);
-   // var_dump($json_arr);
 
     $op_footer_url = 'views/admin/data/products.json';
     $footer = $op_footer_url;
