@@ -5,8 +5,33 @@
  * Time: 2:24 PM
  */
 
-require 'libs/bootstrap.php';
 
-$plugin = new plugins_search();
+/**
+ * Catch all exception
+ */
 
-$router = new Router($plugin->getPluginsData());
+    try{
+
+        /**
+         * Predefine section
+         */
+
+        define('URL_ROOT', $_SERVER['DOCUMENT_ROOT']); /** Core address */
+
+        /**
+         * End of Predefine section
+         */
+
+
+        require URL_ROOT.'/core/Libs/Config/Bootstrap.php';
+        $Router = new Router();
+
+
+
+    } catch (\ErrorException $message){
+
+
+        echo $message->getMessage();
+    }
+
+

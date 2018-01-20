@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugins>
-    <plugin for="products" version="1.0" author="Ro"  file="plugins/products/p_product.php" function="init">Products</plugin>
-</plugins>
