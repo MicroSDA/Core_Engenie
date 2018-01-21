@@ -598,4 +598,41 @@
   <Log Time="01.21.18/22-14" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="41">Undefined index: Name</Log>
   <Log Time="01.21.18/22-14" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="39">Undefined index: Name</Log>
   <Log Time="01.21.18/22-14" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="41">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-39" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Array to string conversion</Log>
+  <Log Time="01.21.18/22-39" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Array to string conversion</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Title</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Title</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Title</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Title</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-40" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-41" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-42" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-43" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-43" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-43" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/22-43" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="29">Undefined index: Name</Log>
+  <Log Time="01.21.18/23-03" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Categories</Log>
+  <Log Time="01.21.18/23-03" File="C:\xampp\htdocs\views\Templates\Default\all-brands\index.php" Line="34">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/23-21" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Category</Log>
+  <Log Time="01.21.18/23-21" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Category</Log>
+  <Log Time="01.21.18/23-21" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Category</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\core\Models\brands_model.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\views\Templates\Default\brand\index.php" Line="34">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\core\Models\brands_model.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\views\Templates\Default\brand\index.php" Line="34">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\core\Models\brands_model.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\views\Templates\Default\brand\index.php" Line="34">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\core\Models\brands_model.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="01.21.18/23-22" File="C:\xampp\htdocs\views\Templates\Default\brand\index.php" Line="34">Invalid argument supplied for foreach()</Log>
 </Logs>

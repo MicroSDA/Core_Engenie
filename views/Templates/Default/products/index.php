@@ -16,6 +16,9 @@
                 <a class="nav-link" href="/categories">Categories</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/brands">Brands</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/products">Products</a>
             </li>
         </ul>
@@ -40,7 +43,7 @@
                     <div class="card-body">
                         <h5 class="card-title">'.$value['Title'].'</h5>
                         <p class="card-text">'.$value['Description'].'</p>
-                        <p><a href="/products/product/'.$value['PartNumber'].'" class="btn btn-outline-info">Details</a></p>
+                        <p><a href="/products/product/'.$value['Url'].'" class="btn btn-outline-info">Details</a></p>
                     </div>
                 </div>
             </div>      

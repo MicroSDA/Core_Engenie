@@ -29,7 +29,7 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1><?=DataManager::getInstance()->getDataByKey('Category')['Name']?></h1>
+        <h1><?=DataManager::getInstance()->getDataByKey('Brand')['Name']?></h1>
         <div class="row">
             <?php
             $Products = array();

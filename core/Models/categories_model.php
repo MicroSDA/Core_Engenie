@@ -39,6 +39,7 @@ class categories_model extends Model
 
 
         $category = UrlsDispatcher::getInstance()->getValue('STR');
+
         if($category == 'NOT FOUND'){
 
             header('Location:/error');
@@ -46,30 +47,30 @@ class categories_model extends Model
 
         }
 
-        $category_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_categories WHERE Name=?s', $category);
+        $category_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_categories WHERE Url=?s', $category);
 
         if (!$category_arry) {
 
             header('Location:/categories');
         } else {
 
-            $products_array =[];
+            //$products_array =[];
 
             switch ($category_arry[0]['Type']){
 
                 case 'Main':
-                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE MainCategory=?s', $category);
+                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE MainCategory=?s', $category_arry[0]['Name']);
                     DataManager::getInstance()->addData('Category', $category_arry[0]);
                     DataManager::getInstance()->addData('Products', $products_array);
                     break;
                 case 'Sub':
-                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE SubCategory=?s', $category);
-                    DataManager::getInstance()->addData('Category', $category_arry);
+                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE SubCategory=?s', $category_arry[0]['Name']);
+                    DataManager::getInstance()->addData('Category', $category_arry[0]);
                     DataManager::getInstance()->addData('Products', $products_array);
                     break;
                 case 'Section':
-                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE SectionCategory=?s', $category);
-                    DataManager::getInstance()->addData('Category', $category_arry);
+                    $products_array = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE SectionCategory=?s', $category_arry[0]['Name']);
+                    DataManager::getInstance()->addData('Category', $category_arry[0]);
                     DataManager::getInstance()->addData('Products', $products_array);
                     break;
             }

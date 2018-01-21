@@ -16,6 +16,9 @@
                 <a class="nav-link" href="/categories">Categories</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/brands">Brands</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/products">Products</a>
             </li>
         </ul>
