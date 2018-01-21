@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Urls>
    <!-- <Url model ="test_model" method="index" pattern="(^\/test\/{0,1}$)" type="GET" view="test">Test</Url>
-    <Url model ="test_model" method="tests" pattern="(^\/test\/tests\/[0-9]+\/{0,1}$)" type="GET" view="tests">Test</Url>-->
-
-    <Url model ="products_model" method="product" pattern="(^\/products\/product\/[0-9]+\/{0,1}$)" type="GET" view="product">Product</Url>
+    <Url model ="test_model" method="tests" pattern="(^\/test\/tests\/[0-9]+\/{0,1}$)" type="GET" view="tests">Test</Url>
+    <Url model ="products_model" method="product" pattern="(^\/products\/product\/[0-9]+\/{0,1}$)" type="GET" view="product">Product</Url>-->
+    <Url model ="products_model" method="product_by_part" pattern="(^\/products\/product\/[a-zA-Z0-9_])" type="GET" view="product">Product</Url>
     <Url model ="products_model" method="index" pattern="(^\/products\/{0,1}$)" type="GET" view="products">Products</Url>
     <Url model ="about_us_model" method="index" pattern="(^\/about-us\/{0,1}$)" type="GET" view="about-us">About Us</Url>
     <Url model ="index_model" method="index" pattern="(^\/index\/{0,1}$)" type="GET" view="index">Index</Url>

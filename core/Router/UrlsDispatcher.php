@@ -144,6 +144,20 @@ class UrlsDispatcher
 
         if($flag == 'STR'){
 
+            if(preg_match_all('|\/[a-zA-Z0-9_-]+$|', $this->ulr_request, $outgoing_data_first)){
+
+                preg_match_all('|[a-zA-Z0-9_-]+|',(string)array_pop($outgoing_data_first[0]), $outgoing_data);
+
+                /**
+                 * Return last element after /
+                 */
+
+                return array_pop($outgoing_data[0]);
+
+            }else{
+
+                return 'NOT FOUND';
+            }
 
         }
 

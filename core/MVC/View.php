@@ -171,7 +171,7 @@ class View
         ob_start();
         ob_implicit_flush(0);
         try{
-            
+
             require_once $this->header;
             require_once $this->index;
             require_once $this->footer;

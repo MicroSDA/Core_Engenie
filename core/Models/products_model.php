@@ -41,10 +41,38 @@ class products_model extends Model
 
         $product_id = UrlsDispatcher::getInstance()->getValue('NUMBER');
 
+        if($product_id == 'NOT FOUND'){
+
+            header('Location:/error');
+            die();
+        }
+
 
         $product_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE id=?i', $product_id);
         if (!$product_arry) {
 
+            header('Location:/products');
+        } else {
+
+            DataManager::getInstance()->addData('Product', $product_arry);
+            $this->render();
+        }
+    }
+
+    public function product_by_part(){
+
+        $product_part = UrlsDispatcher::getInstance()->getValue('STR');
+
+        if($product_part == 'NOT FOUND'){
+
+            header('Location:/error');
+            die();
+        }
+
+        $product_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE Url=?s', $product_part);
+
+
+        if (!$product_arry) {
             header('Location:/products');
         } else {
 

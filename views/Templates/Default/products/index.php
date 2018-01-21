@@ -37,7 +37,7 @@
                     <div class="card-body">
                         <h5 class="card-title">'.$value['Title'].'</h5>
                         <p class="card-text">'.$value['Description'].'</p>
-                        <p><a href="/products/product/'.$value['id'].'" class="btn btn-outline-info">Details</a></p>
+                        <p><a href="/products/product/'.$value['PartNumber'].'" class="btn btn-outline-info">Details</a></p>
                     </div>
                 </div>
             </div>      

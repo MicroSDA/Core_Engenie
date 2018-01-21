@@ -105,4 +105,259 @@
   <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
   <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
   <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/15-49" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-49" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-51" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/15-59" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier ')'</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Models\products_model.php" Line="64">Array to string conversion</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Models\products_model.php" Line="64">Array to string conversion</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-00" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-01" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.21.18/16-01" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.21.18/16-01" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.21.18/16-01" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.21.18/16-01" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.21.18/16-02" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-02" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-04" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-07" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '('</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '+'</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '+'</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '+'</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-24" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match(): No ending delimiter '|' found</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-25" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-26" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-26" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-26" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-26" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-27" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-27" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-29" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-29" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-29" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="147">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-30" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="602">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-37" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-38" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-39" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-39" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-39" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, string given</Log>
+  <Log Time="01.21.18/16-40" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, string given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, null given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, null given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="150">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, null given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="150">preg_match_all() expects parameter 2 to be string, array given</Log>
+  <Log Time="01.21.18/16-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="59">array_pop() expects parameter 1 to be array, null given</Log>
+  <Log Time="01.21.18/16-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
+  <Log Time="01.21.18/16-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
+  <Log Time="01.21.18/16-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
+  <Log Time="01.21.18/16-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="149">Array to string conversion</Log>
 </Logs>
