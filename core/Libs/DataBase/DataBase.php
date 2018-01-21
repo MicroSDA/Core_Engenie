@@ -15,11 +15,11 @@ class DataBase
 
     protected static $_instance;
 
-    private static $DB;
+    private $DB;
 
     private function __construct() {
 
-        self::$DB = new SafeMySQL();
+        $this->DB = new SafeMySQL();
 
     }
 
@@ -43,9 +43,9 @@ class DataBase
     }
 
 
-    public static function getDB(){
+    public function getDB(){
 
-        return self::$DB;
+        return $this->DB;
 
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Templates>
-    <Template status="ACTIVE" folder="default">Default</Template>
+    <Template status="ACTIVE" folder="Default">Default</Template>
     <Template status="NOT ACTIVE" folder="second">Second</Template>
     <Template status="NOT ACTIVE" folder="third">Third</Template>
 </Templates>

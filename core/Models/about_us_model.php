@@ -3,13 +3,14 @@
  * Created by PhpStorm.
  * User: bansc
  * Date: 1/20/2018
- * Time: 11:02 AM
+ * Time: 6:35 PM
  */
 
-class test_model extends Model
+class about_us_model extends Model
 {
+
     /**
-     * test_model constructor.
+     * about_us_model constructor.
      */
     public function __construct(){
 
@@ -26,12 +27,7 @@ class test_model extends Model
         DataBase::getInstance();
         DataManager::getInstance();
 
-
-        $this->render();
-
-    }
-
-    public function tests(){
+       // DataManager::getInstance()->addData('Products',DataBase::getDB()->getAll('SELECT * FROM c_products'));
 
         $this->render();
 

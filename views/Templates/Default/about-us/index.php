@@ -23,7 +23,7 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1>This is a test Engenie for Web Site</h1>
+        <h1>About Us</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
             mostly barebones HTML document.</p>
     </div>

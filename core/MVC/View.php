@@ -162,10 +162,27 @@ class View
     }
 
 
+    /**
+     * @throws ErrorException
+     */
     public function render(){
 
-        require_once $this->header;
-        require_once $this->index;
-        require_once $this->footer;
+
+        ob_start();
+        ob_implicit_flush(0);
+        try{
+            
+            require_once $this->header;
+            require_once $this->index;
+            require_once $this->footer;
+
+        }catch (ErrorException $error){
+
+            ob_end_clean();
+
+            throw $error;
+        }
+
+        echo ob_get_clean();
     }
 }

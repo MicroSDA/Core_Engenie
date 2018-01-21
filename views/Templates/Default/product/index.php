@@ -23,9 +23,29 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1>This is a test Engenie for Web Site</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
-            mostly barebones HTML document.</p>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card" style="height: 100%">
+                    <div class="card-body">
+                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
+                        <hr>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Description']?></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?=DataManager::getInstance()->getDataByKey('Product')[0]['Image']?>" alt="Product image">
+                    <div class="card-body">
+                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Price'].''
+                            .DataManager::getInstance()->getDataByKey('Product')[0]['Currency']?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p><a href="/products/" class="btn btn-outline-info">Back to all</a></p>
     </div>
 </div><!-- /.container -->
 <!-- Bootstrap core JavaScript

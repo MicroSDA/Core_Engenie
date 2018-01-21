@@ -1,36 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Logs>
-  <Log Time="01.20.18/23-21" File="C:\xampp\htdocs\index.php" Line="30">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-21" File="C:\xampp\htdocs\index.php" Line="30">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-21" File="C:\xampp\htdocs\index.php" Line="30">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-21" File="C:\xampp\htdocs\index.php" Line="30">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-22" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-22" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-23" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-23" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant sd - assumed 'sd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-24" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asdasd - assumed 'asdasd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-24" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asdasd - assumed 'asdasd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-25" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asdasd - assumed 'asdasd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-25" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asdasd - assumed 'asdasd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-26" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-27" File="C:\xampp\htdocs\index.php" Line="28">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-28" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.20.18/23-28" File="C:\xampp\htdocs\index.php" Line="27">Use of undefined constant asd - assumed 'asd' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="Time" File="File" Line="Line">Message</Log>
+  <Log Time="01.21.18/03-06" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-06" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-06" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-06" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-16" File="C:\xampp\htdocs\core\Models\products_model.php" Line="40">Non-static method DataBase::getDB() should not be called statically</Log>
+  <Log Time="01.21.18/03-16" File="C:\xampp\htdocs\core\Models\products_model.php" Line="40">Non-static method DataBase::getDB() should not be called statically</Log>
+  <Log Time="01.21.18/03-18" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Products</Log>
+  <Log Time="01.21.18/03-18" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-18" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Products</Log>
+  <Log Time="01.21.18/03-18" File="C:\xampp\htdocs\views\Templates\Default\products\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-19" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Products</Log>
+  <Log Time="01.21.18/03-19" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-19" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Products</Log>
+  <Log Time="01.21.18/03-19" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="31">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 1</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-26" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 0</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 1</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 0</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 1</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-27" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 0</Log>
+  <Log Time="01.21.18/03-28" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-28" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 1</Log>
+  <Log Time="01.21.18/03-28" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Illegal string offset 'Image'</Log>
+  <Log Time="01.21.18/03-28" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Uninitialized string offset: 0</Log>
+  <Log Time="01.21.18/03-29" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 1</Log>
+  <Log Time="01.21.18/03-29" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined index: Image</Log>
+  <Log Time="01.21.18/03-30" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined index: Image</Log>
+  <Log Time="01.21.18/03-35" File="C:\xampp\htdocs\core\Models\about_us_model.php" Line="30">Non-static method DataBase::getDB() should not be called statically</Log>
+  <Log Time="01.21.18/03-35" File="C:\xampp\htdocs\core\Models\index_model.php" Line="30">Non-static method DataBase::getDB() should not be called statically</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-48" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\core\Models\products_model.php" Line="43">Array to string conversion</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\core\Models\products_model.php" Line="43">Array to string conversion</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-49" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="30">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="32">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="38">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="40">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="41">Undefined offset: 0</Log>
+  <Log Time="01.21.18/03-50" File="C:\xampp\htdocs\views\Templates\Default\product\index.php" Line="42">Undefined offset: 0</Log>
 </Logs>

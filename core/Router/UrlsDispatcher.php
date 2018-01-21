@@ -14,8 +14,17 @@ class UrlsDispatcher
      * @var
      */
     protected static $_instance;
+    /**
+     * @var array
+     */
     private $urls_list = [];
+    /**
+     * @var
+     */
     private $current_url;
+    /**
+     * @var
+     */
     private $ulr_request;
 
 
@@ -123,5 +132,37 @@ class UrlsDispatcher
         $this->urls_list = $urls_list;
     }
 
+
+    /**
+     * @param $flag
+     * @return mixed
+     * @throws ErrorException
+     */
+    public function getValue($flag){
+
+        //$outgoing_data;
+
+        if($flag == 'STR'){
+
+
+        }
+
+        if($flag == 'NUMBER'){
+
+            if(preg_match('|\d+|', $this->ulr_request, $outgoing_data)){
+
+                return (int)$outgoing_data[0];
+
+            }else{
+
+                return 'NOT FOUND';
+            }
+
+
+
+        }
+
+        throw new ErrorException('METHOD TAKE ONLY STRING OR NUMBER');
+    }
 
 }
