@@ -13,6 +13,9 @@
                 <a class="nav-link" href="/about-us">About Us</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/categories">Categories</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/products">Products</a>
             </li>
         </ul>
@@ -30,16 +33,29 @@
                         <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
                         <hr>
                         <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Description']?></p>
+                        <hr>
+                        <h5>Specification</h5>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Specification']?></p>
+                        <hr>
+                        <h5>Keywords</h5>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Keywords']?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="<?=DataManager::getInstance()->getDataByKey('Product')[0]['Image']?>" alt="Product image">
+                    <hr>
                     <div class="card-body">
                         <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
                         <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Price'].''
                             .DataManager::getInstance()->getDataByKey('Product')[0]['Currency']?></p>
+                        <hr>
+                        <h6>Brand</h6>
+                        <p><?=DataManager::getInstance()->getDataByKey('Product')[0]['Brand']?></p>
+                        <hr>
+                        <h6>Category</h6>
+                        <?=DataManager::getInstance()->getDataByKey('Product')[0]['MainCategory']?>
                     </div>
                 </div>
             </div>

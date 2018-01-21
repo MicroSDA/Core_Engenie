@@ -26,9 +26,27 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1>About Us</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
-            mostly barebones HTML document.</p>
+        <div class="row">
+            <?php
+            $Products = array();
+            $Products = DataManager::getInstance()->getDataByKey('Products');
+            foreach ($Products as $value){
+                echo '
+           <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="'.$value['Image'].'" alt="Product image">
+                    <div class="card-body">
+                        <h5 class="card-title">'.$value['Title'].'</h5>
+                        <p class="card-text">'.$value['Description'].'</p>
+                        <p><a href="/products/product/'.$value['Url'].'" class="btn btn-outline-info">Products</a></p>
+                    </div>
+                </div>
+            </div>      
+           ';
+
+            }
+            ?>
+        </div>
     </div>
 </div><!-- /.container -->
 <!-- Bootstrap core JavaScript

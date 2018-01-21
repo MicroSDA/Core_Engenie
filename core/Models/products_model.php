@@ -51,6 +51,7 @@ class products_model extends Model
         $product_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE id=?i', $product_id);
         if (!$product_arry) {
 
+
             header('Location:/products');
         } else {
 
