@@ -62,6 +62,8 @@ class products_model extends Model
 
     public function product_by_part(){
 
+
+
         $product_part = UrlsDispatcher::getInstance()->getValue('STR');
 
         if($product_part == 'NOT FOUND'){
@@ -75,10 +77,54 @@ class products_model extends Model
 
         if (!$product_arry) {
             header('Location:/products');
+
         } else {
 
-            DataManager::getInstance()->addData('Product', $product_arry);
-            $this->render();
         }
+
+        session_start();
+
+        if(isset($_POST['submit'])){
+
+            if (!empty($_POST['first_name']) &&
+                !empty($_POST['last_name']) &&
+                !empty($_POST['email']) &&
+                !empty($_POST['phone'])){
+
+
+                $first_name = $_POST['first_name'];
+                $last_name = $_POST['last_name'];
+                $email = $_POST['email'];
+                $phone = $_POST['phone'];
+                $message = $_POST['message'];
+                $part_number = $product_arry[0]['PartNumber'];
+                DataBase::getInstance()->getDB()->query("INSERT INTO c_order (FirstName, LastName, Email, Phone, Message, PartNumber) VALUES(?s, ?s, ?s, ?s, ?s, ?s)",$first_name, $last_name, $email, $phone, $message,  $part_number);
+
+
+
+                $_SESSION['order_info'] = 'TRUE';
+                unset($_POST['submit']);
+                unset($_POST['first_name']);
+                unset($_POST['last_name']);
+                unset($_POST['email']);
+                unset($_POST['phone']);
+                unset($_POST['message']);
+
+                //header('Location:'.UrlsDispatcher::getInstance()->getUlrRequest());
+
+            }else{
+                $_SESSION['order_info'] = 'ERROR';
+            }
+
+
+
+        }else{
+
+        }
+
+
+        DataManager::getInstance()->addData('Product', $product_arry);
+        $this->render();
+
     }
 }

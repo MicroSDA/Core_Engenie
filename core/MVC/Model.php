@@ -29,6 +29,7 @@ class Model
 
     protected function render($index ='index.php',$header = 'header.php', $footer ='footer.php'){
 
+
         View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrl()['view']);
         View::getInstance()->setHeader($header);
         View::getInstance()->setIndex($index);
