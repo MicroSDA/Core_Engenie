@@ -10,6 +10,8 @@
  * Catch all exception
  */
 
+$GLOBALS['time'] = microtime(true);
+
     try{
 
         /**

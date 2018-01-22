@@ -110,7 +110,6 @@ class products_model extends Model
                 unset($_POST['phone']);
                 unset($_POST['message']);
 
-                //header('Location:'.UrlsDispatcher::getInstance()->getUlrRequest());
 
             }else{
                 $_SESSION['order_info'] = 'ERROR';

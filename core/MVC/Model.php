@@ -29,7 +29,14 @@ class Model
 
     protected function render($index ='index.php',$header = 'header.php', $footer ='footer.php'){
 
+        /**
+         * Add link to data base for site map
+         */
+        $this->siteMap();
 
+        /**
+         * ----------------------------------------------------------------------------------------
+         */
         View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrl()['view']);
         View::getInstance()->setHeader($header);
         View::getInstance()->setIndex($index);
@@ -38,4 +45,16 @@ class Model
 
     }
 
+
+    private function siteMap(){
+
+
+        $host = 'https://'.$_SERVER['HTTP_HOST'].UrlsDispatcher::getInstance()->getUlrRequest();
+
+        $is_link = DataBase::getInstance()->getDB()->getAll("SELECT * FROM c_sitemap WHERE Url=?s",$host);
+
+        if(!$is_link){
+            DataBase::getInstance()->getDB()->query("INSERT INTO c_sitemap (Url) VALUES (?s)",$host);
+        }
+    }
 }
