@@ -7,7 +7,7 @@
  */
 
 
-require_once URL_ROOT.'/core/Libs/DataBase/safemysql.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/core/Libs/DataBase/safemysql.class.php';
 
 
 class DataBase

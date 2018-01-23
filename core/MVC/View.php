@@ -165,16 +165,28 @@ class View
     /**
      * @throws ErrorException
      */
-    public function render(){
+    public function render($header = true, $footer = true){
 
 
         ob_start();
         ob_implicit_flush(0);
         try{
 
-            require_once $this->header;
+            if($header == false){
+
+            }else{
+
+                require_once $this->header;
+            }
+
             require_once $this->index;
-            require_once $this->footer;
+
+            if($footer == false){
+
+            }else{
+                require_once $this->footer;
+            }
+
 
         }catch (ErrorException $error){
 

@@ -1,5 +1,5 @@
 <?php
-//set_time_limit(0);
+set_time_limit(0);
 //подключаем класс
 require_once '../core/Libs/Config/SiteMapGenerator.php';
 $sitemap = new SiteMapGenerator();
@@ -11,14 +11,10 @@ $sitemap->get_links("http://127.0.0.1");
 
 //если нужно вернуть просто массив с данными:
 //$arr = $sitemap->get_array();
-//echo "<pre>";
-//print_r($arr);
-//echo "</pre>";
 
-//header ("content-type: text/xml");
 $map = $sitemap->generate_sitemap();
 //записываем в файл
-$file = '../config/sitemap.xml';
+$file = $_SERVER['DOCUMENT_ROOT'].'/SiteMap.xml';
 $pf = fopen($file, "w");
 fwrite($pf, $map);
 fclose($pf);

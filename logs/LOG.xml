@@ -18,4 +18,258 @@
   <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="111">session_destroy(): Trying to destroy uninitialized session</Log>
   <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="110">Undefined variable: _SESSION</Log>
   <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="111">session_destroy(): Trying to destroy uninitialized session</Log>
+  <Log Time="01.23.18/03-04" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
+  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
+  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
+  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">Use of undefined constant THEME_PATH - assumed 'THEME_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">include(THEME_PATHtemplates/includes/navi.php): failed to open stream: No such file or directory</Log>
+  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">include(): Failed opening 'THEME_PATHtemplates/includes/navi.php' for inclusion (include_path='C:\xampp\php\PEAR')</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="152">Use of undefined constant THEME_NAME - assumed 'THEME_NAME' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="153">fopen(C:/xampp/htdocs/views/theme/THEME_NAME/templates/header.php): failed to open stream: No such file or directory</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="154">filesize(): stat failed for C:/xampp/htdocs/views/theme/THEME_NAME/templates/header.php</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="154">fread() expects parameter 1 to be resource, boolean given</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="176">Use of undefined constant THEME_NAME - assumed 'THEME_NAME' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="177">fopen(C:/xampp/htdocs/views/theme/THEME_NAME/templates/footer.php): failed to open stream: No such file or directory</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="178">filesize(): stat failed for C:/xampp/htdocs/views/theme/THEME_NAME/templates/footer.php</Log>
+  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="178">fread() expects parameter 1 to be resource, boolean given</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
 </Logs>

@@ -27,21 +27,38 @@ class Model
 
     }
 
-    protected function render($index ='index.php',$header = 'header.php', $footer ='footer.php'){
+    protected function render($header = 'header.php', $footer ='footer.php',$index ='index.php'){
 
         /**
          * Add link to data base for site map
          */
-        $this->siteMap();
+         $this->siteMap();
 
         /**
          * ----------------------------------------------------------------------------------------
          */
+
         View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrl()['view']);
-        View::getInstance()->setHeader($header);
+
+        if($header == false){
+
+
+        }else{
+
+            View::getInstance()->setHeader($header);
+        }
+
         View::getInstance()->setIndex($index);
-        View::getInstance()->setFooter($footer);
-        View::getInstance()->render();
+
+        if($footer == false){
+
+        }else{
+
+            View::getInstance()->setFooter($footer);
+        }
+
+
+        View::getInstance()->render($header,$footer);
 
     }
 

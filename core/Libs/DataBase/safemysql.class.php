@@ -722,7 +722,7 @@ class SafeMySQL
 
         $xml_parse_doc = new XMLReader();
 
-        if (!$xml_parse_doc->open(URL_ROOT . '/config/Data-Base-Config.xml')) {
+        if (!$xml_parse_doc->open($_SERVER['DOCUMENT_ROOT'] . '/config/Data-Base-Config.xml')) {
 
 
             throw new ErrorException('DATABASE CONFIG FILE IS NOT EXIST');
