@@ -66,9 +66,9 @@ class View
     public function setHeader($header)
     {
 
-        if (file_exists(URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$header.'')) {
+        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$header.'')) {
 
-            $this->header = URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$header.'';
+            $this->header = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$header.'';
 
         } else {
 
@@ -92,9 +92,9 @@ class View
     public function setFooter($footer)
     {
 
-        if (file_exists(URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$footer.'')) {
+        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$footer.'')) {
 
-            $this->footer = URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$footer.'';
+            $this->footer = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$footer.'';
 
         } else {
 
@@ -119,9 +119,9 @@ class View
     {
         $this->index = $index;
 
-        if (file_exists(URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'')) {
+        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'')) {
 
-            $this->index = URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'';
+            $this->index = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'';
 
 
         } else {

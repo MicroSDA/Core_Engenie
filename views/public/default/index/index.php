@@ -29,35 +29,11 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1>Categories</h1>
-        <div class="row">
-            <?php
-            $Products = array();
-            $Products = DataManager::getInstance()->getDataByKey('Brands');
-            foreach ($Products as $value){
-                echo '
-           <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="'.$value['Image'].'" alt="Product image">
-                    <div class="card-body">
-                        <h5 class="card-title">'.$value['Name'].'</h5>
-                        <p class="card-text">'.$value['Description'].'</p>
-                        <p><a href="/brands/brand/'.$value['Url'].'" class="btn btn-outline-info">Products</a></p>
-                    </div>
-                </div>
-            </div>      
-           ';
-
-            }
-            ?>
-        </div>
+        <h1>This is a test Engenie for Web Site</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
+            mostly barebones HTML document.</p>
     </div>
 </div><!-- /.container -->
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?= '/views/Templates/' . TEMPLATE_PATH ?>/public/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-</body>
-</html>

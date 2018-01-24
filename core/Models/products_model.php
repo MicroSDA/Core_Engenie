@@ -118,7 +118,7 @@ class products_model extends Model
 
 
         }else{
-
+            unset($_SESSION['order_info']);
         }
 
 

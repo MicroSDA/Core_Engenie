@@ -29,12 +29,13 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1><?=DataManager::getInstance()->getDataByKey('Brand')['Name']?></h1>
+        <h1>Products</h1>
         <div class="row">
             <?php
             $Products = array();
             $Products = DataManager::getInstance()->getDataByKey('Products');
             foreach ($Products as $value){
+
                 echo '
            <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
@@ -42,7 +43,7 @@
                     <div class="card-body">
                         <h5 class="card-title">'.$value['Title'].'</h5>
                         <p class="card-text">'.$value['Description'].'</p>
-                        <p><a href="/products/product/'.$value['Url'].'" class="btn btn-outline-info">Products</a></p>
+                        <p><a href="/products/product/'.$value['Url'].'" class="btn btn-outline-info">Details</a></p>
                     </div>
                 </div>
             </div>      
@@ -56,8 +57,4 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="<?= '/views/Templates/' . TEMPLATE_PATH ?>/public/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-</body>
-</html>
+
