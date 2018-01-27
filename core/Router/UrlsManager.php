@@ -178,7 +178,7 @@ class UrlsManager
     {
 
         /**
-         * Set set index if request is empty -
+         * Set  index if request is empty -
          */
         if (empty($url_request)) {
 

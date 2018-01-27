@@ -272,4 +272,18 @@
   <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
   <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
   <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
+  <Log Time="01.27.18/02-59" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: HTTP_RANGE</Log>
+  <Log Time="01.27.18/03-09" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: PATH_INFO</Log>
+  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">substr() expects at least 2 parameters, 1 given</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
 </Logs>

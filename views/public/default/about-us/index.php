@@ -1,3 +1,5 @@
+<?php $ip = md5(getenv("REMOTE_ADDR")."key".date("i")); ?>
+
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/">Home</a>
@@ -30,10 +32,24 @@
 <div class="container">
     <div class="jumbotron">
         <h1>About Us</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
-            mostly barebones HTML document.</p>
+         <p> Part</p>
+        <!--<video width="320" height="240" controls>
+            <source src="/public/test.php" type="video/mp4">
+        </video>-->
+        <p>test_2.php</p>
+        <video controls width="400" height="300">
+            <source src="movie.mp4"type="video/mp4" codecs="avc1.42E01E, mp4a.40.2"/>
+            <source src="/public/test_2.php" type="video/mp4">
+        </video>
+        <!--<video width="320" height="240" controls>
+            <source src="/public/video.php?ref=<?=$ip?>&filename=video.mp4" type="video/mp4">
+        </video>-->
+
+        <br>
     </div>
 </div><!-- /.container -->
+
+<body>
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
-
