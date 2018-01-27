@@ -32,18 +32,12 @@
 <div class="container">
     <div class="jumbotron">
         <h1>About Us</h1>
-         <p> Part</p>
-        <!--<video width="320" height="240" controls>
-            <source src="/public/test.php" type="video/mp4">
-        </video>-->
-        <p>test_2.php</p>
-        <video controls width="400" height="300">
-            <source src="/public/test_2.php" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-        </video>
-        <!--<video width="320" height="240" controls>
-            <source src="/public/video.php?ref=<?=$ip?>&filename=video.mp4" type="video/mp4">
-        </video>-->
-
+        <p>With class</p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <video controls width="400" height="300">
+                <source src="/public/Video/getVideo.php?ref=8ec8c1f9cc6332c5043337bd2efc8e0a" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+        </div>
         <br>
     </div>
 </div><!-- /.container -->

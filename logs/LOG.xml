@@ -286,4 +286,7 @@
   <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
   <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
   <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
+  <Log Time="01.27.18/15-59" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
+  <Log Time="01.27.18/16-00" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
+  <Log Time="01.27.18/16-01" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(/public/video.mp4): failed to open stream: No such file or directory</Log>
 </Logs>
