@@ -9,7 +9,7 @@ class VideoStream
 {
     private $path = "";
     private $stream = "";
-    private $buffer = 10240;
+    private $buffer = 102400;
     private $start  = -1;
     private $end    = -1;
     private $size   = 0;
@@ -43,7 +43,7 @@ class VideoStream
         $this->start = 0;
         $this->size  = filesize($this->path);
         $this->end   = $this->size - 1;
-        header("Accept-Ranges: 0-".$this->end);
+        header("Accept-Ranges: bytes 0-".$this->end);
 
         if (isset($_SERVER['HTTP_RANGE'])) {
 
@@ -73,7 +73,7 @@ class VideoStream
             $this->start = $c_start;
             $this->end = $c_end;
             $length = $this->end - $this->start + 1;
-            fseek($this->stream, $this->start);
+            //fseek($this->stream, $this->start);
             header('HTTP/1.1 206 Partial Content');
             header("Content-Length: ".$length);
             header("Content-Range: bytes $this->start-$this->end/".$this->size);
@@ -106,11 +106,18 @@ class VideoStream
             if(($i+$bytesToRead) > $this->end) {
                 $bytesToRead = $this->end - $i + 1;
             }
-            $data = fread($this->stream, $bytesToRead);
+
+            $data = @stream_get_contents($this->stream, $bytesToRead, $i);
+           // $data = fread($this->stream, $bytesToRead);
             echo $data;
             flush();
             $i += $bytesToRead;
         }
+    }
+
+    private function stream_s()
+    {
+       readfile('./video.mp4');
     }
 
     /**
@@ -121,9 +128,10 @@ class VideoStream
         $this->open();
         $this->setHeader();
         $this->stream();
-       // $this->end();
+       // $this->stream_s();
+        $this->end();
     }
 }
 
-$stream = new VideoStream('./video.mp4');
+$stream = new VideoStream('video.mp4');
 $stream->start();

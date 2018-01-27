@@ -38,8 +38,7 @@
         </video>-->
         <p>test_2.php</p>
         <video controls width="400" height="300">
-            <source src="movie.mp4"type="video/mp4" codecs="avc1.42E01E, mp4a.40.2"/>
-            <source src="/public/test_2.php" type="video/mp4">
+            <source src="/public/test_2.php" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
         <!--<video width="320" height="240" controls>
             <source src="/public/video.php?ref=<?=$ip?>&filename=video.mp4" type="video/mp4">
