@@ -11,7 +11,7 @@
     <title>Dashboard</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?= '/views/Templates/' . TEMPLATE_PATH ?>/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= '/views/public/' . TEMPLATE_PATH ?>/css-js/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -56,8 +56,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?= '/views/Templates/' . TEMPLATE_PATH ?>/public/js/jquery.js"></script>
-<script src="<?= '/views/Templates/' . TEMPLATE_PATH ?>/public/js/bootstrap.min.js"></script>
+<script src="<?= '/views/public/' . TEMPLATE_PATH ?>/css-js/js/jquery.js"></script>
+<script src="<?= '/views/public/' . TEMPLATE_PATH ?>/css-js/js/bootstrap.min.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 </body>

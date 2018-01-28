@@ -289,4 +289,35 @@
   <Log Time="01.27.18/15-59" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
   <Log Time="01.27.18/16-00" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
   <Log Time="01.27.18/16-01" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(/public/video.mp4): failed to open stream: No such file or directory</Log>
+  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
+  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
+  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
+  <Log Time="01.27.18/22-28" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
+  <Log Time="01.27.18/22-28" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
+  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
+  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
+  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
+  <Log Time="01.27.18/22-33" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
+  <Log Time="01.27.18/23-54" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="155">Array to string conversion</Log>
+  <Log Time="01.28.18/00-23" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
+  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
+  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
+  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-43" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-43" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
 </Logs>

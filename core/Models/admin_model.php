@@ -7,7 +7,7 @@
  */
 
 
-require_once URL_ROOT.'/core/Libs/Config/SiteMapGenerator.php';
+require_once URL_ROOT . '/core/Libs/Config/SiteMapGenerator.php';
 
 class admin_model extends Model
 {
@@ -15,7 +15,8 @@ class admin_model extends Model
     /**
      * admin_model constructor.
      */
-    public function __construct(){
+    public function __construct()
+    {
 
 
         parent::__construct();
@@ -26,19 +27,20 @@ class admin_model extends Model
      *
      */
 
-    public function index(){
+    public function index()
+    {
 
         DataBase::getInstance();
         DataManager::getInstance();
 
-        if(isset($_GET['submit'])){
-            if($_GET['submit']=='site-map'){
+        if (isset($_GET['submit'])) {
+            if ($_GET['submit'] == 'site-map') {
                 set_time_limit(0);
                 $sitemap = new SiteMapGenerator();
                 $sitemap->set_ignore(array("javascript:", ".css", ".js", ".ico", ".jpg", ".png", ".jpeg", ".swf", ".gif", "mailto:"));
-                $sitemap->get_links('http://'.$_SERVER['HTTP_HOST']);
+                $sitemap->get_links('http://' . $_SERVER['HTTP_HOST']);
                 $map = $sitemap->generate_sitemap();
-                $file = URL_ROOT.'/SiteMap.xml';
+                $file = URL_ROOT . '/SiteMap.xml';
                 $pf = fopen($file, "w");
                 fwrite($pf, $map);
                 fclose($pf);
@@ -48,22 +50,31 @@ class admin_model extends Model
 
         }
 
-        $this->render(false,false);
+        $this->render(false, false);
 
     }
 
-    public function brand(){
+    public function brand()
+    {
 
-        $this->render(false,false);
+        $this->render(false, false);
     }
 
-    public function category(){
+    public function category()
+    {
 
-        $this->render(false,false);
+        $this->render(false, false);
     }
 
-    public function products(){
+    public function products()
+    {
 
-        $this->render(false,false);
+        $this->render(false, false);
+    }
+
+
+    public function api()
+    {
+
     }
 }

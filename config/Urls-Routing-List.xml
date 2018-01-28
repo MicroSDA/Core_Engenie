@@ -15,7 +15,9 @@
     <Url model ="admin_model" method="category" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/category\/{0,1}$)" type="GET" view="admin/category">Admin</Url>
     <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin add Brand</Url>
     <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/dashboard\/{0,1}.{0,1})" type="GET" view="admin/dashboard">Admin</Url>
-    <!-- Should be in the bottom, always -->
+    <!-- Should be at the bottom, always -->
+    <Url model ="api_model" method="index" pattern="(^\/secure\/api\/\?(.+)$)" type="GET" view="admin/dashboard">Api</Url>
+    <!-- Should be at the bottom, always -->
     <Url model ="index_model" method="index" pattern="(^\/index\/{0,1}$)" type="GET" view="index">Index</Url>
     <Url model ="error_404_model" method="index" pattern="(^)" type="GET" view="error-404">Error</Url>
 </Urls>
