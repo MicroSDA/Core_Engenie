@@ -40,12 +40,12 @@ class admin_model extends Model
                 $sitemap->set_ignore(array("javascript:", ".css", ".js", ".ico", ".jpg", ".png", ".jpeg", ".swf", ".gif", "mailto:"));
                 $sitemap->get_links('http://' . $_SERVER['HTTP_HOST']);
                 $map = $sitemap->generate_sitemap();
-                $file = URL_ROOT . '/SiteMap.xml';
+                $file = URL_ROOT . '/sitemap.xml';
                 $pf = fopen($file, "w");
                 fwrite($pf, $map);
                 fclose($pf);
 
-                header('Location:/admin/secure/href=be0275fad331666c5484a35df98966a/dashboard');
+                header('Location:'.$_SERVER['HTTP_REFERER']);
             }
 
         }

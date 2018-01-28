@@ -11,10 +11,10 @@
     <Url model ="products_model" method="index" pattern="(^\/products\/{0,1}$)" type="GET" view="products">Products</Url>
     <Url model ="about_us_model" method="index" pattern="(^\/about-us\/{0,1}$)" type="GET" view="about-us">About Us</Url>
     <!-- Admin -->
-    <Url model ="admin_model" method="products" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/products\/{0,1}$)" type="GET" view="admin/products">Admin</Url>
-    <Url model ="admin_model" method="category" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/category\/{0,1}$)" type="GET" view="admin/category">Admin</Url>
-    <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin add Brand</Url>
-    <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/href=be0275fad331666c5484a35df98966a\/dashboard\/{0,1}.{0,1})" type="GET" view="admin/dashboard">Admin</Url>
+    <Url model ="admin_model" method="products" pattern="(^\/admin\/secure\/products\/{0,1}$)" type="GET" view="admin/products">Admin</Url>
+    <Url model ="admin_model" method="category" pattern="(^\/admin\/secure\/category\/{0,1}$)" type="GET" view="admin/category">Admin</Url>
+    <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin add Brand</Url>
+    <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/dashboard\/{0,1}.{0,1})" type="GET" view="admin/dashboard">Admin</Url>
     <!-- Should be at the bottom, always -->
     <Url model ="api_model" method="index" pattern="(^\/secure\/api\/\?(.+)$)" type="GET" view="admin/dashboard">Api</Url>
     <!-- Should be at the bottom, always -->

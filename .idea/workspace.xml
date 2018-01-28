@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.12173359">
+    <splitter split-orientation="horizontal" split-proportion="0.28417265">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -33,11 +33,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sitemap.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sitemap.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/sitemap.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -95,7 +95,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="products_model.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="products_model.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/Models/products_model.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1173">
@@ -134,21 +134,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/MVC/Model.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1054">
-                  <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding>
-                    <marker date="1516682274732" expanded="true" signature="1242:1278" ph="SELECT * FRO... c_sitemap" />
-                    <marker date="1516682274732" expanded="true" signature="1255:1258" ph="INSERT INTO c_... " />
-                    <marker date="1516682274732" expanded="true" signature="1365:1404" ph="INSERT INTO c_sitemap... " />
-                    <marker date="1516682274732" expanded="true" signature="1371:1386" ph="SELECT * FRO... c_sitemap" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/index.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -169,11 +154,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/public/default/index/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+                <state relative-caret-position="595">
+                  <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SiteMapGenerator.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/Libs/Config/SiteMapGenerator.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="242" column="29" lean-forward="true" selection-start-line="242" selection-start-column="29" selection-end-line="242" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -194,18 +189,18 @@
           <file leaf-file-name="Urls-Routing-List.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/Urls-Routing-List.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="128" lean-forward="true" selection-start-line="16" selection-start-column="128" selection-end-line="16" selection-end-column="128" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="admin_model.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="admin_model.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/Models/admin_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="912">
-                  <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+                <state relative-caret-position="374">
+                  <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -284,14 +279,12 @@
         <option value="$PROJECT_DIR$/views/Templates/Default/all-category/index.php" />
         <option value="$PROJECT_DIR$/core/Models/categories_model.php" />
         <option value="$PROJECT_DIR$/views/Templates/Default/product/index.php" />
-        <option value="$PROJECT_DIR$/core/Libs/Config/SiteMapGenerator.php" />
         <option value="$PROJECT_DIR$/core/Models/index_model.php" />
         <option value="$PROJECT_DIR$/views/Templates/Default/admin/index.php" />
         <option value="$PROJECT_DIR$/views/Templates/Default/admin/category/index.php" />
         <option value="$PROJECT_DIR$/views/Templates/Default/admin/products/index.php" />
         <option value="$PROJECT_DIR$/core/MVC/Model.php" />
         <option value="$PROJECT_DIR$/views/Templates/Default/admin/dashboard/index.php" />
-        <option value="$PROJECT_DIR$/test/sitemap.php" />
         <option value="$PROJECT_DIR$/core/Libs/DataBase/DataBase.php" />
         <option value="$PROJECT_DIR$/core/Libs/DataBase/safemysql.class.php" />
         <option value="$PROJECT_DIR$/core/Libs/Basic/Admin/addNewBrand.php" />
@@ -325,10 +318,12 @@
         <option value="$PROJECT_DIR$/views/public/default/admin/dashboard/index.php" />
         <option value="$PROJECT_DIR$/views/public/default/admin/products/index.php" />
         <option value="$PROJECT_DIR$/test/index.php" />
-        <option value="$PROJECT_DIR$/core/Models/admin_model.php" />
-        <option value="$PROJECT_DIR$/config/Urls-Routing-List.xml" />
         <option value="$PROJECT_DIR$/core/Models/api_model.php" />
         <option value="$PROJECT_DIR$/views/public/default/index/index.php" />
+        <option value="$PROJECT_DIR$/core/Libs/Config/SiteMapGenerator.php" />
+        <option value="$PROJECT_DIR$/test/sitemap.php" />
+        <option value="$PROJECT_DIR$/core/Models/admin_model.php" />
+        <option value="$PROJECT_DIR$/config/Urls-Routing-List.xml" />
       </list>
     </option>
   </component>
@@ -340,8 +335,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="97" />
+    <option name="x" value="30" />
+    <option name="y" value="69" />
     <option name="width" value="1940" />
     <option name="height" value="967" />
   </component>
@@ -374,32 +369,6 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -513,18 +482,18 @@
       <workItem from="1517068980224" duration="1804000" />
       <workItem from="1517071360060" duration="1686000" />
       <workItem from="1517076881274" duration="819000" />
-      <workItem from="1517087483023" duration="13742000" />
+      <workItem from="1517087483023" duration="15798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437378000" />
+    <option name="totallyTimeSpent" value="439434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="30" y="69" width="1940" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13305613" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -557,13 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/Libs/Config/SiteMapGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/Templates/Default/admin/dashboard/index.php" />
     <entry file="file://$PROJECT_DIR$/views/Templates/Default/admin/category/index.php" />
     <entry file="file://$PROJECT_DIR$/views/Templates/Default/admin/products/index.php" />
@@ -743,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sitemap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/public/default/admin/brand/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -831,6 +785,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/Models/api_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="77" column="44" lean-forward="false" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding>
+            <marker date="1517101481985" expanded="true" signature="508:546" ph="SELECT * FRO... c_api" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/public/default/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/Models/products_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -844,36 +816,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Models/admin_model.php">
+    <entry file="file://$PROJECT_DIR$/test/sitemap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Libs/Config/SiteMapGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="242" column="29" lean-forward="true" selection-start-line="242" selection-start-column="29" selection-end-line="242" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/Urls-Routing-List.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="128" lean-forward="true" selection-start-line="16" selection-start-column="128" selection-end-line="16" selection-end-column="128" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/Models/api_model.php">
+    <entry file="file://$PROJECT_DIR$/core/Models/admin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="77" column="44" lean-forward="false" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <marker date="1517101481985" expanded="true" signature="508:546" ph="SELECT * FRO... c_api" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/public/default/index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="374">
+          <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ $sitemap->get_links("http://127.0.0.1");
 
 $map = $sitemap->generate_sitemap();
 //записываем в файл
-$file = $_SERVER['DOCUMENT_ROOT'].'/SiteMap.xml';
+$file = $_SERVER['DOCUMENT_ROOT'].'/sitemap.xml';
 $pf = fopen($file, "w");
 fwrite($pf, $map);
 fclose($pf);
