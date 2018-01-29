@@ -50,26 +50,26 @@ class admin_model extends Model
 
         }
 
-        $this->render(false, false);
+        $this->render();
 
     }
 
     public function brand()
     {
 
-        $this->render(false, false);
+        $this->render();
     }
 
     public function category()
     {
 
-        $this->render(false, false);
+        $this->render();
     }
 
     public function products()
     {
 
-        $this->render(false, false);
+        $this->render();
     }
 
 

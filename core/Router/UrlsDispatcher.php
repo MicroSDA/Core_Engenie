@@ -13,7 +13,7 @@ class UrlsDispatcher
     /**
      * @var
      */
-    protected static $_instance;
+        protected static $_instance;
     /**
      * @var array
      */
@@ -68,7 +68,7 @@ class UrlsDispatcher
     /**
      * @return mixed
      */
-    public function getCurrentUrl()
+    public function getCurrentUrlData()
     {
         return $this->current_url;
     }
@@ -76,7 +76,7 @@ class UrlsDispatcher
     /**
      * @param mixed $current_url
      */
-    public function setCurrentUrl($current_url)
+    public function setCurrentUrlData($current_url)
     {
         $this->current_url = $current_url;
     }
@@ -118,7 +118,7 @@ class UrlsDispatcher
     /**
      * @return mixed
      */
-    public function getUrlsList()
+    public function getUrlsDataList()
     {
         return $this->urls_list;
     }
@@ -127,7 +127,7 @@ class UrlsDispatcher
      * @param mixed $urls_list
      */
 
-    public function setUrlsList($urls_list)
+    public function setUrlsDataList($urls_list)
     {
         $this->urls_list = $urls_list;
     }

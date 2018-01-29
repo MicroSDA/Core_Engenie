@@ -9,15 +9,15 @@
     <Url model ="categories_model" method="category" pattern="(^\/categories\/category\/[a-zA-Z0-9_-]+\/{0,1}$)" type="GET" view="category">Category</Url>
     <Url model ="products_model" method="product_by_part" pattern="(^\/products\/product\/[a-zA-Z0-9_-]+)" type="GET" view="product">Product</Url>
     <Url model ="products_model" method="index" pattern="(^\/products\/{0,1}$)" type="GET" view="products">Products</Url>
-    <Url model ="about_us_model" method="index" pattern="(^\/about-us\/{0,1}$)" type="GET" view="about-us">About Us</Url>
+    <Url model ="about_us_model" method="index" pattern="(^\/about-us\/{0,1}$)" type="GET" view="about-us">About-Us</Url>
     <!-- Admin -->
     <Url model ="admin_model" method="products" pattern="(^\/admin\/secure\/products\/{0,1}$)" type="GET" view="admin/products">Admin</Url>
     <Url model ="admin_model" method="category" pattern="(^\/admin\/secure\/category\/{0,1}$)" type="GET" view="admin/category">Admin</Url>
-    <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin add Brand</Url>
-    <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/dashboard\/{0,1}.{0,1})" type="GET" view="admin/dashboard">Admin</Url>
+    <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin</Url>
+    <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/dashboard\/{0,1}\??)" type="GET" view="admin/dashboard">Admin</Url>
     <!-- Should be at the bottom, always -->
-    <Url model ="api_model" method="index" pattern="(^\/secure\/api\/\?(.+)$)" type="GET" view="admin/dashboard">Api</Url>
+    <Url model ="api_model" method="index" pattern="(^\/secure\/api\/\?(.+)$)" type="GET" view="">Api</Url>
     <!-- Should be at the bottom, always -->
-    <Url model ="index_model" method="index" pattern="(^\/index\/{0,1}$)" type="GET" view="index">Index</Url>
+    <Url model ="index_model" method="index" pattern="(^\/index\/{0,1}$)" type="GET" view="index">General</Url>
     <Url model ="error_404_model" method="index" pattern="(^)" type="GET" view="error-404">Error</Url>
 </Urls>

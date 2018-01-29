@@ -43,7 +43,7 @@ class Router
     private function route()
     {
 
-        $this->controller = new Controller($this->url_data, $this->request_url);
+        $this->controller = new Controller();
 
     }
 
@@ -60,12 +60,17 @@ class Router
 
         $this->request_url = mb_strtolower($this->request_url, 'UTF-8');
 
+       /** if(preg_match('(\.(js|php|mp4|txt)$)',$this->request_url)){
+
+            echo 'asd';
+           die();
+        }*/
         $this->url_data = $this->urls_manager->manegeUrl($this->request_url);
 
         /**
          * Set Current Url Data
          */
-        UrlsDispatcher::getInstance()->setCurrentUrl($this->url_data);
+        UrlsDispatcher::getInstance()->setCurrentUrlData($this->url_data);
         /**
          * Set Current Url Request
          */

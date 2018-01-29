@@ -15,20 +15,19 @@ class controller
 
     /**
      * controller constructor.
-     * @param $url_data
-     * @param $request_url
      * @throws ErrorException
      */
-    public function __construct($url_data, $request_url)
+    public function __construct()
     {
 
 
-        if (is_file(URL_ROOT . '/core/Models/' . $url_data['model'] . '.php')) {
+        if (is_file(URL_ROOT . '/core/Models/' . UrlsDispatcher::getInstance()->getCurrentUrlData()['model']. '.php')) {
 
-            require_once URL_ROOT . '/core/Models/' . $url_data['model'] . '.php';
+            require_once URL_ROOT . '/core/Models/' . UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php';
 
-            $this->model = new $url_data['model']($request_url, $url_data);
-            $method = $url_data['method'];
+            $modelName =  UrlsDispatcher::getInstance()->getCurrentUrlData()['model'];
+            $this->model = new $modelName();
+            $method = UrlsDispatcher::getInstance()->getCurrentUrlData()['method'];
 
             if (method_exists($this->model, $method)) {
 
@@ -37,12 +36,12 @@ class controller
 
             } else {
 
-                throw new ErrorException(sprintf('METHOD "%s" IS NOT FOUND IN "%s"', $url_data['method'], URL_ROOT . '/core/Models/' . $url_data['model'] . '.php'));
+                throw new ErrorException(sprintf('METHOD "%s" IS NOT FOUND IN "%s"', UrlsDispatcher::getInstance()->getCurrentUrlData()['method'], URL_ROOT . '/core/Models/' .  UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php'));
             }
 
         } else {
 
-            throw new ErrorException(sprintf('MODEL "%s" IS NOT FOUND IN "%s"', $url_data['model'], URL_ROOT . '/core/Models/'));
+            throw new ErrorException(sprintf('MODEL "%s" IS NOT FOUND IN "%s"', UrlsDispatcher::getInstance()->getCurrentUrlData()['model'], URL_ROOT . '/core/Models/'));
         }
 
 

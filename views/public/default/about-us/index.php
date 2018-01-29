@@ -42,7 +42,5 @@
     </div>
 </div><!-- /.container -->
 
-<body>
-
 <!-- Bootstrap core JavaScript
 ================================================== -->

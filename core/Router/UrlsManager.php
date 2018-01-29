@@ -124,7 +124,7 @@ class UrlsManager
         /**
          * Set All urls list to UrlsDispatcher
          */
-        UrlsDispatcher::getInstance()->setUrlsList($this->urls_list);
+        UrlsDispatcher::getInstance()->setUrlsDataList($this->urls_list);
     }
 
 
@@ -137,7 +137,7 @@ class UrlsManager
      * @param $view
      * @param string $type
      */
-    public function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view )
+    private function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view )
     {
 
 

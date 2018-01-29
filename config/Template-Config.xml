@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Templates>
-    <Template status="ACTIVE" folder="default">Default</Template>
-    <Template status="NOT ACTIVE" folder="second">Second</Template>
-    <Template status="NOT ACTIVE" folder="third">Third</Template>
+    <Template status="ACTIVE" folder="default">Default
+        <Page name="General">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Error">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Admin">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="About-Us">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Product">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Products">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Categories">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Category">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Brand">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Brands">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+    </Template>
+   <!-- <Template status="NOT ACTIVE" folder="second">Second</Template>
+    <Template status="NOT ACTIVE" folder="third">Third</Template>-->
 </Templates>

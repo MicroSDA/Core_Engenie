@@ -320,4 +320,372 @@
   <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
   <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
   <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
+  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
+  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
+  <Log Time="01.28.18/05-00" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
+  <Log Time="01.28.18/05-00" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-03" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '!' found</Log>
+  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '!' found</Log>
+  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
+  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
+  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
+  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'g'</Log>
+  <Log Time="01.28.18/05-12" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'g'</Log>
+  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '|' found</Log>
+  <Log Time="01.28.18/05-14" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-17" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-18" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
+  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
+  <Log Time="01.28.18/17-38" File="C:\xampp\htdocs\core\MVC\Model.php" Line="41">Undefined property: UrlsDispatcher::$getCurrentUrlData</Log>
+  <Log Time="01.28.18/17-38" File="C:\xampp\htdocs\core\MVC\Model.php" Line="41">Undefined property: UrlsDispatcher::$getCurrentUrlData</Log>
+  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="122">Array to string conversion</Log>
+  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="129">Array to string conversion</Log>
+  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="122">Array to string conversion</Log>
+  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="129">Array to string conversion</Log>
+  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-54" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
+  <Log Time="01.29.18/00-54" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
+  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Categories</Log>
+  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Categories</Log>
+  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
+  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: General</Log>
+  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: General</Log>
+  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
 </Logs>

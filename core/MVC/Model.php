@@ -9,16 +9,6 @@ class Model
 {
 
     /**
-     * @var
-     */
-    protected $request_url;
-    /**
-     * @var
-     */
-    protected $url_data;
-
-
-    /**
      * Model constructor.
      */
     public function __construct()
@@ -38,7 +28,7 @@ class Model
          * ----------------------------------------------------------------------------------------
          */
 
-        View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrl()['view']);
+        View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrlData()['view']);
 
         if($header == false){
 

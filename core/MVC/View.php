@@ -66,13 +66,13 @@ class View
     public function setHeader($header)
     {
 
-        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$header.'')) {
+        if (file_exists(URL_ROOT . TEMPLATE_PATH . '/'.$header.'')) {
 
-            $this->header = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$header.'';
+            $this->header = URL_ROOT . TEMPLATE_PATH . '/'.$header.'';
 
         } else {
 
-            throw new ErrorException(sprintf('TEMPLATE HEADER WAS NOT FOUND IN "%s"',URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'));
+            throw new ErrorException(sprintf('TEMPLATE HEADER WAS NOT FOUND IN "%s"',URL_ROOT . TEMPLATE_PATH . '/'));
         }
     }
 
@@ -92,13 +92,13 @@ class View
     public function setFooter($footer)
     {
 
-        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$footer.'')) {
+        if (file_exists(URL_ROOT .  TEMPLATE_PATH . '/'.$footer.'')) {
 
-            $this->footer = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$footer.'';
+            $this->footer = URL_ROOT .  TEMPLATE_PATH . '/'.$footer.'';
 
         } else {
 
-            throw new ErrorException(sprintf('TEMPLATE FOOTER WAS NOT FOUND IN "%s"',URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'));
+            throw new ErrorException(sprintf('TEMPLATE FOOTER WAS NOT FOUND IN "%s"',URL_ROOT . TEMPLATE_PATH . '/'));
         }
     }
 
@@ -119,14 +119,14 @@ class View
     {
         $this->index = $index;
 
-        if (file_exists(URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'')) {
+        if (file_exists(URL_ROOT . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'')) {
 
-            $this->index = URL_ROOT . '/views/public/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'';
+            $this->index = URL_ROOT . TEMPLATE_PATH . '/'.$this->view_folder.'/'.$index.'';
 
 
         } else {
 
-            throw new ErrorException(sprintf('TEMPLATE INDEX WAS NOT FOUND IN "%s"', URL_ROOT . '/views/Templates/' . TEMPLATE_PATH . '/'.$this->view_folder.'/'));
+            throw new ErrorException(sprintf('TEMPLATE INDEX WAS NOT FOUND IN "%s"', URL_ROOT  . TEMPLATE_PATH . '/'.$this->view_folder.'/'));
         }
     }
 
