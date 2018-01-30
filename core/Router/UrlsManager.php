@@ -192,6 +192,7 @@ class UrlsManager
 
                 if (preg_match($value['pattern'], $url_request)) {
 
+                    //var_dump($value);
                     return $value;
                 }
 

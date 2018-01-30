@@ -39,7 +39,6 @@ class api_model
 
         var_dump($out);*/
 
-       // echo $ip = md5('secure') . md5('api');
         if (isset($_GET['token']) && isset($_GET['key']) && isset($_GET['query'])) {
 
             $api = DataBase::getInstance()->getDB()->getAll("SELECT * FROM c_api_key WHERE Token=?s", $_GET['token']);

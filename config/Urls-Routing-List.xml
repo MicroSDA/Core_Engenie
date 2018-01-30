@@ -3,6 +3,8 @@
    <!-- <Url model ="test_model" method="index" pattern="(^\/test\/{0,1}$)" type="GET" view="test">Test</Url>
     <Url model ="test_model" method="tests" pattern="(^\/test\/tests\/[0-9]+\/{0,1}$)" type="GET" view="tests">Test</Url>
     <Url model ="products_model" method="product" pattern="(^\/products\/product\/[0-9]+\/{0,1}$)" type="GET" view="product">Product</Url>-->
+    <!--Custom Links-->
+    <Url model ="ajax_page_model" method="index" pattern="(^\/ajax\/{0,1}$)" type="GET" view="ajax">Ajax</Url>
     <Url model ="brands_model" method="brand" pattern="(^\/brands\/brand\/[a-zA-Z0-9_-]+\/{0,1}$)" type="GET" view="brand">Brand</Url>
     <Url model ="brands_model" method="index" pattern="(^\/brands\/{0,1}$)" type="GET" view="all-brands">Brands</Url>
     <Url model ="categories_model" method="index" pattern="(^\/categories\/{0,1}$)" type="GET" view="all-category">Categories</Url>
@@ -10,14 +12,20 @@
     <Url model ="products_model" method="product_by_part" pattern="(^\/products\/product\/[a-zA-Z0-9_-]+)" type="GET" view="product">Product</Url>
     <Url model ="products_model" method="index" pattern="(^\/products\/{0,1}$)" type="GET" view="products">Products</Url>
     <Url model ="about_us_model" method="index" pattern="(^\/about-us\/{0,1}$)" type="GET" view="about-us">About-Us</Url>
-    <!-- Admin -->
+    <!--/Custom Links-->
+    <!--Admin-->
     <Url model ="admin_model" method="products" pattern="(^\/admin\/secure\/products\/{0,1}$)" type="GET" view="admin/products">Admin</Url>
     <Url model ="admin_model" method="category" pattern="(^\/admin\/secure\/category\/{0,1}$)" type="GET" view="admin/category">Admin</Url>
     <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin</Url>
     <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/dashboard\/{0,1}\??)" type="GET" view="admin/dashboard">Admin</Url>
-    <!-- Should be at the bottom, always -->
+    <!--/Admin -->
+    <!--AJAX-->
+    <Url model ="ajax_model" method="add" pattern="(^\/ajax\/add\/{0,1}$)" type="Ajax" view="index">Ajax-General-Add</Url>
+    <!--/AJAX-->
+    <!--API-->
     <Url model ="api_model" method="index" pattern="(^\/secure\/api\/\?(.+)$)" type="GET" view="">Api</Url>
+    <!--/API-->
     <!-- Should be at the bottom, always -->
     <Url model ="index_model" method="index" pattern="(^\/index\/{0,1}$)" type="GET" view="index">General</Url>
-    <Url model ="error_404_model" method="index" pattern="(^)" type="GET" view="error-404">Error</Url>
+    <Url model ="error_404_model" method="index" pattern="(^)" type="GET" view="error-404">Error-404</Url>
 </Urls>

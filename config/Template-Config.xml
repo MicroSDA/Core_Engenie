@@ -10,7 +10,7 @@
                 <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
             </Assets-Js>
         </Page>
-        <Page name="Error">
+        <Page name="Error-404">
             <Assets-Css>
                 <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
             </Assets-Css>
@@ -89,6 +89,16 @@
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
                 <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Ajax">
+            <Assets-Css>
+                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" path="/css-js/js/add.js"> </js>
             </Assets-Js>
         </Page>
     </Template>

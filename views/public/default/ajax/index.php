@@ -1,15 +1,17 @@
+<!-- content -->
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item ">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="/about-us">About Us</a>
             </li>
             <li class="nav-item">
@@ -21,7 +23,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/products">Products</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="/ajax">Ajax</a>
             </li>
         </ul>
@@ -32,15 +34,14 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
-        <h1>About Us</h1>
-        <div class="embed-responsive embed-responsive-16by9">
-            <video controls width="400" height="300">
-                <source src="/public/Video/getVideo.php?ref=8ec8c1f9cc6332c5043337bd2efc8e0a" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-            </video>
-        </div>
+        <h1>This is a test Web Site</h1>
+        <hr>
+        <img class="img-fluid" alt="Responsive image" src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">
+        <hr>
+        <button type="submit" class="btn btn-outline-info" onclick="add();">ADD</button>
         <br>
+        <br>
+        <div id="hello"></div>
     </div>
-</div><!-- /.container -->
-
-<!-- Bootstrap core JavaScript
-================================================== -->
+</div>
+<!-- /content -->

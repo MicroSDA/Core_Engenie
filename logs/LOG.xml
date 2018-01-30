@@ -688,4 +688,109 @@
   <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
   <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: General</Log>
   <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/02-54" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/02-54" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-02" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-03" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-13" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-13" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-15" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
+  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
+  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
+  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
+  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
+  <Log Time="01.30.18/03-51" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-09" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/04-17" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-17" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-21" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-21" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-22" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-22" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
+        Categories
+    </Log>
+  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/04-58" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="16">Only variables should be passed by reference</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error-404</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Error-404</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error-404</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Error-404</Log>
+  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.30.18/05-09" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
 </Logs>

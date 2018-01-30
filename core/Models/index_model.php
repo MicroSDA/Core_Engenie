@@ -12,7 +12,8 @@ class index_model extends Model
     /**
      * index_model constructor.
      */
-    public function __construct(){
+    public function __construct()
+    {
 
 
         parent::__construct();
@@ -22,7 +23,8 @@ class index_model extends Model
     /**
      *
      */
-    public function index(){
+    public function index()
+    {
 
         DataBase::getInstance();
         DataManager::getInstance();
@@ -32,4 +34,5 @@ class index_model extends Model
         $this->render();
 
     }
+
 }
