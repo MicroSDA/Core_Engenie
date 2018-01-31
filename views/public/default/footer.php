@@ -6,7 +6,7 @@
     </div>
 </footer>
 <!-- Placed at the end of the document so the pages load faster -->
-<?= TemplateManager::getInstance()->getAssets(UrlsDispatcher::getInstance()->getCurrentUrlData()['name'], 'js') ?>
+<?= TemplateManager::getInstance()->assetsDraw(UrlsDispatcher::getInstance()->getCurrentUrlData()['name'], 'js') ?>
 </body>
 </html>
 

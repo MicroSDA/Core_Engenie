@@ -19,6 +19,14 @@
     <Url model ="admin_model" method="brand" pattern="(^\/admin\/secure\/brand\/{0,1}$)" type="GET" view="admin/brand">Admin</Url>
     <Url model ="admin_model" method="index" pattern="(^\/admin\/secure\/dashboard\/{0,1}\??)" type="GET" view="admin/dashboard">Admin</Url>
     <!--/Admin -->
+    <!--Assets-->
+    <!--CSS-->
+    <Url model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)hash\=(.+))" type="Css" view="index">Css</Url>
+    <!--CSS-->
+    <!--JS-->
+    <Url model ="assets_model" method="js" pattern="(^\/assets\/js\/{0,1}\?page\=(.+)hash\=(.+))" type="Js" view="index">Js</Url>
+    <!--/JS-->
+    <!--Assets-->
     <!--AJAX-->
     <Url model ="ajax_model" method="add" pattern="(^\/ajax\/add\/{0,1}$)" type="Ajax" view="index">Ajax-General-Add</Url>
     <!--/AJAX-->

@@ -35,6 +35,7 @@ class ajax_model
     public function add()
     {
 
-      echo 'Hello';
+      echo ' Hello';
     }
+
 }

@@ -36,7 +36,7 @@
     <div class="jumbotron">
         <h1>This is a test Web Site</h1>
         <hr>
-        <img class="img-fluid" alt="Responsive image" src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">
+        <img class="img-fluid" src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">
         <hr>
         <button type="submit" class="btn btn-outline-info" onclick="add();">ADD</button>
         <br>

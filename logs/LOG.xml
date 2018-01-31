@@ -1,796 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Logs>
   <Log Time="01.22.18/03-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="113">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-41" File="C:\xampp\htdocs\core\Models\products_model.php" Line="114">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-43" File="C:\xampp\htdocs\core\Models\products_model.php" Line="113">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-43" File="C:\xampp\htdocs\core\Models\products_model.php" Line="114">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-44" File="C:\xampp\htdocs\core\Models\products_model.php" Line="113">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-44" File="C:\xampp\htdocs\core\Models\products_model.php" Line="114">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-44" File="C:\xampp\htdocs\core\Models\products_model.php" Line="113">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-44" File="C:\xampp\htdocs\core\Models\products_model.php" Line="114">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-45" File="C:\xampp\htdocs\core\Models\products_model.php" Line="108">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-45" File="C:\xampp\htdocs\core\Models\products_model.php" Line="109">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-49" File="C:\xampp\htdocs\core\Models\products_model.php" Line="108">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-49" File="C:\xampp\htdocs\core\Models\products_model.php" Line="109">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="110">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="111">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="110">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="111">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="110">Undefined variable: _SESSION</Log>
-  <Log Time="01.22.18/03-51" File="C:\xampp\htdocs\core\Models\products_model.php" Line="111">session_destroy(): Trying to destroy uninitialized session</Log>
-  <Log Time="01.23.18/03-04" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-05" File="C:\xampp\htdocs\views\Templates\Default\category\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
-  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
-  <Log Time="01.23.18/03-21" File="C:\xampp\htdocs\core\MVC\View.php" Line="175">require_once(C:\xampp\php\pear): failed to open stream: Permission denied</Log>
-  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">Use of undefined constant THEME_PATH - assumed 'THEME_PATH' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">include(THEME_PATHtemplates/includes/navi.php): failed to open stream: No such file or directory</Log>
-  <Log Time="01.23.18/04-22" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="32">include(): Failed opening 'THEME_PATHtemplates/includes/navi.php' for inclusion (include_path='C:\xampp\php\PEAR')</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="152">Use of undefined constant THEME_NAME - assumed 'THEME_NAME' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="153">fopen(C:/xampp/htdocs/views/theme/THEME_NAME/templates/header.php): failed to open stream: No such file or directory</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="154">filesize(): stat failed for C:/xampp/htdocs/views/theme/THEME_NAME/templates/header.php</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="154">fread() expects parameter 1 to be resource, boolean given</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="176">Use of undefined constant THEME_NAME - assumed 'THEME_NAME' (this will throw an Error in a future version of PHP)</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="177">fopen(C:/xampp/htdocs/views/theme/THEME_NAME/templates/footer.php): failed to open stream: No such file or directory</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="178">filesize(): stat failed for C:/xampp/htdocs/views/theme/THEME_NAME/templates/footer.php</Log>
-  <Log Time="01.23.18/04-26" File="C:\xampp\htdocs\views\Templates\Default\admin\dashboard\index.php" Line="178">fread() expects parameter 1 to be resource, boolean given</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-51" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-52" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-53" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/04-54" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-07" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-08" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 91</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-13" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 97</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 85</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.23.18/05-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: nothing to repeat at offset 84</Log>
-  <Log Time="01.27.18/02-59" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: HTTP_RANGE</Log>
-  <Log Time="01.27.18/03-09" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: PATH_INFO</Log>
-  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-10" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">substr() expects at least 2 parameters, 1 given</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="56">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-11" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/03-13" File="C:\xampp\htdocs\views\public\default\about-us\index.php" Line="53">Undefined index: ORIG_SCRIPT_FILENAME</Log>
-  <Log Time="01.27.18/15-59" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
-  <Log Time="01.27.18/16-00" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(video.mp4): failed to open stream: No such file or directory</Log>
-  <Log Time="01.27.18/16-01" File="C:\xampp\htdocs\core\Libs\Basic\General\VideoStream.php" Line="28">fopen(/public/video.mp4): failed to open stream: No such file or directory</Log>
-  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
-  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
-  <Log Time="01.27.18/22-25" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
-  <Log Time="01.27.18/22-28" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
-  <Log Time="01.27.18/22-28" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
-  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 74</Log>
-  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
-  <Log Time="01.27.18/22-32" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
-  <Log Time="01.27.18/22-33" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: range out of order in character class at offset 73</Log>
-  <Log Time="01.27.18/23-54" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="155">Array to string conversion</Log>
-  <Log Time="01.28.18/00-23" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
-  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
-  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
-  <Log Time="01.28.18/00-24" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="106">json_decode() expects parameter 1 to be string, array given</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-39" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-40" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-43" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-43" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="108">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/00-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="109">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
-  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
-  <Log Time="01.28.18/04-54" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier '.'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-56" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-57" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/04-58" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
-  <Log Time="01.28.18/05-00" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
-  <Log Time="01.28.18/05-00" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '!' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-01" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-02" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-03" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-04" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '!' found</Log>
-  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '!' found</Log>
-  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-05" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-06" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-07" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-08" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '^' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
-  <Log Time="01.28.18/05-09" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending matching delimiter ')' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '.' found</Log>
-  <Log Time="01.28.18/05-10" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'j'</Log>
-  <Log Time="01.28.18/05-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'g'</Log>
-  <Log Time="01.28.18/05-12" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'g'</Log>
-  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
-  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
-  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
-  <Log Time="01.28.18/05-13" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): No ending delimiter '|' found</Log>
-  <Log Time="01.28.18/05-14" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier '$'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-15" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-17" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-18" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match_all(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Unknown modifier 'p'</Log>
-  <Log Time="01.28.18/05-23" File="C:\xampp\htdocs\core\Router\Router.php" Line="63">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="01.28.18/17-38" File="C:\xampp\htdocs\core\MVC\Model.php" Line="41">Undefined property: UrlsDispatcher::$getCurrentUrlData</Log>
-  <Log Time="01.28.18/17-38" File="C:\xampp\htdocs\core\MVC\Model.php" Line="41">Undefined property: UrlsDispatcher::$getCurrentUrlData</Log>
-  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="122">Array to string conversion</Log>
-  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="129">Array to string conversion</Log>
-  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="122">Array to string conversion</Log>
-  <Log Time="01.28.18/17-39" File="C:\xampp\htdocs\core\MVC\View.php" Line="129">Array to string conversion</Log>
-  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-16" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-17" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="56">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-20" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-21" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="15">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-23" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-24" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-35" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-36" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-37" File="C:\xampp\htdocs\views\public\default\header.php" Line="14">Array to string conversion</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-40" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-41" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-42" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="65">Undefined variable: css_return</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-47" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="64">A non-numeric value encountered</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-53" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-54" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error</Log>
-  <Log Time="01.29.18/00-54" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/00-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: About-Us</Log>
-  <Log Time="01.29.18/01-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Categories</Log>
-  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Categories</Log>
-  <Log Time="01.29.18/01-20" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-33" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Admin add Brand</Log>
-  <Log Time="01.29.18/01-34" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: General</Log>
-  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: General</Log>
-  <Log Time="01.29.18/01-50" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/02-54" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/02-54" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-02" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-03" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-13" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-13" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-15" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="38">Undefined index: HTTP_REFERER</Log>
-  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
-  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
-  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
-  <Log Time="01.30.18/03-50" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
-  <Log Time="01.30.18/03-51" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Undefined index: HTTP_X_REQUESTED_WITH</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-08" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-09" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/04-17" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-17" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-21" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-21" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-22" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-22" File="C:\xampp\htdocs\core\Models\index_model.php" Line="49">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-24" File="C:\xampp\htdocs\core\Models\index_model.php" Line="45">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: 
-        Categories
-    </Log>
-  <Log Time="01.30.18/04-26" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/04-58" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="16">Only variables should be passed by reference</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error-404</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Error-404</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Error-404</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Error-404</Log>
-  <Log Time="01.30.18/05-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="61">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Undefined index: Ajax</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="75">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-07" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-08" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
-  <Log Time="01.30.18/05-09" File="C:\xampp\htdocs\views\public\default\all-brands\index.php" Line="37">Invalid argument supplied for foreach()</Log>
+  <Log Time="01.31.18/03-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-39" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-40" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-40" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-40" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-40" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-40" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-41" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-42" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-42" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-42" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-42" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-42" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-44" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-45" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-45" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-45" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-45" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-45" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-47" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-47" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-47" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-47" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-47" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Css</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Css</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Css</Log>
+  <Log Time="01.31.18/03-52" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: file</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/03-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-58" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/03-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/03-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/04-02" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Jss</Log>
+  <Log Time="01.31.18/04-02" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-02" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Css</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Css</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/04-04" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-05" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Js</Log>
+  <Log Time="01.31.18/04-05" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)\&amp;</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)\&amp;</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)\&amp;</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():  model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)&amp;</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():  model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)&amp;</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : EntityRef: expecting ';'</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): l ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)\&amp;file</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : EntityRef: expecting ';'</Log>
+  <Log Time="01.31.18/04-09" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): l ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)\&amp;file</Log>
+  <Log Time="01.31.18/04-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): odel ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(\&amp;</Log>
+  <Log Time="01.31.18/04-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-10" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): odel ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(\&amp;</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : EntityRef: expecting ';'</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): l ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)!&amp;file</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : EntityRef: expecting ';'</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): l ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)!&amp;file</Log>
+  <Log Time="01.31.18/04-12" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-15" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="193">preg_match(): Compilation failed: POSIX named classes are supported only within a class at offset 33</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(&amp;</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(&amp;</Log>
+  <Log Time="01.31.18/04-17" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(&amp;</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(&amp;</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): C:/xampp/htdocs/config/Urls-Routing-List.xml:24: parser error : xmlParseEntityRef: no name</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read(): model ="assets_model" method="css" pattern="(^\/assets\/css\/{0,1}\?page\=(.+)(&amp;</Log>
+  <Log Time="01.31.18/04-18" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="83">XMLReader::read():                                                                                ^</Log>
+  <Log Time="01.31.18/04-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: hash</Log>
+  <Log Time="01.31.18/04-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="23">Undefined index: </Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-36" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-37" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: file</Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">Undefined index: </Log>
+  <Log Time="01.31.18/04-38" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="24">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="34">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-49" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="34">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-55" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="35">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="41">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="42">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-56" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="42">readfile(C:/xampp/htdocs): failed to open stream: Permission denied</Log>
+  <Log Time="01.31.18/04-57" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="37">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-57" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="37">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
+  <Log Time="01.31.18/04-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Generl</Log>
 </Logs>

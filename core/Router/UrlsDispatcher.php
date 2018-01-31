@@ -172,8 +172,6 @@ class UrlsDispatcher
                 return 'NOT FOUND';
             }
 
-
-
         }
 
         throw new ErrorException('METHOD TAKE ONLY STRING OR NUMBER');

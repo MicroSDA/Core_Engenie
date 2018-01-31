@@ -3,102 +3,102 @@
     <Template status="ACTIVE" folder="default">Default
         <Page name="General">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Error-404">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Admin">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="About-Us">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Product">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Products">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Categories">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Category">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Brand">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Brands">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
             </Assets-Js>
         </Page>
         <Page name="Ajax">
             <Assets-Css>
-                <css  type="internal" path="/css-js/css/bootstrap.min.css"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
-                <js type="internal" path="/css-js/js/bootstrap.min.js"> </js>
-                <js type="internal" path="/css-js/js/add.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/add.js" file="add.js" hash="0391f13d48fd1e08537037a84d7bd6a7"> </js>
             </Assets-Js>
         </Page>
     </Template>
