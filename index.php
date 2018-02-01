@@ -29,7 +29,6 @@ $GLOBALS['time'] = microtime(true);
         $Router = new Router();
 
 
-
     } catch (\ErrorException $message){
 
 

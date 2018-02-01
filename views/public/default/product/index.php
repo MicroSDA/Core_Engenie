@@ -65,8 +65,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?=DataManager::getInstance()->getDataByKey('Product')[0]['Image']?>" alt="Product image">
+                <div class="card" >
+                    <img class="img-fluid" src="<?=DataManager::getInstance()->getDataByKey('Product')[0]['Image']?>" alt="Product image">
                     <hr>
                     <div class="card-body">
                         <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>

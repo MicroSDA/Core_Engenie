@@ -277,4 +277,31 @@
   <Log Time="01.31.18/04-57" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="37">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
   <Log Time="01.31.18/04-57" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="37">Undefined index: 0391f13d48fd1e08537037a84d7bd6a</Log>
   <Log Time="01.31.18/04-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="52">Undefined index: Generl</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="29">filesize(): stat failed for C:/xampp/htdocs/views/public/default/material/css-js/style.css</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="30">readfile(C:/xampp/htdocs/views/public/default/material/css-js/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="29">filesize(): stat failed for C:/xampp/htdocs/views/public/default/material/css-js/style.css</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="30">readfile(C:/xampp/htdocs/views/public/default/material/css-js/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="29">filesize(): stat failed for C:/xampp/htdocs/views/public/default/material/css-js/style.css</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="30">readfile(C:/xampp/htdocs/views/public/default/material/css-js/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="29">filesize(): stat failed for C:/xampp/htdocs/views/public/default/material/css-js/style.css</Log>
+  <Log Time="01.31.18/05-35" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="30">readfile(C:/xampp/htdocs/views/public/default/material/css-js/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-49" File="C:\xampp\htdocs\core\Router\Router.php" Line="48">substr_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/01-55" File="C:\xampp\htdocs\core\Router\Router.php" Line="49">preg_replace() expects at least 3 parameters, 2 given</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
 </Logs>

@@ -34,6 +34,14 @@
 </nav>
 <div class="container">
     <div class="jumbotron">
+        <?php
+        $i = 0;
+        while($i != 500000 or $i > 500000){
+
+            //echo 'Lol<br>';
+            $i ++;
+        }
+        ?>
         <h1>This is a test Web Site</h1>
         <hr>
         <img class="img-fluid" alt="Responsive image" src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">

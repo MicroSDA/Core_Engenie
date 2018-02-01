@@ -93,6 +93,7 @@ class UrlsManager
                     $this->url['method'] = mb_strtolower($this->xml_parse_doc->getAttribute('method'), 'UTF-8');
                     $this->url['type'] = $this->xml_parse_doc->getAttribute('type');
                     $this->url['view'] = $this->xml_parse_doc->getAttribute('view');
+                    $this->url['cache'] = $this->xml_parse_doc->getAttribute('cache');
 
                     $this->xml_parse_doc->read();
 
@@ -106,7 +107,8 @@ class UrlsManager
                             $this->url['method'],
                             $this->url['type'],
                             $this->url['name'],
-                            $this->url['view']
+                            $this->url['view'],
+                            $this->url['cache']
                         );
 
                     } else {
@@ -135,9 +137,10 @@ class UrlsManager
      * @param $patterns
      * @param $name
      * @param $view
+     * @param $cache
      * @param string $type
      */
-    private function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view )
+    private function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view, $cache)
     {
 
 
@@ -147,6 +150,7 @@ class UrlsManager
         $this->urls_list[$key]['type'] = $type;
         $this->urls_list[$key]['name'] = $name;
         $this->urls_list[$key]['view'] = $view;
+        $this->urls_list[$key]['cache'] = $cache;
 
     }
 

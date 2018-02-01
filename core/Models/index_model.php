@@ -31,6 +31,7 @@ class index_model extends Model
 
         //DataManager::getInstance()->addData('Products',DataBase::getDB()->getAll('SELECT * FROM c_products'));
 
+
         $this->render();
 
     }

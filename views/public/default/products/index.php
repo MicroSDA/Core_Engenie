@@ -43,8 +43,8 @@
 
                         echo '
            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="' . $value['Image'] . '" alt="Product image">
+                <div class="card" style="max-width: 18rem;">
+                    <img class="img-fluid" src="' . $value['Image'] . '" alt="Product image">
                     <div class="card-body">
                         <h5 class="card-title">' . $value['Title'] . '</h5>
                         <p class="card-text">' . $value['Description'] . '</p>
