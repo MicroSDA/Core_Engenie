@@ -12,11 +12,11 @@
        /** Template section */
 
        require_once URL_ROOT.'/core/Libs/Config/TemplateManager.php';
-       $template = TemplateManager::getInstance();
+       //$template = TemplateManager::getInstance();
 
-       define('TEMPLATE_NAME', $template->getTemplate()['name']);               /** Template Name     */
-       define('TEMPLATE_PATH', '/views/public/'.$template->getTemplate()['path']);               /** Template Path     */
-       define('TEMPLATE_STATUS', $template->getTemplate()['status']);           /** Template Status   */
+       //define('TEMPLATE_NAME', $template->getTemplate()['name']);               /** Template Name     */
+      // define('TEMPLATE_PATH', '/views/public/'.$template->getTemplate()['path']);               /** Template Path     */
+      // define('TEMPLATE_STATUS', $template->getTemplate()['status']);           /** Template Status   */
 
         /** End of Template section */
 /**

@@ -304,4 +304,22 @@
   <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
   <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
   <Log Time="02.01.18/02-11" File="C:\xampp\htdocs\core\Router\Router.php" Line="53">file_get_contents(-about-us): failed to open stream: No such file or directory</Log>
+  <Log Time="02.01.18/03-44" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-44" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-45" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
 </Logs>
