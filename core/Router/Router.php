@@ -42,27 +42,17 @@ class Router
      */
     private function route()
     {
-        if(UrlsDispatcher::getInstance()->getCurrentUrlData()['cache']=='cache'){
+        if(UrlsDispatcher::getInstance()->getCurrentUrlData()['cache']=='cache') {
 
 
-            if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
-                $file ='-index';
+            if (CacheGenerator::isCache()) {
 
-            }else{
+                CacheGenerator::getCache();
 
-                $file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
-            }
-
-            $file_path = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
-
-            if(file_exists($file_path)){
-
-
-                echo file_get_contents($file_path);
                 echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
                 echo ' <div style="text-align: center;">Time:'.(microtime(true) - $GLOBALS['time']) .'Sec</div>';
-
-                die();
+                exit();
+                //die();
 
             }else{
 
@@ -70,12 +60,8 @@ class Router
             }
 
         }else{
-
             $this->controller = new Controller();
         }
-
-
-
     }
 
     /**
@@ -125,3 +111,39 @@ class Router
 
 
 }
+
+/**
+ *   if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
+$file ='-index';
+
+}else{
+
+$file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
+}
+
+$file_path = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
+
+if(file_exists($file_path)){
+
+
+header("Cache-control: public");
+header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*15) . " GMT");
+echo file_get_contents($file_path);
+echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
+echo ' <div style="text-align: center;">Time:'.(microtime(true) - $GLOBALS['time']) .'Sec</div>';
+
+die();
+
+}else{
+
+$this->controller = new Controller();
+}
+
+}else{
+
+$this->controller = new Controller();
+}
+
+
+
+ */

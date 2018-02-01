@@ -50,13 +50,9 @@ class admin_model extends Model
 
             if ($_GET['submit'] == 'reset-cache') {
 
-                if (file_exists(URL_ROOT . '/cache')) {
-                    foreach (glob(URL_ROOT . '/cache/*.html') as $file) {
-                        unlink($file);
-                    }
+                CacheGenerator::deleteCache();
+                header('Location:' . $_SERVER['HTTP_REFERER']);
 
-                    header('Location:' . $_SERVER['HTTP_REFERER']);
-                }
 
             }
         }

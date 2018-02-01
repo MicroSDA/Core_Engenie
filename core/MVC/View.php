@@ -201,25 +201,9 @@ class View
 
         if(UrlsDispatcher::getInstance()->getCurrentUrlData()['cache']=='cache'){
 
-            if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
-
-                echo UrlsDispatcher::getInstance()->getUlrRequest();
-                $file ='-index';
-
-            }else{
-
-                $file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
-            }
-
-            $cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
-
-            if(!file_exists($cache_file)){
-
-                $cache_page = fopen($cache_file, 'w'); // Открываем файл для записи и стираем его содержимое
-                fwrite($cache_page, ob_get_contents()); // Сохраняем всё содержимое буфера в файл
-                fclose($cache_page); // Закрываем файл
-            }
-
+          if(!CacheGenerator::isCache()){
+              CacheGenerator::generateCache();
+          }
         }
 
            echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
@@ -228,3 +212,25 @@ class View
         echo ob_get_clean();
     }
 }
+
+/**
+ *   if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
+
+echo UrlsDispatcher::getInstance()->getUlrRequest();
+$file ='-index';
+
+}else{
+
+$file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
+}
+
+$cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
+
+if(!file_exists($cache_file)){
+
+$cache_page = fopen($cache_file, 'w'); // Открываем файл для записи и стираем его содержимое
+fwrite($cache_page, ob_get_contents()); // Сохраняем всё содержимое буфера в файл
+fclose($cache_page); // Закрываем файл
+}
+
+ */
