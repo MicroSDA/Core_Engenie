@@ -26,6 +26,7 @@
         <form class="form-control" action="" type="Get">
             <div>
                 <button type="submit" name="submit" value="site-map" class="btn btn-outline-primary" href="">Generate Site Map</button>
+                <button type="submit" name="submit" value="reset-cache" class="btn btn-outline-warning" href="">Reset Cache</button>
             </div>
             <br>
         </form>

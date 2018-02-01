@@ -45,13 +45,24 @@ class admin_model extends Model
                 fwrite($pf, $map);
                 fclose($pf);
 
-                header('Location:'.$_SERVER['HTTP_REFERER']);
+                header('Location:' . $_SERVER['HTTP_REFERER']);
             }
 
+            if ($_GET['submit'] == 'reset-cache') {
+
+                if (file_exists(URL_ROOT . '/cache')) {
+                    foreach (glob(URL_ROOT . '/cache/*.html') as $file) {
+                        unlink($file);
+                    }
+
+                    header('Location:' . $_SERVER['HTTP_REFERER']);
+                }
+
+            }
         }
 
-        $this->render();
 
+        $this->render();
     }
 
     public function brand()
