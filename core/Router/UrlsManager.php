@@ -22,17 +22,9 @@ class UrlsManager
 {
 
     /**
-     * @var
-     */
-    private $controller;
-    /**
      * @var XMLReader
      */
     private $xml_parse_doc;
-    /**
-     * @var
-     */
-    private $flag;
     /**
      * @var array
      */
@@ -209,11 +201,5 @@ class UrlsManager
         return false;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getFlag()
-    {
-        return $this->flag;
-    }
+
 }

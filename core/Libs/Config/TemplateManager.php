@@ -16,11 +16,7 @@ class TemplateManager
     /**
      * @var array
      */
-    private $template = [
-        'name' => '',
-        'status' => '',
-        'path' => ''
-    ];
+    private $template = [];
 
     /**
      * @var array
@@ -192,13 +188,14 @@ class TemplateManager
                             $css['path'] = '/views/public/' . $this->template['path'] . $this->xml_parse_doc->getAttribute('path');
                             $css['url'] = $this->xml_parse_doc->getAttribute('url');
                             $css['file'] = $this->xml_parse_doc->getAttribute('file');
+                            $this->assets[$this->current_page]['css'][$this->xml_parse_doc->getAttribute('hash')] = $css;
 
                         }else{
 
                             $css['path'] = $this->xml_parse_doc->getAttribute('path');
+                            $this->assets[$this->current_page]['css'][$this->xml_parse_doc->getAttribute('path')] = $css;
                         }
 
-                        $this->assets[$this->current_page]['css'][$this->xml_parse_doc->getAttribute('hash')] = $css;
 
                     }
 
@@ -212,14 +209,15 @@ class TemplateManager
                             $js['path'] = '/views/public/' . $this->template['path'] . $this->xml_parse_doc->getAttribute('path');
                             $js['url'] = $this->xml_parse_doc->getAttribute('url');
                             $js['file'] = $this->xml_parse_doc->getAttribute('file');
-
+                            $this->assets[$this->current_page]['js'][$this->xml_parse_doc->getAttribute('hash')] = $js;
                         } else {
 
                             $js['path'] = $this->xml_parse_doc->getAttribute('path');
+                            $this->assets[$this->current_page]['js'][$this->xml_parse_doc->getAttribute('path')] = $js;
                         }
 
 
-                        $this->assets[$this->current_page]['js'][$this->xml_parse_doc->getAttribute('hash')] = $js;
+
 
                     }
 

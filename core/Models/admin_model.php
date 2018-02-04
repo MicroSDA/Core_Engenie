@@ -33,29 +33,6 @@ class admin_model extends Model
         DataBase::getInstance();
         DataManager::getInstance();
 
-        if (isset($_GET['submit'])) {
-            if ($_GET['submit'] == 'site-map') {
-                set_time_limit(0);
-                $sitemap = new SiteMapGenerator();
-                $sitemap->set_ignore(array("javascript:", ".css", ".js", ".ico", ".jpg", ".png", ".jpeg", ".swf", ".gif", "mailto:"));
-                $sitemap->get_links('http://' . $_SERVER['HTTP_HOST']);
-                $map = $sitemap->generate_sitemap();
-                $file = URL_ROOT . '/sitemap.xml';
-                $pf = fopen($file, "w");
-                fwrite($pf, $map);
-                fclose($pf);
-
-                header('Location:' . $_SERVER['HTTP_REFERER']);
-            }
-
-            if ($_GET['submit'] == 'reset-cache') {
-
-                CacheGenerator::deleteCache();
-                header('Location:' . $_SERVER['HTTP_REFERER']);
-
-
-            }
-        }
 
 
         $this->render();
@@ -80,8 +57,44 @@ class admin_model extends Model
     }
 
 
-    public function api()
+    public function settings()
     {
 
+        if (isset($_GET['submit'])) {
+            if ($_GET['submit'] == 'site-map') {
+                set_time_limit(0);
+                $sitemap = new SiteMapGenerator();
+                $sitemap->set_ignore(array("javascript:", ".css", ".js", ".ico", ".jpg", ".png", ".jpeg", ".swf", ".gif", "mailto:"));
+                $sitemap->get_links('http://' . $_SERVER['HTTP_HOST']);
+                $map = $sitemap->generate_sitemap();
+                $file = URL_ROOT . '/sitemap.xml';
+                $pf = fopen($file, "w");
+                fwrite($pf, $map);
+                fclose($pf);
+
+                header('Location:' . $_SERVER['HTTP_REFERER']);
+            }
+
+            if ($_GET['submit'] == 'reset-cache') {
+
+                /**
+                 * Delete All Html files from folder cache
+                 */
+                CacheGenerator::deleteCache();
+
+                /**
+                 * Generate new Url Config file from db
+                 */
+                UrlsDispatcher::getInstance()->createNewUrlDataListDBtoXML(URLS_CONFIG_FILE_PATH);
+
+                header('Location:' . $_SERVER['HTTP_REFERER']);
+
+
+            }
+        }
+
+
+        DataManager::getInstance()->addData('URLS',UrlsDispatcher::getInstance()->getUrlsDataList());
+        $this->render();
     }
 }

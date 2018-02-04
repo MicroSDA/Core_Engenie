@@ -26,5 +26,7 @@ if (isset($_SERVER['HTTP_REFERER'])) {
 
 }else{
 
-    header('Location:/');
+    echo 'IDI NAXYI';
+
+    //header('Location:/');
 }

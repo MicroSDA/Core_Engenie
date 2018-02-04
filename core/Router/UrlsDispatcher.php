@@ -177,4 +177,28 @@ class UrlsDispatcher
         throw new ErrorException('METHOD TAKE ONLY STRING OR NUMBER');
     }
 
+
+    public function createNewUrlDataListDBtoXML($filename)
+    {
+        $urlArray = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_urls ORDER BY id DESC');
+
+        $newUrlListXML = new SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><Urls/>');
+
+        foreach ($urlArray as $url) {
+            $url_tag = $newUrlListXML->addChild("Url",$url['Name']);
+           // $url_tag->addChild("Url",$url['Name']);
+            $url_tag->addAttribute('model',$url['Model']);
+            $url_tag->addAttribute('method',$url['Method']);
+            $url_tag->addAttribute('pattern',$url['Pattern']);
+            $url_tag->addAttribute('type',$url['Type']);
+            $url_tag->addAttribute('view',$url['View']);
+            $url_tag->addAttribute('cache',$url['Cache']);
+        }
+
+        $file = $filename;
+        $pf = fopen($file, "w");
+        fwrite($pf, $newUrlListXML->asXML());
+        fclose($pf);
+    }
+
 }

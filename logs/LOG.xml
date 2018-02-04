@@ -322,4 +322,618 @@
   <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
   <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="69">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
   <Log Time="02.01.18/03-46" File="C:\xampp\htdocs\core\MVC\View.php" Line="75">Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' (this will throw an Error in a future version of PHP)</Log>
+  <Log Time="02.02.18/05-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="55">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="69">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="72">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="73">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="74">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="77">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="55">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="69">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="72">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="73">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="74">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="77">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-05" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-07" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="50">filesize(): stat failed for C:/xampp/htdocs/views/public/material/css0js/js/add.js</Log>
+  <Log Time="02.02.18/05-07" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="51">readfile(C:/xampp/htdocs/views/public/material/css0js/js/add.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-20" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-27" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="50">filesize(): stat failed for C:/xampp/htdocs/views/public/default/css-js/js/mdb.min.js</Log>
+  <Log Time="02.02.18/05-27" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="51">readfile(C:/xampp/htdocs/views/public/default/css-js/js/popper.min.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.02.18/05-27" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="51">readfile(C:/xampp/htdocs/views/public/default/css-js/js/mdb.min.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.02.18/05-27" File="C:\xampp\htdocs\core\Models\assets_model.php" Line="30">readfile(C:/xampp/htdocs/views/public/default/css-js/css/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="55">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="69">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="72">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="73">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="74">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="77">Undefined offset: 0</Log>
+  <Log Time="02.02.18/05-35" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="55">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="69">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="72">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="73">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="74">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="77">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-33" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-53" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-53" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-53" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-53" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="55">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="57">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="69">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="72">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="73">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="74">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="77">Undefined offset: 0</Log>
+  <Log Time="02.02.18/15-54" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-04" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-05" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-11" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-11" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-11" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-11" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-12" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-13" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-13" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-13" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-13" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-14" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Categories</Log>
+  <Log Time="02.02.18/16-14" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="30">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-15" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-16" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="45">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="47">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="50">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="53">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="59">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="62">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="67">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-17" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="70">Undefined offset: 0</Log>
+  <Log Time="02.02.18/16-18" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-18" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-18" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-29" File="C:\xampp\htdocs\views\public\material\brand\index.php" Line="29">Undefined variable: Products</Log>
+  <Log Time="02.02.18/16-29" File="C:\xampp\htdocs\views\public\material\brand\index.php" Line="29">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-33" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-44" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="19">Only variables should be passed by reference</Log>
+  <Log Time="02.02.18/16-45" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="19">Only variables should be passed by reference</Log>
+  <Log Time="02.02.18/16-45" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="19">Only variables should be passed by reference</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.02.18/16-56" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
+  <Log Time="02.03.18/04-32" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="50">Undefined variable: i</Log>
+  <Log Time="02.03.18/04-32" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="50">Undefined variable: i</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="48">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="49">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="50">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="51">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="53">Undefined variable: value</Log>
+  <Log Time="02.03.18/04-37" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="54">Undefined variable: value</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-41" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="87">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.03.18/05-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="93">Undefined index: js</Log>
+  <Log Time="02.03.18/05-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="93">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.03.18/05-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="93">Undefined index: js</Log>
+  <Log Time="02.03.18/05-55" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="93">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.04.18/06-35" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="190">SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found</Log>
+  <Log Time="02.04.18/06-35" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="190">SimpleXMLElement::__construct(): &lt;?xml version="1.0" encoding="utf-8"?&gt;</Log>
+  <Log Time="02.04.18/06-35" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="190">SimpleXMLElement::__construct():                                       ^</Log>
+  <Log Time="02.04.18/06-40" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-41" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-42" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-43" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-44" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="194">htmlspecialchars() expects parameter 1 to be string, array given</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-46" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Illegal string offset 'model'</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-47" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="195">Undefined index: model</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-50" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-52" File="C:\xampp\htdocs\core\Router\UrlsDispatcher.php" Line="200">Undefined index: cache</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/06-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="68">XMLReader::open(): Unable to open source data</Log>
+  <Log Time="02.04.18/07-44" File="C:\xampp\htdocs\core\Models\admin_model.php" Line="90">Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\core\Router\UrlsDispatcher.php:186)</Log>
+  <Log Time="02.04.18/07-48" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Undefined index: asd</Log>
+  <Log Time="02.04.18/07-48" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.04.18/07-48" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Undefined index: asd</Log>
+  <Log Time="02.04.18/07-48" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-53" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="46">Undefined index: id</Log>
+  <Log Time="02.04.18/08-54" File="C:\xampp\htdocs\views\public\material\admin\settings\index.php" Line="52">Undefined index: id</Log>
+  <Log Time="02.04.18/16-25" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Array to string conversion</Log>
+  <Log Time="02.04.18/16-25" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined index: name</Log>
+  <Log Time="02.04.18/16-25" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.04.18/16-25" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.04.18/16-26" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Array to string conversion</Log>
+  <Log Time="02.04.18/16-26" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined index: name</Log>
+  <Log Time="02.04.18/16-26" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined index: name</Log>
+  <Log Time="02.04.18/16-26" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.04.18/16-27" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.04.18/16-27" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="80">Undefined offset: 0</Log>
+  <Log Time="02.04.18/18-06" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/18-07" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/18-07" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/18-08" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/18-09" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/18-09" File="C:\xampp\htdocs\core\Models\ajax_model.php" Line="87">Undefined offset: 7</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-04" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-05" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-05" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.04.18/19-05" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
 </Logs>
