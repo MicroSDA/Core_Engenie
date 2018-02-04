@@ -129,4 +129,26 @@ class ajax_model
         //var_dump($_POST['data']);
         /// echo '</pre>';
     }
+
+    public function admin_validate_delete_url(){
+
+        $outgoing['pattern'] = $_POST['data'][1]['value'];
+
+        //echo $_POST['data'][1]['value'];
+          echo json_encode($outgoing);
+    }
+
+    public function admin_delete_url(){
+
+
+        try{
+
+            DataBase::getInstance()->getDB()->query("DELETE FROM c_urls WHERE Pattern=?s",$_POST['data']);
+            echo '<div style="text-align: center"><span class="btn btn-success"><h5>Done, reset cache to get changes immediately</h5></span></div>';
+        }catch (Exception $e){
+
+            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Error</h5></span></div>';
+        }
+
+    }
 }

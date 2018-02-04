@@ -225,9 +225,11 @@
                 <div class="modal-header">
                 </div>
                 <div class="modal-body">
-                    <form id="delete-url-form">
-                        <button type="button" class="btn btn-outline-success" onclick="deleteUrl()">Save</button>
-                    </form>
+                    <input hidden type="text" name="pattern" id="delete-url-pattern">
+                    <div style="text-align: center"><div class="btn btn-warning">Are you sure ?</div></div>
+                    <br>
+                    <div style="text-align: center"><button type="button" class="btn btn-danger" onclick="deleteUrl()">Yes</button></div>
+                    <hr size="15">
                     <div id="delete-url-message"></div>
                 </div>
                 <div class="modal-footer">

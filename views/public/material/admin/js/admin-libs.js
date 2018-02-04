@@ -74,7 +74,8 @@ function deleteUrlValidate(form_id){
 
             var obj = JSON.parse(html);
 
-            $('#delete-url-pattern').val(obj['pattern']);
+            $('#delete-url-pattern').empty();
+            $('#delete-url-pattern').append(obj['pattern']);
 
             $('#delete-url-modal').modal();
         }
@@ -85,12 +86,11 @@ function deleteUrlValidate(form_id){
 
 function deleteUrl(){
 
-    var this_data = $('#delete-url-form').serializeArray();
-
+    var this_data = $('#delete-url-pattern').text();
 
     $.ajax({
         type: 'POST',
-        url:  '/ajax-admin/edit-url-validate/',
+        url:  '/ajax-admin/delete-url/',
         headers: { "Ajax": "Ajax" },
         data:
             {
@@ -98,8 +98,8 @@ function deleteUrl(){
             },
         success: function (html){
 
-            $('#edit-url-message').empty();
-            $('#edit-url-message').append(html);
+            $('#delete-url-message').empty();
+            $('#delete-url-message').append(html);
         }
 
     });
