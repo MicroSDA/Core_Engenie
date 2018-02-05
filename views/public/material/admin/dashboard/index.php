@@ -43,26 +43,16 @@
 
 
     <?php
-    echo '<pre>';
    // var_dump(UrlsDispatcher::getInstance()->getUrlsDataList());
 
     //$array_ulr;
-    foreach (array_reverse(UrlsDispatcher::getInstance()->getUrlsDataList()) as $value){
+  /*  foreach (array_reverse(UrlsDispatcher::getInstance()->getUrlsDataList()) as $value){
 
-      // DataBase::getInstance()->getDB()->query('INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s,?s,?s,?s,?s,?s,?s)',
-      //    $value['pattern'],$value['name'],$value['type'],$value['view'],$value['cache'],$value['model'],$value['method']);
-
-
-    }
+        DataBase::getInstance()->getDB()->query('INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s,?s,?s,?s,?s,?s,?s)',
+          $value['pattern'],$value['name'],$value['type'],$value['view'],$value['cache'],$value['model'],$value['method']);
 
 
-    echo '</pre>';
-    //$temp = json_encode(UrlsDispatcher::getInstance()->getUrlsDataList());
-     echo '<pre>';
-    // var_dump($temp);
-    echo '</pre>';
-
-
+    }*/
 
     ?>
 

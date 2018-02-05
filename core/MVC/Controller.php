@@ -25,7 +25,7 @@ class controller
 
             require_once URL_ROOT . '/core/Models/' . UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php';
 
-            $modelName =  UrlsDispatcher::getInstance()->getCurrentUrlData()['model'];
+            $modelName =  basename(UrlsDispatcher::getInstance()->getCurrentUrlData()['model']);
             $this->model = new $modelName();
             $method = UrlsDispatcher::getInstance()->getCurrentUrlData()['method'];
 

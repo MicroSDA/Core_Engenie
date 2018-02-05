@@ -25,8 +25,9 @@
             <div class="col-lg-12 col-sm-12">
                 <div class="card">
                     <h4 class="card-title" style="text-align: center"><span
-                                class="btn btn-outline-dark"><h2>Site Urls</h2></span></h4>
-
+                                class="btn btn-outline-dark"><h1>Site Urls</h1></span></h4>
+                    <div class="card-title" style="text-align: center"><button
+                                class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h5>Add new</h5></button></div>
                     <div class="card-body">
                         <h4 class="card-title"></h4>
                         <p class="card-text"></p>
@@ -123,47 +124,48 @@
                 <div class="modal-header">
                 </div>
                 <div class="modal-body">
-                    <form id="add-new-url-form">
+                    <form id="add-new-url-form" >
                         <div class="form-row">
                             <div class="col-md-2">
                                 <label class="control-label" for="name">Name</label>
-                                <input id="edit-modal-name" type="text" name="name" class="form-control" PLACEHOLDER="Page name" required>
+                                <input type="text" name="name" class="form-control" PLACEHOLDER="Page name" required>
                             </div>
                             <div class="col-md-8">
                                 <label class="control-label" for="name">Pattern</label>
-                                <input id="edit-modal-pattern" type="text" name="pattern" class="form-control" PLACEHOLDER="Pattern" required>
+                                <input type="text" name="pattern" class="form-control" PLACEHOLDER="Pattern" required>
                             </div>
                             <div class="col-md-2">
                                 <label class="control-label" for="name">Type</label>
-                                <input id="edit-modal-type" type="text" name="type" class="form-control" PLACEHOLDER="Url data type" required>
+                                <input  type="text" name="type" class="form-control" PLACEHOLDER="Url data type" required>
                             </div>
                             <div class="col-md-5">
                                 <label class="control-label" for="name">Model</label>
-                                <input id="edit-modal-model" type="text" name="model" class="form-control" PLACEHOLDER="Monel name" required>
+                                <input type="text" name="model" class="form-control" PLACEHOLDER="Monel name" required>
                             </div>
                             <div class="col-md-4">
                                 <label class="control-label" for="name">Method</label>
-                                <input id="edit-modal-method" type="text" name="method" class="form-control" PLACEHOLDER="Method name" required>
+                                <input  type="text" name="method" class="form-control" PLACEHOLDER="Method name" required>
                             </div>
                             <div class="col-md-3">
                                 <label class="control-label" for="name">View</label>
-                                <input id="edit-modal-view" type="text" name="view" class="form-control" PLACEHOLDER="View folder path" required>
+                                <input  type="text" name="view" class="form-control" PLACEHOLDER="View folder path" required>
                             </div>
                             <div class="col-md-3">
                                 <label class="control-label" for="name">Cache</label>
-                                <select id="edit-modal-cache" name="cache" class="form-control">
+                                <select  name="cache" class="form-control">
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
                                 </select>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-outline-success" onclick="">Add-new</button>
                         </td>
                     </form>
+                    <button class="btn btn-success" onclick="addNewUrl();">Add-new</button>
+                    <br>
                     <div id="add-new-url-message"></div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-warning" type="button" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -209,12 +211,13 @@
                                 </select>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-outline-success" onclick="editUrl();">Save</button>
+                        <button type="button" class="btn btn-success" onclick="editUrl();">Save</button>
                     </form>
+                    <br>
                     <div id="edit-url-message"></div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-default" type="button" data-dismiss="modal" onclick="">Close</button>
+                    <button class="btn btn-warning" type="button" data-dismiss="modal" onclick="">Close</button>
                 </div>
             </div>
         </div>
@@ -226,14 +229,15 @@
                 </div>
                 <div class="modal-body">
                     <input hidden type="text" name="pattern" id="delete-url-pattern">
-                    <div style="text-align: center"><div class="btn btn-warning">Are you sure ?</div></div>
+                    <div style="text-align: center"><div class="btn btn-outline-warning"><h3>Are you sure ?</h3></div></div>
                     <br>
                     <div style="text-align: center"><button type="button" class="btn btn-danger" onclick="deleteUrl()">Yes</button></div>
                     <hr size="15">
+                    <br>
                     <div id="delete-url-message"></div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-default" type="button" data-dismiss="modal" onclick="">Close</button>
+                    <button class="btn btn-warning" type="button" data-dismiss="modal" onclick="">Close</button>
                 </div>
             </div>
         </div>

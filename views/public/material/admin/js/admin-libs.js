@@ -74,6 +74,7 @@ function deleteUrlValidate(form_id){
 
             var obj = JSON.parse(html);
 
+            $('#delete-url-message').empty();
             $('#delete-url-pattern').empty();
             $('#delete-url-pattern').append(obj['pattern']);
 
@@ -105,3 +106,29 @@ function deleteUrl(){
     });
 
 };
+
+
+function addNewUrl() {
+
+    var this_data = $('#add-new-url-form').serializeArray();
+
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/add-url/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            $('#add-new-url-message').empty();
+            $('#add-new-url-message').append(html);
+        }
+
+    });
+
+    //$('#add-new-url-modal').modal();
+
+}
