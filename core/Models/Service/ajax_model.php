@@ -93,9 +93,9 @@ class ajax_model
             die();
         }
 
-        if(!preg_match('(^\\(.{1,}\\)$)',$page_pattern)){
+        if(!preg_match('(^\\(\\^.{1,}\\$\\)$)',$page_pattern)){
 
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Pattern mask is wrong, try to use "(....)"</h5></span></div>';
+            echo '<br><br><div style="text-align: center"><span class="btn btn-warning"><h5>Pattern mask is wrong, try to use "(^....$)"</h5></span></div>';
             die();
         }
 
@@ -104,12 +104,12 @@ class ajax_model
             DataBase::getInstance()->getDB()->query("UPDATE c_urls SET Pattern=?s, Name=?s, Type=?s, View=?s, Cache=?s, Model=?s, Method=?s WHERE Pattern=?s",
                 $page_pattern, $page_name, $page_type, $page_view, $page_cache, $page_model, $page_method, $page_pattern_old);
 
-                   echo' <form type="Get">';
-                   echo '<div style="text-align: center"><button type="submit" class="btn btn-success" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                   echo' <form type="Get" action="">';
+                   echo'<div style="text-align: center"><button type="submit" class="btn btn-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
                    echo' </form>';
-        } catch (Exception $e) {
+        } catch (Exception $error) {
 
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Error</h5></span></div>';
+            echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 113: ajax_model: admin_edit_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
         }
 
 
@@ -158,13 +158,13 @@ class ajax_model
         try {
 
             DataBase::getInstance()->getDB()->query("DELETE FROM c_urls WHERE Pattern=?s", $_POST['data']);
-            echo' <form type="Get">';
-            echo '<div style="text-align: center"><button type="submit" class="btn btn-success" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+            echo' <form type="Get" action="">';
+            echo'<div style="text-align: center"><button type="submit" class="btn btn-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
             echo' </form>';
 
-        } catch (Exception $e) {
+        } catch (Exception $error) {
 
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Error</h5></span></div>';
+            echo '<div style="text-align: center"><span class="btn btn-warning">INTERNAL ERROR<br>Line 168: ajax_model: admin_delete_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
         }
 
     }
@@ -184,13 +184,13 @@ class ajax_model
 
         if(empty($page_name) or empty($page_pattern) or empty($page_type) or empty($page_model) or empty($page_method) or empty($page_view) or empty($page_cache)){
 
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>All fields should be filled</h5></span></div>';
+            echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
             die();
         }
 
-        if(!preg_match('(^\\(.{1,}\\)$)',$page_pattern)){
+        if(!preg_match('(^\\(\\^.{1,}\\$\\)$)',$page_pattern)){
 
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Pattern mask is wrong, try to use "(....)"</h5></span></div>';
+            echo '<br><br><div style="text-align: center"><span class="btn btn-warning"><h5>Pattern mask is wrong, try to use "(^....$)"</h5></span></div>';
             die();
         }
 
@@ -201,8 +201,8 @@ class ajax_model
                 DataBase::getInstance()->getDB()->query("INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s, ?s, ?s, ?s, ?s, ?s, ?s)",
                     $page_pattern, $page_name, $page_type, $page_view, $page_cache, $page_model, $page_method);
 
-                echo' <form type="Get">';
-                echo '<div style="text-align: center"><button type="submit" class="btn btn-success" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                echo' <form type="Get" action="">';
+                echo'<div style="text-align: center"><button type="submit" class="btn btn-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
                 echo' </form>';
 
             }else{
@@ -211,11 +211,9 @@ class ajax_model
             }
 
 
-        } catch (Exception $e) {
+        } catch (Exception $error) {
 
-
-            echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Error</h5></span></div>';
-            echo $e;
+            echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 218: ajax_model: admin_add_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
         }
 
     }

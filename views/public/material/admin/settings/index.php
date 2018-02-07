@@ -1,6 +1,6 @@
 <body>
 <header>
-    <nav class="navbar navbar-expand sidebar navbar-dark elegant-color " style="color: #343a40">
+    <nav class="navbar navbar-expand-lg navbar-dark elegant-color "  style="color: #343a40">
         <a class="navbar-brand" href="/admin/secure/dashboard">Dashboard</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup"
@@ -10,113 +10,149 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" href="/admin/secure/dashboard">Dashboard</a>
-                <a class="nav-link" href="/admin/secure/brand">Brands</a>
+                <a class="nav-link" href="/admin/secure/brands">Brands</a>
                 <a class="nav-link" href="/admin/secure/category">Categories</a>
                 <a class="nav-link" href="/admin/secure/products">Products</a>
                 <a class="nav-link active" href="/admin/secure/settings">Settings</a>
             </div>
         </div>
-    </nav>
+    </nav
 </header>
 <div class="container-fluid">
     <div class="">
         <br>
-        <div class="row">
-            <div class="col-lg-12 col-sm-12">
-                <div class="card">
-                    <h4 class="card-title" style="text-align: center"><span
-                                class="btn btn-outline-dark"><h1>Site Urls</h1></span></h4>
-                    <div class="card-title" style="text-align: center"><button
-                                class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h5>Add new</h5></button></div>
-                    <div class="card-body">
-                        <h4 class="card-title"></h4>
-                        <p class="card-text"></p>
-                        <hr>
-                        <table class="table table-bordered">
-                            <thead class="elegant-color">
-                            <tr style="color:white">
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Pattern</th>
-                                <th>Type</th>
-                                <th>Edit</th>
-                                <th></th>
-                            </tr>
-                            </thead>
-                            <?php $i = 1;
-                            foreach (DataManager::getInstance()->getDataByKey('URLS') as $value): ?>
-                                <tr>
-                                    <form id="form-edit-<?= $i?>" method="post">
-                                    <th scope="row"><?= $i ?></th>
-                                    <td><?= $value['name'] ?><input hidden name="name" type="text" value="<?= $value['name'] ?>" required></td>
-                                    <td><?= $value['pattern'] ?><input hidden name="pattern" type="text" value="<?= $value['pattern'] ?>" required></td>
-                                    <td><?= $value['type'] ?><input hidden name="type" type="text" value="<?= $value['type'] ?>" required></td>
-                                    <td>
-                                        <button class="btn btn-outline-info" type="button" onclick="editUrlValidate('form-edit-<?=$i?>');">Change</button>
-                                    </td>
-                                        <td>
-                                            <button class="btn btn-outline-warning" type="button" onclick="deleteUrlValidate('form-edit-<?=$i?>');">Delete</button>
-                                        </td>
-                                    <td  hidden><input  hidden name="model" type="text" value="<?= $value['model'] ?>" required></td>
-                                    <td  hidden><input  hidden name="method" type="text" value="<?= $value['method'] ?>" required></td>
-                                    <td  hidden><input  hidden name="view" type="text" value="<?= $value['view'] ?>" required></td>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">System</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Theme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Email</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Data Base</a>
+            </li>
+        </ul>
+        <!-- Tab panels -->
+        <div class="tab-content card">
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+                <br>
+<hr>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card">
+                            <h4 class="card-title" style="text-align: center"><span
+                                        class="btn btn-outline-dark"><h1>Site Urls</h1></span></h4>
+                            <div class="card-title" style="text-align: center"><button
+                                        class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h5>Add new</h5></button></div>
+                            <div class="card-body" style="height:507px; overflow-y: auto; overflow-x: hidden; display: block">
+                                <h4 class="card-title"></h4>
+                                <p class="card-text"></p>
+                                <hr>
+                                <table class="table table-bordered" >
+                                    <thead class="elegant-color">
+                                    <tr style="color:white" >
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Pattern</th>
+                                        <th>Edit</th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php $i = 1;
+                                    foreach (DataManager::getInstance()->getDataByKey('URLS') as $value): ?>
+                                        <tr>
+                                            <form id="form-edit-<?= $i?>" method="post">
+                                                <th scope="row"><?= $i ?></th>
+                                                <td><?= $value['name'] ?><input hidden name="name" type="text" value="<?= $value['name'] ?>" required></td>
+                                                <td><?= $value['pattern'] ?><input hidden name="pattern" type="text" value="<?= $value['pattern'] ?>" required></td>
+                                                <td>
+                                                    <button class="btn btn-outline-info" type="button" onclick="editUrlValidate('form-edit-<?=$i?>');">Change</button>
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-outline-warning" type="button" onclick="deleteUrlValidate('form-edit-<?=$i?>');">Delete</button>
+                                                </td>
+                                                <td  hidden><input hidden name="type" type="text" value="<?= $value['type'] ?>" required></td>
+                                                <td  hidden><input  hidden name="model" type="text" value="<?= $value['model'] ?>" required></td>
+                                                <td  hidden><input  hidden name="method" type="text" value="<?= $value['method'] ?>" required></td>
+                                                <td  hidden><input  hidden name="view" type="text" value="<?= $value['view'] ?>" required></td>
 
 
-                                    <?php if ($value['cache'] == 'yes'): ?>
-                                        <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                            </select>
-                                        </td>
-                                    <?php else: ?>
-                                        <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
-                                                <option value="no">No</option>
-                                                <option value="yes">Yes</option>
-                                            </select>
-                                        </td>
-                                    <?php endif ?>
-                                    </form>
-                                </tr>
-                                <?php $i++; ?>
-                            <?php endforeach ?>
-                        </table>
+                                                <?php if ($value['cache'] == 'yes'): ?>
+                                                    <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
+                                                            <option value="yes">Yes</option>
+                                                            <option value="no">No</option>
+                                                        </select>
+                                                    </td>
+                                                <?php else: ?>
+                                                    <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
+                                                            <option value="no">No</option>
+                                                            <option value="yes">Yes</option>
+                                                        </select>
+                                                    </td>
+                                                <?php endif ?>
+                                            </form>
+                                        </tr>
+                                        <?php $i++; ?>
+                                    <?php endforeach ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card">
+                            <h4 class="card-title" style="text-align: center"><span
+                                        class="btn btn-outline-dark"><h1>System's</h1></span></h4>
+                            <div class="card-body" style="height:350px;">
+                                <h4 class="card-title"></h4>
+                                <p class="card-text"></p>
+                                <br>
+                                <br>
+                                <br>
+                                <hr>
+                                <form class="form-control" action="" type="Get">
+                                    <div>
+                                        <button type="submit" name="submit" value="site-map" class="btn btn-outline-primary"
+                                                href="">Generate Site Map
+                                        </button>
+                                        <button type="submit" name="submit" value="reset-cache" class="btn btn-outline-warning"
+                                                href="">Reset Cache
+                                        </button>
+                                    </div>
+                                    <br>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="col-lg-2 col-sm-2">
-            <div class="card">
-                <h4 class="card-title" style="text-align: center"><span
-                            class="btn btn-outline-info"><h6>System</h6></span>
-                </h4>
-                <div class="card-body">
-                    <p class="card-text"></p>
-                    <hr>
-                    <form class="form-control" action="" type="Get">
-                        <div>
-                            <button type="submit" name="submit" value="site-map" class="btn btn-outline-primary"
-                                    href="">Generate Site Map
-                            </button>
-                            <button type="submit" name="submit" value="reset-cache" class="btn btn-outline-warning"
-                                    href="">Reset Cache
-                            </button>
-                        </div>
-                        <br>
-                    </form>
-                </div>
+            <!--/.Panel 1-->
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel2" role="tabpanel">
+                <br>
+
             </div>
-        </div>
-        <div class="col-lg-6 col-sm-6">
-            <div class="card">
-                <h4 class="card-title" style="text-align: center"><span class="btn btn-outline-dark"><h6>Template Settings</h6> </span>
-                </h4>
-                <div class="card-body">
-                    <p class="card-text"></p>
-                    <hr>
-                </div>
+            <!--/.Panel 2-->
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="panel3" role="tabpanel">
+                <br>
+
             </div>
+            <!--/.Panel 3-->
+            <!--Panel 4-->
+            <div class="tab-pane fade" id="panel3" role="tabpanel">
+                <br>
+
+            </div>
+            <!--/.Panel 4-->
         </div>
+
     </div>
     <div id="add-new-url-modal" class="modal fade">
         <div class="modal-dialog modal-lg">
@@ -242,4 +278,5 @@
             </div>
         </div>
     </div>
+
 </div>

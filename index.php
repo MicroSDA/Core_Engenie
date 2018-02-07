@@ -29,10 +29,9 @@ $GLOBALS['time'] = microtime(true);
         $Router = new Router();
 
 
-    } catch (\ErrorException $message){
+    } catch (Exception $message){
 
-
-        echo $message->getMessage();
+        echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<hr>'.$message->getMessage().'<hr>Contact with developer !</span></div>.';
     }
 
 

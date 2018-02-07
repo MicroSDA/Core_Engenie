@@ -134,4 +134,32 @@
   <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
   <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
   <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
+  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
+  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Undefined index: Test</Log>
+  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Undefined index: Test</Log>
+  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
+  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Undefined index: asd</Log>
+  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Undefined index: asd</Log>
+  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Invalid argument supplied for foreach()</Log>
 </Logs>
