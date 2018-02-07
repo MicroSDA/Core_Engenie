@@ -55,7 +55,7 @@ class products_model extends Model
             header('Location:/products');
         } else {
 
-            DataManager::getInstance()->addData('Product', $product_arry);
+            DataManager::getInstance()->addData('Product', $product_arry[0]);
             $this->render();
         }
     }
@@ -122,7 +122,7 @@ class products_model extends Model
         }
 
 
-        DataManager::getInstance()->addData('Product', $product_arry);
+        DataManager::getInstance()->addData('Product', $product_arry[0]);
         $this->render();
 
     }

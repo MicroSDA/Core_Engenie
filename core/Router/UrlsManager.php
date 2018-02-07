@@ -86,6 +86,7 @@ class UrlsManager
                     $this->url['type'] = $this->xml_parse_doc->getAttribute('type');
                     $this->url['view'] = $this->xml_parse_doc->getAttribute('view');
                     $this->url['cache'] = $this->xml_parse_doc->getAttribute('cache');
+                    $this->url['status'] = $this->xml_parse_doc->getAttribute('status');
 
                     $this->xml_parse_doc->read();
 
@@ -100,7 +101,8 @@ class UrlsManager
                             $this->url['type'],
                             $this->url['name'],
                             $this->url['view'],
-                            $this->url['cache']
+                            $this->url['cache'],
+                            $this->url['status']
                         );
 
                     } else {
@@ -130,9 +132,10 @@ class UrlsManager
      * @param $name
      * @param $view
      * @param $cache
+     * @param $status
      * @param string $type
      */
-    private function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view, $cache)
+    private function addUrl($key, $patterns, $model, $method, $type = 'GET', $name, $view, $cache, $status)
     {
 
 
@@ -143,6 +146,7 @@ class UrlsManager
         $this->urls_list[$key]['name'] = $name;
         $this->urls_list[$key]['view'] = $view;
         $this->urls_list[$key]['cache'] = $cache;
+        $this->urls_list[$key]['status'] = $status;
 
     }
 
@@ -186,7 +190,7 @@ class UrlsManager
             foreach ($this->getUrlsList() as $key => $value) {
 
 
-                if (preg_match($value['pattern'], $url_request)) {
+                if (preg_match($value['pattern'], $url_request) and $value['status'] == 'active') {
 
                     //var_dump($value);
                     return $value;

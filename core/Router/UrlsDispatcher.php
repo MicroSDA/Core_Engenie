@@ -193,6 +193,7 @@ class UrlsDispatcher
             $url_tag->addAttribute('type',$url['Type']);
             $url_tag->addAttribute('view',$url['View']);
             $url_tag->addAttribute('cache',$url['Cache']);
+            $url_tag->addAttribute('status',$url['Status']);
         }
 
         $file = $filename;

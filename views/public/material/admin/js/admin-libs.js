@@ -25,6 +25,7 @@ function editUrlValidate(form_id){
             $('#edit-url-method').val(obj['method']);
             $('#edit-url-view').val(obj['view']);
             $('#edit-url-cache').val(obj['cache']);
+            $('#edit-url-status').val(obj['status']);
 
 
             $('#edit-url-modal').modal();
@@ -88,6 +89,7 @@ function deleteUrlValidate(form_id){
 function deleteUrl(){
 
     var this_data = $('#delete-url-pattern').text();
+
 
     $.ajax({
         type: 'POST',

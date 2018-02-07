@@ -244,6 +244,8 @@ class SiteMapGenerator
     {
         $sitemap = new SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" />');
 
+        $this->sitemap_urls = array_unique($this->sitemap_urls);
+
         foreach ($this->sitemap_urls as $url) {
             $url_tag = $sitemap->addChild("url");
             $url_tag->addChild("loc", htmlspecialchars($url));

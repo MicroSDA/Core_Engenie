@@ -1,7 +1,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="color: #343a40">
-        <a class="navbar-brand" href="#">General</a>
+        <a class="navbar-brand" href="">General</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -43,32 +43,32 @@
             <div class="col-md-8">
                 <div class="card" style="height: 100%">
                     <div class="card-body">
-                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
+                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')['Title']?></h5>
                         <hr>
-                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Description']?></p>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')['Description']?></p>
                         <hr>
                         <h5>Specification</h5>
-                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Specification']?></p>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')['Specification']?></p>
                         <hr>
                         <h5>Keywords</h5>
-                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Keywords']?></p>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')['Keywords']?></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" >
-                    <img class="img-fluid" src="<?=DataManager::getInstance()->getDataByKey('Product')[0]['Image']?>" alt="Product image">
+                    <img class="img-fluid" src="<?=DataManager::getInstance()->getDataByKey('Product')['Image']?>" alt="Product image">
                     <hr>
                     <div class="card-body">
-                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Title']?></h5>
-                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')[0]['Price'].''
-                            .DataManager::getInstance()->getDataByKey('Product')[0]['Currency']?></p>
+                        <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')['Title']?></h5>
+                        <p class="card-text"><?=DataManager::getInstance()->getDataByKey('Product')['Price'].''
+                            .DataManager::getInstance()->getDataByKey('Product')['Currency']?></p>
                         <hr>
                         <h6>Brand</h6>
-                        <p><?=DataManager::getInstance()->getDataByKey('Product')[0]['Brand']?></p>
+                        <p><?=DataManager::getInstance()->getDataByKey('Product')['Brand']?></p>
                         <hr>
                         <h6>Category</h6>
-                        <?=DataManager::getInstance()->getDataByKey('Product')[0]['MainCategory']?>
+                        <?=DataManager::getInstance()->getDataByKey('Product')['MainCategory']?>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
             </div>
         </div>
         <hr>
-        <p><a href="/products/" class="btn btn-outline-info">Back to all</a></p>
+        <p><a href="/products" class="btn btn-outline-info">Back to all</a></p>
 </div><!-- /.container -->
 <!-- Bootstrap core JavaScript
 ================================================== -->

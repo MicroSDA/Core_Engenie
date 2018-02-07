@@ -46,20 +46,21 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="card">
                             <h4 class="card-title" style="text-align: center"><span
-                                        class="btn btn-outline-dark"><h1>Site Urls</h1></span></h4>
+                                        class="btn btn-outline-dark"><h5>Site Urls</h5></span></h4>
                             <div class="card-title" style="text-align: center"><button
-                                        class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h5>Add new</h5></button></div>
+                                        class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h6>Add new</h6></button></div>
                             <div class="card-body" style="height:507px; overflow-y: auto; overflow-x: hidden; display: block">
                                 <h4 class="card-title"></h4>
                                 <p class="card-text"></p>
-                                <hr>
+
                                 <table class="table table-bordered" >
                                     <thead class="elegant-color">
                                     <tr style="color:white" >
                                         <th>#</th>
                                         <th>Name</th>
                                         <th>Pattern</th>
-                                        <th>Edit</th>
+                                        <th>Status</th>
+                                        <th></th>
                                         <th></th>
                                     </tr>
                                     </thead>
@@ -71,6 +72,22 @@
                                                 <th scope="row"><?= $i ?></th>
                                                 <td><?= $value['name'] ?><input hidden name="name" type="text" value="<?= $value['name'] ?>" required></td>
                                                 <td><?= $value['pattern'] ?><input hidden name="pattern" type="text" value="<?= $value['pattern'] ?>" required></td>
+
+                                                <?php if ($value['status'] == 'active'): ?>
+                                                    <td><span class="btn-success"><?= $value['status'] ?></span></td>
+
+                                                    <select hidden name="status" class="mdb-select colorful-select dropdown-primary">
+                                                        <option value="active">Active</option>
+                                                        <option value="not-active">Not active</option>
+                                                    </select>
+                                                <?php else: ?>
+                                                    <td><span class="btn-warning"><?= $value['status'] ?></span></td>
+                                                    <select hidden name="status" class="mdb-select colorful-select dropdown-primary">
+                                                        <option value="not-active">Not active</option>
+                                                        <option value="active"Active</option>
+                                                    </select>
+                                                <?php endif ?>
+
                                                 <td>
                                                     <button class="btn btn-outline-info" type="button" onclick="editUrlValidate('form-edit-<?=$i?>');">Change</button>
                                                 </td>
@@ -81,7 +98,6 @@
                                                 <td  hidden><input  hidden name="model" type="text" value="<?= $value['model'] ?>" required></td>
                                                 <td  hidden><input  hidden name="method" type="text" value="<?= $value['method'] ?>" required></td>
                                                 <td  hidden><input  hidden name="view" type="text" value="<?= $value['view'] ?>" required></td>
-
 
                                                 <?php if ($value['cache'] == 'yes'): ?>
                                                     <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
@@ -108,14 +124,13 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="card">
                             <h4 class="card-title" style="text-align: center"><span
-                                        class="btn btn-outline-dark"><h1>System's</h1></span></h4>
+                                        class="btn btn-outline-dark"><h5>System's</h5></span></h4>
                             <div class="card-body" style="height:350px;">
                                 <h4 class="card-title"></h4>
                                 <p class="card-text"></p>
                                 <br>
                                 <br>
                                 <br>
-                                <hr>
                                 <form class="form-control" action="" type="Get">
                                     <div>
                                         <button type="submit" name="submit" value="site-map" class="btn btn-outline-primary"
@@ -168,7 +183,7 @@
                             </div>
                             <div class="col-md-8">
                                 <label class="control-label" for="name">Pattern</label>
-                                <input type="text" name="pattern" class="form-control" PLACEHOLDER="Pattern" required>
+                                <input type="text" name="pattern"  value="(^\/    \/{0,1}$)" class="form-control" PLACEHOLDER="Pattern" required>
                             </div>
                             <div class="col-md-2">
                                 <label class="control-label" for="name">Type</label>
@@ -191,6 +206,13 @@
                                 <select  name="cache" class="form-control">
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="control-label" for="name">Status</label>
+                                <select name="status" class="form-control">
+                                    <option value="active">Active</option>
+                                    <option value="not-active">Not active</option>
                                 </select>
                             </div>
                         </div>
@@ -244,6 +266,13 @@
                                 <select id="edit-url-cache" name="cache" class="form-control">
                                     <option value="yes">Yes</option>
                                     <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="control-label" for="name">Status</label>
+                                <select id="edit-url-status" name="status" class="form-control">
+                                    <option value="active">Active</option>
+                                    <option value="not-active">Not active</option>
                                 </select>
                             </div>
                         </div>

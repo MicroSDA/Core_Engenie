@@ -2,7 +2,7 @@
 <!-- Start your project here-->
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="color: #343a40">
-        <a class="navbar-brand" href="#">General</a>
+        <a class="navbar-brand" href="/">General</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">

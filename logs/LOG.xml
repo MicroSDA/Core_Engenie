@@ -1,165 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Logs>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-30" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.04.18/20-31" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/07-40" File="C:\xampp\htdocs\core\MVC\Model.php" Line="59">Undefined index: HTTP_HOST</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-01" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-category\index.php" Line="44">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-02" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-18" File="C:\xampp\htdocs\core\Models\Basic\admin_model.php" Line="90">Undefined index: HTTP_REFERER</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-57" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-58" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Empty regular expression</Log>
-  <Log Time="02.05.18/08-58" File="C:\xampp\htdocs\core\Router\UrlsManager.php" Line="189">preg_match(): Delimiter must not be alphanumeric or backslash</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-21" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-22" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.05.18/09-23" File="C:\xampp\htdocs\core\Models\Service\ajax_model.php" Line="179">preg_match() expects at least 2 parameters, 1 given</Log>
-  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.06.18/16-55" File="C:\xampp\htdocs\views\public\material\all-brands\index.php" Line="43">Undefined index: Title</Log>
-  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Undefined index: Test</Log>
-  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Undefined index: Test</Log>
-  <Log Time="02.07.18/00-43" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-54" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="191">preg_match(): Unknown modifier '$'</Log>
-  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Undefined index: asd</Log>
-  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="74">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Undefined index: asd</Log>
-  <Log Time="02.07.18/01-59" File="C:\xampp\htdocs\core\Libs\Config\TemplateManager.php" Line="89">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.07.18/16-04" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-04" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-04" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-04" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-04" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="46">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="48">Undefined index: Description</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="51">Undefined index: Specification</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="54">Undefined index: Keywords</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined index: Image</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined index: Price</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="65">Undefined index: Currency</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="68">Undefined index: Brand</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="71">Undefined index: MainCategory</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="46">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="48">Undefined index: Description</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="46">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="48">Undefined index: Description</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="51">Undefined index: Specification</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="54">Undefined index: Keywords</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined index: Image</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="63">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="64">Undefined index: Price</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="65">Undefined index: Currency</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="68">Undefined index: Brand</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="71">Undefined index: MainCategory</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="46">Undefined index: Title</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="48">Undefined index: Description</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="51">Undefined index: Specification</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="54">Undefined index: Keywords</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\views\public\material\product\index.php" Line="60">Undefined index: Image</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
 </Logs>

@@ -15,9 +15,9 @@
             <div class="col-lg-2">
                 <h5 class="title"></h5>
                 <ul>
-                    <li><a href="#!">GitHub</a></li>
-                    <li><a href="#!">Vk</a></li>
-                    <li><a href="#!">Site Map</a></li>
+                    <li><a href="https://github.com/MicroSDA/">GitHub</a></li>
+                    <li><a href="https://vk.com/id40372407">Vk</a></li>
+                    <li><a href="/sitemap.xml">Site Map</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
@@ -28,7 +28,7 @@
     <!--Copyright-->
     <div class="footer-copyright">
         <div class="container-fluid">
-            © 2018 Copyright: <a href="/">Ro</a>
+            © 2018 Copyright: Ro
         </div>
     </div>
     <!--/.Copyright-->
