@@ -48,8 +48,6 @@
                 </div>
             </div>';
 
-               print_r(exif_imagetype(URL_ROOT.$value['Image']));
-               //echo exif_imagetype(basename($value['Url']));
             }
             ?>
         </div>

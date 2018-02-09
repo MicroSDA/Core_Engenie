@@ -30,8 +30,7 @@
         /**
          * Enable Browser cache, set cache for an hour
          */
-
-
+       
         require URL_ROOT.'/core/Libs/Config/Bootstrap.php';
         $Router = new Router();
 

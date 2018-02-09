@@ -41,7 +41,7 @@
                             </div>';
                 echo '    <div class="card-body">
                         
-                              <h4 class="card-title">' . $value['Title'] . '</h4>
+                              <h4 class="card-title">' . $value['Name'] . '</h4>
                        
                          <p class="card-text">' . $value['Description'] . '</p>
                         <a href="/products/product/' . $value['Url'] . '" class="btn btn-outline-elegant">View</a>

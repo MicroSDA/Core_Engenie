@@ -73,17 +73,20 @@ class CacheGenerator
         $last_modified_time = filemtime(self::$file_path);
         $etag = md5_file(self::$file_path);
 
-        header("Last-Modified: ".gmdate("D, d M Y H:i:s", $last_modified_time)." GMT");
+        header("Last-Modified: " . gmdate("D, d M Y H:i:s", $last_modified_time) . " GMT");
         header("Etag: $etag");
 
-        if (@strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE']) == $last_modified_time ||
+
+        if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) and @strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE']) == $last_modified_time ||
             @trim($_SERVER['HTTP_IF_NONE_MATCH']) == $etag) {
             header("HTTP/1.1 304 Not Modified");
             exit;
-        }else{
+
+        } else {
 
             echo file_get_contents(self::$file_path);
         }
+
 
     }
 
