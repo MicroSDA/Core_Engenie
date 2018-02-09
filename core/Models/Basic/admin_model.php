@@ -30,9 +30,22 @@ class admin_model extends Model
     public function index()
     {
 
-        DataBase::getInstance();
-        DataManager::getInstance();
 
+        try{
+
+            $logs = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_logs');
+            if($logs) {
+
+                DataManager::getInstance()->addData('Logs', $logs);
+            }else{
+                DataManager::getInstance()->addData('Logs', 'Logs wasn\'t found');
+            }
+            
+        }catch (Exception $error){
+            
+            echo $error->getMessage();
+        }
+      
 
 
         $this->render();

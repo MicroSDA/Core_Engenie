@@ -41,7 +41,7 @@
             <!--Panel 1-->
             <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
                 <br>
-<hr>
+                <hr>
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <div class="card">

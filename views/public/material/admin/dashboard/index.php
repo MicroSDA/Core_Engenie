@@ -19,29 +19,95 @@
     </nav>
 </header>
 <div class="container-fluid">
-    <div class="btn-group">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basic dropdown</button>
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Activity</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Logs</a>
+        </li>
+    </ul>
+    <div class="tab-content card">
+        <!--Panel 1-->
+        <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="card">
+                        <h4 class="card-title" style="text-align: center"><span
+                                    class="btn btn-outline-dark"><h5>Visitors</h5></span></h4>
+                        <div class="card-body" style="height:507px; overflow-y: auto; display: block">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
 
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+                            <table class="table table-bordered" >
+                                <thead class="elegant-color">
+                                <tr style="color:white" >
+                                    <th>#</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php $i = 1;
+                                foreach (DataManager::getInstance()->getDataByKey('Logs') as $value): ?>
+                                    <tr>
+                                        <td scope="row"><?= $i ?></td>
+                                    </tr>
+                                    <?php $i++; ?>
+                                <?php endforeach ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+        <!--/.Panel 1-->
+        <!--Panel 2-->
+        <div class="tab-pane fade" id="panel2" role="tabpanel">
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="card">
+                        <h4 class="card-title" style="text-align: center"><span
+                                    class="btn btn-outline-dark"><h5>Logs</h5></span></h4>
+                        <div class="card-body" style="height:507px; overflow-y: auto; display: block">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+
+                            <table class="table table-bordered" >
+                                <thead class="elegant-color">
+                                <tr style="color:white" >
+                                    <th>#</th>
+                                    <th>Time</th>
+                                    <th>File</th>
+                                    <th>Line</th>
+                                    <th>Message</th>
+                                    <th>Ip</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php $i = 1;
+                                foreach (DataManager::getInstance()->getDataByKey('Logs') as $value): ?>
+                                    <tr>
+                                        <td scope="row"><?= $i ?></td>
+                                        <td><?= $value['Time'] ?></td>
+                                        <td><?= $value['File'] ?></td>
+                                        <td><?= $value['Line'] ?></td>
+                                        <td><?= $value['Message'] ?></td>
+                                        <td><?= $value['Ip'] ?></td>
+                                    </tr>
+                                    <?php $i++; ?>
+                                <?php endforeach ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!--/.Panel 2-->
     </div>
-
-
+</div>
     <?php
    // var_dump(UrlsDispatcher::getInstance()->getUrlsDataList());
 
@@ -56,5 +122,4 @@
 
     ?>
 
-</div>
 
