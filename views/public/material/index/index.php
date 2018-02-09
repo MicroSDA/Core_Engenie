@@ -27,19 +27,19 @@
         <hr>
         <div class="view overlay hm-white-slight hm-zoom">
             <img class="img-fluid " alt="Responsive image"
-                 src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">
+                 src="/assets/image/?hash=f8baa7bce9b90d1128dd19a6c1f1ee9d">
         </div>
         <hr>
         <div class="row">
             <div class="col-lg-6 col-sm-6">
                 <div class="view overlay hm-white-slight hm-zoom">
-                    <img src="/public/image/IMG_1061.gif"
+                    <img src="/assets/image/?hash=d372b2b0369e3eae0ad8e8d7efa89845"
                          class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="view overlay hm-white-slight hm-zoom">
-                    <img src="/public/image/IMG_1061.gif"
+                    <img src="/assets/image/?hash=d372b2b0369e3eae0ad8e8d7efa89845"
                          class="img-fluid" alt="">
                 </div>
             </div>

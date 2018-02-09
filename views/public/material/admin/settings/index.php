@@ -49,7 +49,7 @@
                                         class="btn btn-outline-dark"><h5>Site Urls</h5></span></h4>
                             <div class="card-title" style="text-align: center"><button
                                         class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#add-new-url-modal"><h6>Add new</h6></button></div>
-                            <div class="card-body" style="height:507px; overflow-y: auto; overflow-x: hidden; display: block">
+                            <div class="card-body" style="height:507px; overflow-y: auto; display: block">
                                 <h4 class="card-title"></h4>
                                 <p class="card-text"></p>
 

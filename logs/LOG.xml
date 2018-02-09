@@ -37,4 +37,77 @@
   <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
   <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
   <Log Time="02.07.18/16-06" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-45" File="C:\xampp\htdocs\core\Router\Router.php" Line="50">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-47" File="C:\xampp\htdocs\core\Router\Router.php" Line="56">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-47" File="C:\xampp\htdocs\core\Router\Router.php" Line="56">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-57" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-58" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-58" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-58" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="78">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-58" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/14-59" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/14-59" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-02" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-02" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-02" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="27">filemtime(): stat failed for /views/public/material/css-js/css/mdb.min.css</Log>
+  <Log Time="02.08.18/15-02" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="27">filemtime(): stat failed for /views/public/material/css-js/css/style.css</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="27">filemtime(): stat failed for /views/public/material/css-js/css/bootstrap.min.css</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="27">filemtime(): stat failed for /views/public/material/css-js/css/style.css</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="28">md5_file(/views/public/material/css-js/css/style.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="28">md5_file(/views/public/material/css-js/css/bootstrap.min.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-03" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-06" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="79">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-06" File="C:\xampp\htdocs\core\Libs\Basic\General\CacheGenerator.php" Line="80">Undefined index: HTTP_IF_NONE_MATCH</Log>
+  <Log Time="02.08.18/15-06" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-06" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="33">Undefined index: HTTP_IF_MODIFIED_SINCE</Log>
+  <Log Time="02.08.18/15-06" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="34">Undefined index: HTTP_IF_NONE_MATCH</Log>
 </Logs>

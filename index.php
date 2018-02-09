@@ -10,7 +10,10 @@
  * Catch all exception
  */
 
-$GLOBALS['time'] = microtime(true);
+/**
+ * Define global time of start script
+ */
+    $GLOBALS['time'] = microtime(true);
 
     try{
 
@@ -22,6 +25,10 @@ $GLOBALS['time'] = microtime(true);
 
         /**
          * End of Predefine section
+         */
+
+        /**
+         * Enable Browser cache, set cache for an hour
          */
 
 

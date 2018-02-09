@@ -47,10 +47,9 @@ class Router
 
             if (CacheGenerator::isCache()) {
 
+
                 CacheGenerator::getCache();
 
-                /*echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
-                echo ' <div style="text-align: center;">Time:'.(microtime(true) - $GLOBALS['time']) .'Sec</div>';*/
                 exit();
                 //die();
 
