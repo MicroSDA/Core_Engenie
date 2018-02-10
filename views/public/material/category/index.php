@@ -31,7 +31,7 @@
                      <div class="col-lg-4 col-sm-4">
                         <div class="card">
                             <div class="view overlay hm-white-slight hm-zoom">
-                                 <img src="' . $value['Image'] . '"
+                                 <img src="/assets/image/?hash=' . $value['Image'] . '"
                                  class="img-fluid" alt="">
                                  <a href="#">
                                  <div class="mask"></div>

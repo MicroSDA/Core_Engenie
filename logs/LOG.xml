@@ -7,4 +7,9 @@
   <Log Time="02.09.18/16-04" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="53">Invalid argument supplied for foreach()</Log>
   <Log Time="02.09.18/16-04" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
   <Log Time="02.09.18/16-10" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
 </Logs>

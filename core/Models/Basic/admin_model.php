@@ -80,7 +80,7 @@ class admin_model extends Model
                 $sitemap->set_ignore(array("javascript:", ".css", ".js", ".ico", ".jpg", ".png", ".jpeg", ".swf", ".gif", "mailto:"));
                 $sitemap->get_links('http://' . $_SERVER['HTTP_HOST']);
                 $map = $sitemap->generate_sitemap();
-                $file = URL_ROOT . '/sitemap.xml';
+                $file = URL_ROOT . '/public/sitemap.xml';
                 $pf = fopen($file, "w");
                 fwrite($pf, $map);
                 fclose($pf);

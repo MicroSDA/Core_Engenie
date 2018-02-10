@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card" >
-                    <img class="img-fluid" src="<?=DataManager::getInstance()->getDataByKey('Product')['Image']?>" alt="Product image">
+                    <img class="img-fluid" src="/assets/image/?hash=<?=DataManager::getInstance()->getDataByKey('Product')['Image']?>" alt="Product image">
                     <hr>
                     <div class="card-body">
                         <h5 class="card-title"><?=DataManager::getInstance()->getDataByKey('Product')['Title']?></h5>

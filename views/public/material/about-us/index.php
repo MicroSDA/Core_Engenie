@@ -27,7 +27,7 @@
         <hr>
         <div class="embed-responsive embed-responsive-16by9">
             <video controls width="400" height="300">
-                <source src="/public/Video/getVideo.php?ref=8ec8c1f9cc6332c5043337bd2efc8e0a"
+                <source src="/assets/video/?hash=8ec8c1f9cc6332c5043337bd2efc8e0a"
                         type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
         </div>

@@ -95,6 +95,7 @@ class ajax_model
             die();
         }
 
+        $page_pattern = trim($page_pattern);
         if(!preg_match('(^\\(\\^.{1,}\\$\\)$)',$page_pattern)){
 
             echo '<br><br><div style="text-align: center"><span class="btn btn-warning"><h5>Pattern mask is wrong, try to use "(^....$)"</h5></span></div>';
@@ -196,6 +197,7 @@ class ajax_model
             die();
         }
 
+        $page_pattern = trim($page_pattern);
         if(!preg_match('(^\\(\\^.{1,}\\$\\)$)',$page_pattern)){
 
             echo '<br><br><div style="text-align: center"><span class="btn btn-warning"><h5>Pattern mask is wrong, try to use "(^....$)"</h5></span></div>';

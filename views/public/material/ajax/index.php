@@ -27,7 +27,7 @@
         <hr>
         <div class="view overlay hm-white-slight hm-zoom">
             <img class="img-fluid " alt="Responsive image"
-                 src="/public/Image/getImage.php?ref=f8baa7bce9b90d1128dd19a6c1f1ee9d">
+                 src="/assets/image/?hash=f8baa7bce9b90d1128dd19a6c1f1ee9d">
         </div>
         <hr>
         <button type="submit" class="btn btn-outline-elegant" onclick="add();">ADD</button>

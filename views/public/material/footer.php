@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="https://github.com/MicroSDA/">GitHub</a></li>
                     <li><a href="https://vk.com/id40372407">Vk</a></li>
-                    <li><a href="/sitemap.xml">Site Map</a></li>
+                    <li><a href="/public/sitemap.xml">Site Map</a></li>
                 </ul>
             </div>
             <!--/.Second column-->

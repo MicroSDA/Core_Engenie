@@ -21,8 +21,8 @@ class assets_model
         if ($css) {
             if (isset($css[$_GET['hash']])) {
 
-                $last_modified_time = filemtime($_SERVER['DOCUMENT_ROOT'] . $css[$_GET['hash']]['path']);
-                $etag = md5_file($_SERVER['DOCUMENT_ROOT'] . $css[$_GET['hash']]['path']);
+                $last_modified_time = filemtime(URL_ROOT . $css[$_GET['hash']]['path']);
+                $etag = md5_file(URL_ROOT . $css[$_GET['hash']]['path']);
 
                 header("Last-Modified: " . gmdate("D, d M Y H:i:s", $last_modified_time) . " GMT");
                 header("Etag: $etag");
@@ -33,7 +33,7 @@ class assets_model
                     header("HTTP/1.1 304 Not Modified");
                     header('Content-Encoding: gzip');
                     header('Content-Type: text/css; charset: UTF-8');
-                    header('Content-Transfer-Encoding: binary');
+                    //header('Content-Transfer-Encoding: binary');
                     exit;
 
                 } else {
@@ -42,8 +42,8 @@ class assets_model
                     header('Content-Type: text/css; charset: UTF-8');
                     header('Content-Transfer-Encoding: binary');
                     header('Cache-control: must-revalidate');
-                    header('Content-Length: ' . filesize($_SERVER['DOCUMENT_ROOT'] . $css[$_GET['hash']]['path']));
-                    readfile($_SERVER['DOCUMENT_ROOT'] . $css[$_GET['hash']]['path']);
+                    header('Content-Length: ' . filesize(URL_ROOT . $css[$_GET['hash']]['path']));
+                    readfile(URL_ROOT . $css[$_GET['hash']]['path']);
                 }
 
             } else {
@@ -62,8 +62,8 @@ class assets_model
 
             if (isset($js[$_GET['hash']])) {
 
-                $last_modified_time = filemtime($_SERVER['DOCUMENT_ROOT'] . $js[$_GET['hash']]['path']);
-                $etag = md5_file($_SERVER['DOCUMENT_ROOT'] . $js[$_GET['hash']]['path']);
+                $last_modified_time = filemtime(URL_ROOT . $js[$_GET['hash']]['path']);
+                $etag = md5_file(URL_ROOT . $js[$_GET['hash']]['path']);
 
                 header("Last-Modified: " . gmdate("D, d M Y H:i:s", $last_modified_time) . " GMT");
                 header("Etag: $etag");
@@ -83,8 +83,8 @@ class assets_model
                     header('Content-Type: text/javascript; charset: UTF-8');
                     header('Content-Transfer-Encoding: binary');
                     header('Cache-control: must-revalidate');
-                    header('Content-Length: ' . filesize($_SERVER['DOCUMENT_ROOT'] . $js[$_GET['hash']]['path']));
-                    readfile($_SERVER['DOCUMENT_ROOT'] . $js[$_GET['hash']]['path']);
+                    header('Content-Length: ' . filesize(URL_ROOT . $js[$_GET['hash']]['path']));
+                    readfile(URL_ROOT . $js[$_GET['hash']]['path']);
                 }
 
 
@@ -102,7 +102,6 @@ class assets_model
 
             if (isset($_GET['hash'])) {
 
-                require_once $_SERVER['DOCUMENT_ROOT'] . '/core/Libs/DataBase/DataBase.php';
 
                 $image = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_image WHERE Url=?s', $_GET['hash']);
 
@@ -160,7 +159,6 @@ class assets_model
                     }else{
 
                         ob_get_clean();
-                        header('Cache-Control: public,max-age=31536000'); // кеширование на 1 год
                         header('Content-Description: File Transfer');
                         header('Content-Type: '.$image_type);
                         header('Content-Transfer-Encoding: binary');
@@ -183,5 +181,42 @@ class assets_model
                 header('Location:/');
             }
 
+    }
+
+    public function video(){
+
+
+        /**
+         * /public/Video/getVideo.php?ref=8ec8c1f9cc6332c5043337bd2efc8e0a
+         */
+        if (isset($_SERVER['HTTP_REFERER'])) {
+
+            if (isset($_GET['hash'])) {
+
+
+                $video = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_video WHERE Url=?s', $_GET['hash']);
+
+                if($video){
+                    require_once URL_ROOT.'/core/Libs/Basic/General/VideoStream.php';
+
+                    $stream = new VideoStream(URL_ROOT.$video[0]['Path']);
+                    $stream->start();
+
+                }else{
+
+                    header('Location:/');
+                }
+
+            }else{
+
+                header('Location:/');
+            }
+
+        }else{
+
+            echo 'IDI NAXYI';
+
+            //header('Location:/');
+        }
     }
 }
