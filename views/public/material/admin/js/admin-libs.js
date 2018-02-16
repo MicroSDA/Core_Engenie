@@ -3,6 +3,7 @@ function editUrlValidate(form_id){
 
     var this_data = $('#'+form_id).serializeArray();
 
+    //alert(this_data);
 
     $.ajax({
         type: 'POST',
@@ -20,10 +21,10 @@ function editUrlValidate(form_id){
             $('#edit-url-name').val(obj['name']);
             $('#edit-url-pattern').val(obj['pattern']);
             $('#edit-url-pattern-old').val(obj['pattern']);
-            $('#edit-url-type').val(obj['type']);
             $('#edit-url-model').val(obj['model']);
             $('#edit-url-method').val(obj['method']);
             $('#edit-url-view').val(obj['view']);
+            $('#edit-url-type').val(obj['type']);
             $('#edit-url-cache').val(obj['cache']);
             $('#edit-url-status').val(obj['status']);
 
@@ -133,4 +134,99 @@ function addNewUrl() {
 
     //$('#add-new-url-modal').modal();
 
+}
+
+function addArticleBody() {
+
+     $("#article-body").cleditor({
+         height: 350
+     });
+}
+
+function addArticle() {
+
+    var this_data = $('#add-article').serializeArray();
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/add-article/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            $('#add-article-error-message').empty();
+            $('#add-article-error-message').append(html);
+        }
+
+    });
+
+}
+
+function editArticleBody() {
+
+    $("#edit-article-body").cleditor({
+        height: 350,
+    });
+}
+
+function editArtcle() {
+
+    $('#edit-article-modal').modal();
+
+}
+
+function editArticleValidate(form_id) {
+
+    var this_data = $('#'+form_id).serializeArray();
+
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/edit-article-validate/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            var obj = JSON.parse(html);
+
+            $('#edit-article-message').empty();
+            $('#edit-article-title').val(obj['title']);
+            $('#edit-article-url').val(obj['url']);
+            $('#edit-article-url-old').val(obj['url']);
+            $('#edit-article-writer').val(obj['writer']);
+
+            $('#edit-article-body').val(obj['body']);
+
+            $('#edit-article-modal').modal();
+        }
+
+    });
+}
+
+
+function editArticle() {
+
+    var this_data = $('#edit-article-form').serializeArray();
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/edit-article/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            $('#edit-article-message').empty();
+            $('#edit-article-message').append(html);
+
+        }
+
+    });
 }

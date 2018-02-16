@@ -13,6 +13,7 @@
                 <a class="nav-link" href="/admin/secure/brands">Brands</a>
                 <a class="nav-link" href="/admin/secure/category">Categories</a>
                 <a class="nav-link" href="/admin/secure/products">Products</a>
+                <a class="nav-link" href="/admin/secure/articles">Articles</a>
                 <a class="nav-link active" href="/admin/secure/settings">Settings</a>
             </div>
         </div>
@@ -87,18 +88,29 @@
                                                         <option value="active"Active</option>
                                                     </select>
                                                 <?php endif ?>
-
                                                 <td>
                                                     <button class="btn btn-outline-info" type="button" onclick="editUrlValidate('form-edit-<?=$i?>');">Change</button>
                                                 </td>
                                                 <td>
                                                     <button class="btn btn-outline-warning" type="button" onclick="deleteUrlValidate('form-edit-<?=$i?>');">Delete</button>
                                                 </td>
-                                                <td  hidden><input hidden name="type" type="text" value="<?= $value['type'] ?>" required></td>
                                                 <td  hidden><input  hidden name="model" type="text" value="<?= $value['model'] ?>" required></td>
                                                 <td  hidden><input  hidden name="method" type="text" value="<?= $value['method'] ?>" required></td>
                                                 <td  hidden><input  hidden name="view" type="text" value="<?= $value['view'] ?>" required></td>
 
+                                                <?php if ($value['type'] == 'basic'): ?>
+                                                    <td  hidden><select hidden name="type" class="mdb-select colorful-select dropdown-primary">
+                                                            <option value="basic">Basic</option>
+                                                            <option value="service">Service</option>
+                                                        </select>
+                                                    </td>
+                                                <?php else: ?>
+                                                    <td  hidden><select hidden name="type" class="mdb-select colorful-select dropdown-primary">
+                                                            <option value="service">Service</option>
+                                                            <option value="basic">Basic</option>
+                                                        </select>
+                                                    </td>
+                                                <?php endif ?>
                                                 <?php if ($value['cache'] == 'yes'): ?>
                                                     <td  hidden><select hidden name="cache" class="mdb-select colorful-select dropdown-primary">
                                                             <option value="yes">Yes</option>
@@ -177,17 +189,13 @@
                 <div class="modal-body">
                     <form id="add-new-url-form" >
                         <div class="form-row">
-                            <div class="col-md-2">
+                            <div class="col-md-4">
                                 <label class="control-label" for="name">Name</label>
                                 <input type="text" name="name" class="form-control" PLACEHOLDER="Page name" required>
                             </div>
                             <div class="col-md-8">
                                 <label class="control-label" for="name">Pattern</label>
                                 <input type="text" name="pattern"  value="(^\/    \/{0,1}$)" class="form-control" PLACEHOLDER="Pattern" required>
-                            </div>
-                            <div class="col-md-2">
-                                <label class="control-label" for="name">Type</label>
-                                <input  type="text" name="type" class="form-control" PLACEHOLDER="Url data type" required>
                             </div>
                             <div class="col-md-5">
                                 <label class="control-label" for="name">Model</label>
@@ -200,6 +208,13 @@
                             <div class="col-md-3">
                                 <label class="control-label" for="name">View</label>
                                 <input  type="text" name="view" class="form-control" PLACEHOLDER="View folder path" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="control-label" for="name">Type</label>
+                                <select name="type" class="form-control">
+                                    <option value="basic">Basic</option>
+                                    <option value="service">Service</option>
+                                </select>
                             </div>
                             <div class="col-md-3">
                                 <label class="control-label" for="name">Cache</label>
@@ -236,7 +251,7 @@
                 <div class="modal-body">
                     <form id="edit-url-form">
                         <div class="form-row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label class="control-label" for="name">Name</label>
                                 <input id="edit-url-name" type="text" name="name" class="form-control" PLACEHOLDER="Page name" required>
                             </div>
@@ -244,10 +259,6 @@
                                 <label class="control-label" for="name">Pattern</label>
                                 <input id="edit-url-pattern" type="text" name="pattern" class="form-control" PLACEHOLDER="Pattern" required>
                                 <input hidden id="edit-url-pattern-old" type="text" name="pattern" class="form-control" PLACEHOLDER="Pattern" required>
-                            </div>
-                            <div class="col-md-1">
-                                <label class="control-label" for="name">Type</label>
-                                <input id="edit-url-type" type="text" name="type" class="form-control" PLACEHOLDER="Url data type" required>
                             </div>
                             <div class="col-md-5">
                                 <label class="control-label" for="name">Model</label>
@@ -260,6 +271,13 @@
                             <div class="col-md-3">
                                 <label class="control-label" for="name">View</label>
                                 <input id="edit-url-view" type="text" name="view" class="form-control" PLACEHOLDER="View folder path" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="control-label" for="name">Type</label>
+                                <select id="edit-url-type" name="type" class="form-control">
+                                    <option value="basic">Basic</option>
+                                    <option value="service">Service</option>
+                                </select>
                             </div>
                             <div class="col-md-3">
                                 <label class="control-label" for="name">Cache</label>

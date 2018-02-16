@@ -19,7 +19,7 @@ class ajax_model
             // UrlsDispatcher::getInstance()->setCurrentUrlData(array_pop(UrlsDispatcher::getInstance()->getUrlsDataList()));
             // $contorller = new Controller();
             echo 'error';
-            die();
+            //die();
         }
 
         /**
@@ -81,10 +81,10 @@ class ajax_model
         $page_name = $_POST['data'][0]['value'];
         $page_pattern = $_POST['data'][1]['value'];
         $page_pattern_old = $_POST['data'][2]['value'];
-        $page_type = $_POST['data'][3]['value'];
-        $page_model = $_POST['data'][4]['value'];
-        $page_method = $_POST['data'][5]['value'];
-        $page_view = $_POST['data'][6]['value'];
+        $page_model = $_POST['data'][3]['value'];
+        $page_method = $_POST['data'][4]['value'];
+        $page_view = $_POST['data'][5]['value'];
+        $page_type = $_POST['data'][6]['value'];
         $page_cache = $_POST['data'][7]['value'];
         $page_status = $_POST['data'][8]['value'];
 
@@ -122,23 +122,25 @@ class ajax_model
     public function admin_validate_edit_url()
     {
 
+
         $page_status = $_POST['data'][0]['value'];
         $page_name = $_POST['data'][1]['value'];
         $page_pattern = $_POST['data'][2]['value'];
-        $page_type = $_POST['data'][3]['value'];
-        $page_model = $_POST['data'][4]['value'];
-        $page_method = $_POST['data'][5]['value'];
-        $page_view = $_POST['data'][6]['value'];
+        $page_model = $_POST['data'][3]['value'];
+        $page_method = $_POST['data'][4]['value'];
+        $page_view = $_POST['data'][5]['value'];
+        $page_type = $_POST['data'][6]['value'];
         $page_cache = $_POST['data'][7]['value'];
+
 
 
         //$outgoing = '[{name:'. $page_name.',pattern:'. $page_pattern.',type:'. $page_type.',model:'. $page_model.',method:'. $page_method.',view:'. $page_view.',cache:'. $page_pattern.'}]';
         $outgoing['name'] = $page_name;
         $outgoing['pattern'] = $page_pattern;
-        $outgoing['type'] = $page_type;
         $outgoing['model'] = $page_model;
         $outgoing['method'] = $page_method;
         $outgoing['view'] = $page_view;
+        $outgoing['type'] = $page_type;
         $outgoing['cache'] = $page_cache;
         $outgoing['status'] = $page_status;
 
@@ -181,14 +183,16 @@ class ajax_model
     {
 
 
+
         $page_name = $_POST['data'][0]['value'];
         $page_pattern = $_POST['data'][1]['value'];
-        $page_type = $_POST['data'][2]['value'];
-        $page_model = $_POST['data'][3]['value'];
-        $page_method = $_POST['data'][4]['value'];
-        $page_view = $_POST['data'][5]['value'];
+        $page_model = $_POST['data'][2]['value'];
+        $page_method = $_POST['data'][3]['value'];
+        $page_view = $_POST['data'][4]['value'];
+        $page_type = $_POST['data'][5]['value'];
         $page_cache = $_POST['data'][6]['value'];
         $page_status = $_POST['data'][7]['value'];
+
 
 
         if(empty($page_name) or empty($page_pattern) or empty($page_type) or empty($page_model) or empty($page_method) or empty($page_view) or empty($page_cache) or empty($page_status)){
@@ -224,6 +228,109 @@ class ajax_model
         } catch (Exception $error) {
 
             echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 218: ajax_model: admin_add_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
+        }
+
+    }
+
+    public function add_article(){
+
+
+
+        try{
+
+            if(empty($_POST['data'][0]['value']) or empty($_POST['data'][1]['value']) or empty($_POST['data'][2]['value'])){
+
+                echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
+
+            }else{
+
+                if(DataBase::getInstance()->getDB()->getAll("SELECT * FROM c_article WHERE Url=?s",$_POST['data'][1]['value'])){
+
+                    echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Already exist</h5></span></div>';
+
+                }else{
+                    $description = strip_tags(mb_substr($_POST['data'][2]['value'],0,200));
+
+                    $description.='...';
+
+                    if(DataBase::getInstance()->getDB()->query('INSERT INTO c_article (Url, Title, Description, Body, Writer) VALUES (?s,?s,?s,?s,?s)',$_POST['data'][1]['value'],$_POST['data'][0]['value'],$description, $_POST['data'][2]['value'], 'Ro')){
+
+                        echo'<div style="text-align: center"><button type="submit" class="btn btn-outline-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+
+                    }else{
+
+
+                    }
+                }
+
+
+            }
+
+
+
+
+        }catch (Exception $error){
+
+            echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 242: ajax_model: add_article()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
+        }
+
+
+    }
+
+
+    public function admin_validate_edit_article(){
+
+
+        $article_title = $_POST['data'][0]['value'];
+        $article_url = $_POST['data'][1]['value'];
+        $article_writer = $_POST['data'][2]['value'];
+        $article_body = $_POST['data'][3]['value'];
+
+        $outgoing['title'] = $article_title;
+        $outgoing['url'] =  $article_url;
+        $outgoing['writer'] = $article_writer;
+        $outgoing['body'] = $article_body;
+
+
+        echo json_encode($outgoing);
+    }
+
+    public function admin_edit_article(){
+
+
+        $article_title = $_POST['data'][0]['value'];
+        $article_url = $_POST['data'][1]['value'];
+        $article_url_old = $_POST['data'][2]['value'];
+        $article_writer = $_POST['data'][3]['value'];
+        $article_body = $_POST['data'][4]['value'];
+
+
+        if(empty($article_title) or empty( $article_url) or empty($article_writer) or empty($article_body) or empty($article_url_old)){
+
+            echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
+            die();
+
+        }else{
+
+            try {
+
+
+                $description = strip_tags(mb_substr($article_body,0,200));
+
+                $description.='...';
+
+
+                DataBase::getInstance()->getDB()->query("UPDATE c_article SET Url=?s, Title=?s, Description=?s, Body=?s WHERE Url=?s",
+                    $article_url, $article_title, $description, $article_body, $article_url_old);
+
+                echo' <form type="Get" action="">';
+                echo' <div style="text-align: center"><button type="button" class="btn btn-outline-success" name="submit" href="/settings?submit=reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                echo' </form>';
+            } catch (Exception $error) {
+
+                echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 329: ajax_model: admin_edit_article()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
+            }
+
         }
 
     }

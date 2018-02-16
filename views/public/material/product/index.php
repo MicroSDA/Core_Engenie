@@ -14,6 +14,7 @@
                 <a class="nav-link" href="/categories">Categories</a>
                 <a class="nav-link" href="/brands">Brands</a>
                 <a class="nav-link active" href="/products">Products</a>
+                <a class="nav-link" href="/articles">Articles</a>
                 <a class="nav-link" href="/ajax">Ajax</a>
             </div>
         </div>

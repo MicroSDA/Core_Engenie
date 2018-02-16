@@ -22,7 +22,7 @@ class Model
         /**
          * Add link to data base for site map
          */
-         $this->siteMap();
+        // $this->siteMap();
 
         /**
          * ----------------------------------------------------------------------------------------

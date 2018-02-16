@@ -13,6 +13,7 @@
                 <a class="nav-link  active" href="/brands">Brands</a>
                 <a class="nav-link" href="/admin/secure/category">Categories</a>
                 <a class="nav-link" href="/admin/secure/products">Products</a>
+                <a class="nav-link" href="/admin/secure/articles">Articles</a>
                 <a class="nav-link" href="/admin/secure/settings">Settings</a>
             </div>
         </div>

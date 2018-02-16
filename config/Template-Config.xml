@@ -132,11 +132,39 @@
                 <js type="internal" url="/assets/js/" path="/css-js/js/add.js" file="add.js" hash="874b658saeaa5248c019e542930f028x"> </js>
             </Assets-Js>
         </Page>
+        <Page name="Articles">
+            <Assets-Css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/mdb.min.css" file="mdb.min.css" hash="909af5b5c3824673f9657ff22cf69bas"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/style.css" file="style.css" hash="909af5b5c3824673f9657ff22cf69baf"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/mdb.min.js" file="mdb.min.js" hash="874b6580aeaa5248c019e542930f028a"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/popper.min.js" file="popper.min.js" hash="874b6580aeaa5248c019e542930f028h"> </js>
+            </Assets-Js>
+        </Page>
+        <Page name="Article">
+            <Assets-Css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/mdb.min.css" file="mdb.min.css" hash="909af5b5c3824673f9657ff22cf69bas"> </css>
+                <css  type="internal" url="/assets/css/" path="/css-js/css/style.css" file="style.css" hash="909af5b5c3824673f9657ff22cf69baf"> </css>
+            </Assets-Css>
+            <Assets-Js>
+                <js type="remote" path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/bootstrap.min.js" file="bootstrap.min.js" hash="874b6580aeaa5248c019e542930f0285"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/mdb.min.js" file="mdb.min.js" hash="874b6580aeaa5248c019e542930f028a"> </js>
+                <js type="internal" url="/assets/js/" path="/css-js/js/popper.min.js" file="popper.min.js" hash="874b6580aeaa5248c019e542930f028h"> </js>
+            </Assets-Js>
+        </Page>
         <Page name="Admin">
             <Assets-Css>
                 <css  type="internal" url="/assets/css/" path="/css-js/css/bootstrap.min.css" file="bootstrap.min.css" hash="909af5b5c3824673f9657ff22cf69baa"> </css>
                 <css  type="internal" url="/assets/css/" path="/css-js/css/mdb.min.css" file="mdb.min.css" hash="909af5b5c3824673f9657ff22cf69bas"> </css>
                 <css  type="internal" url="/assets/css/" path="/css-js/css/style.css" file="style.css" hash="909af5b5c3824673f9657ff22cf69baf"> </css>
+                <css  type="internal" url="/assets/css/" path="/admin/css/jquery.cleditor.css" file="jquery.cleditor.css" hash="d69cfc589877810d94c46078948e8b1f"> </css>
+                <css  type="internal" url="/assets/css/" path="/admin/css/Diagrams.css" file="Diagrams.css" hash="d69cfc589877810d94c460d894ae8b1f"> </css>
             </Assets-Css>
             <Assets-Js>
                 <js type="remote" path="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </js>
@@ -145,6 +173,8 @@
                 <js type="internal" url="/assets/js/" path="/css-js/js/mdb.min.js" file="mdb.min.js" hash="874b6580aeaa5248c019e542930f028a"> </js>
                 <js type="internal" url="/assets/js/" path="/css-js/js/add-new-brand.js" file="add-new-brand.js" hash="874b658saeaa5248c019e542930fg28d"> </js>
                 <js type="internal" url="/assets/js/" path="/admin/js/admin-libs.js" file="admin-libs.js" hash="874b658saeaa52f8c019e542930fs28f"> </js>
+                <js type="internal" url="/assets/js/" path="/admin/js/jquery.cleditor.min.js" file="jquery.cleditor.min.js" hash="65c38184f98c5ac49088751a29c059e3"> </js>
+                <js type="internal" url="/assets/js/" path="/admin/js/charts.js" file="charts.js" hash="44d27db039df6aee19b615b430f333a0"> </js>
             </Assets-Js>
         </Page>
     </Template>

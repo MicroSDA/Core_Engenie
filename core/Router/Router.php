@@ -42,6 +42,21 @@ class Router
      */
     private function route()
     {
+
+        /**
+         *  Visitors
+         */
+        if(!preg_match('(\.(css|js|php|mp4|txt|jpeg|gif|png|woff|woff2|ttf)$)',UrlsDispatcher::getInstance()->getUlrRequest())
+            and UrlsDispatcher::getInstance()->getCurrentUrlData()['type'] == 'basic'){
+
+            Visitor::addVisitor();
+
+        }
+
+        /**
+         * If server's cache exist
+         */
+
         if(UrlsDispatcher::getInstance()->getCurrentUrlData()['cache']=='yes') {
 
 
@@ -50,8 +65,7 @@ class Router
 
                 CacheGenerator::getCache();
 
-                exit();
-                //die();
+                die();
 
             }else{
 

@@ -1,15 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Logs>
-  <Log Time="02.09.18/16-02" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-02" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="53">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-02" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-04" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-04" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="53">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-04" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.09.18/16-10" File="C:\xampp\htdocs\views\public\material\admin\products\index.php" Line="90">Invalid argument supplied for foreach()</Log>
-  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
-  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
-  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
-  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
-  <Log Time="02.10.18/04-18" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="127">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="128">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="129">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="130">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="131">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="132">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/16-47" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="133">Illegal string offset 'value'</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="25">md5_file(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="45">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="46">readfile(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="24">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="25">md5_file(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="24">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="25">md5_file(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="24">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css</Log>
+  <Log Time="02.11.18/23-12" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="25">md5_file(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.11.18/23-13" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="25">md5_file(C:/xampp/htdocs/views/public/material/admin/css/jquery.cleditor.css): failed to open stream: No such file or directory</Log>
+  <Log Time="02.12.18/01-31" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="242">Undefined offset: 0</Log>
+  <Log Time="02.12.18/01-31" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="242">Undefined offset: 1</Log>
+  <Log Time="02.12.18/01-31" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="242">Undefined offset: 2</Log>
+  <Log Time="02.13.18/03-49" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="285">Undefined index: data</Log>
+  <Log Time="02.13.18/03-49" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="286">Undefined index: data</Log>
+  <Log Time="02.13.18/03-49" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="287">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="82">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="83">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="84">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="85">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="86">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="87">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="88">Undefined index: data</Log>
+  <Log Time="02.13.18/04-05" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="89">Undefined index: data</Log>
+  <Log Time="02.13.18/04-20" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="285">Undefined index: data</Log>
+  <Log Time="02.13.18/04-20" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="286">Undefined index: data</Log>
+  <Log Time="02.13.18/04-20" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="287">Undefined index: data</Log>
+  <Log Time="02.13.18/04-21" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="285">Undefined index: data</Log>
+  <Log Time="02.13.18/04-21" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="286">Undefined index: data</Log>
+  <Log Time="02.13.18/04-21" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="287">Undefined index: data</Log>
+  <Log Time="02.13.18/15-52" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="285">Undefined index: data</Log>
+  <Log Time="02.13.18/15-52" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="286">Undefined index: data</Log>
+  <Log Time="02.13.18/15-52" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="287">Undefined index: data</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/02-55" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="55">Undefined index: a</Log>
+  <Log Time="02.16.18/03-08" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="70">Undefined variable: hour</Log>
+  <Log Time="02.16.18/04-26" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Day</Log>
+  <Log Time="02.16.18/04-26" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Day</Log>
+  <Log Time="02.16.18/04-26" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: Day</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="242">Undefined variable: year</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="252">Undefined variable: charts</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="252">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="77">Undefined variable: charts</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="77">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="241">Undefined variable: month</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="241">Undefined variable: year</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="251">Undefined variable: charts</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="251">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="77">Undefined variable: charts</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="77">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="241">Undefined variable: month</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="241">Undefined variable: year</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="251">Undefined variable: charts</Log>
+  <Log Time="02.16.18/16-33" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="251">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-34" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="252">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.16.18/16-35" File="C:\xampp\htdocs\core\Libs\Basic\General\Charts.php" Line="253">Invalid argument supplied for foreach()</Log>
 </Logs>

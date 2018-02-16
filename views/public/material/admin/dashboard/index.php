@@ -13,12 +13,14 @@
                 <a class="nav-link" href="/admin/secure/brands">Brands</a>
                 <a class="nav-link" href="/admin/secure/category">Categories</a>
                 <a class="nav-link" href="/admin/secure/products">Products</a>
+                <a class="nav-link" href="/admin/secure/articles">Articles</a>
                 <a class="nav-link" href="/admin/secure/settings">Settings</a>
             </div>
         </div>
     </nav>
 </header>
 <div class="container-fluid">
+    <br>
     <ul class="nav nav-tabs nav-justified">
         <li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Activity</a>
@@ -31,34 +33,33 @@
         <!--Panel 1-->
         <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
             <br>
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">
-                    <div class="card">
-                        <h4 class="card-title" style="text-align: center"><span
-                                    class="btn btn-outline-dark"><h5>Visitors</h5></span></h4>
-                        <div class="card-body" style="height:507px; overflow-y: auto; display: block">
-                            <h4 class="card-title"></h4>
-                            <p class="card-text"></p>
-
-                            <table class="table table-bordered" >
-                                <thead class="elegant-color">
-                                <tr style="color:white" >
-                                    <th>#</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <?php $i = 1;
-                                foreach (DataManager::getInstance()->getDataByKey('Logs') as $value): ?>
-                                    <tr>
-                                        <td scope="row"><?= $i ?></td>
-                                    </tr>
-                                    <?php $i++; ?>
-                                <?php endforeach ?>
-                                </tbody>
-                            </table>
+            <div class="card">
+                <h4 class="card-title" style="text-align: center"><span
+                            class="btn btn-outline-dark"><h5>Visitors</h5></span></h4>
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text"></p>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <?php DataManager::getInstance()->getDataByKey('Day')->draw(); ?>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <?php DataManager::getInstance()->getDataByKey('Week')->draw(); ?>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <?php DataManager::getInstance()->getDataByKey('Month')->draw(); ?>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                            <?php DataManager::getInstance()->getDataByKey('Year')->draw(); ?>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <form type="get">
+                    <button type="submit" name="submit" value="activity-erase" class="btn btn-danger">Erase
+                    </button>
+                </form>
             </div>
         </div>
         <!--/.Panel 1-->
@@ -73,10 +74,9 @@
                         <div class="card-body" style="height:507px; overflow-y: auto; display: block">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
-
-                            <table class="table table-bordered" >
+                            <table class="table table-bordered">
                                 <thead class="elegant-color">
-                                <tr style="color:white" >
+                                <tr style="color:white">
                                     <th>#</th>
                                     <th>Time</th>
                                     <th>File</th>
@@ -102,24 +102,27 @@
                             </table>
                         </div>
                     </div>
+                    <div>
+                        <form type="get">
+                            <button type="submit" name="submit" value="logs-erase" class="btn btn-danger">Erase</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
         <!--/.Panel 2-->
     </div>
 </div>
-    <?php
-   // var_dump(UrlsDispatcher::getInstance()->getUrlsDataList());
+<?php
 
-    //$array_ulr;
-  /*  foreach (array_reverse(UrlsDispatcher::getInstance()->getUrlsDataList()) as $value){
+/* foreach (array_reverse(UrlsDispatcher::getInstance()->getUrlsDataList()) as $value){
 
-        DataBase::getInstance()->getDB()->query('INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s,?s,?s,?s,?s,?s,?s)',
-          $value['pattern'],$value['name'],$value['type'],$value['view'],$value['cache'],$value['model'],$value['method']);
+     DataBase::getInstance()->getDB()->query('INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s,?s,?s,?s,?s,?s,?s)',
+       $value['pattern'],$value['name'],$value['type'],$value['view'],$value['cache'],$value['model'],$value['method']);
 
 
-    }*/
+ }*/
 
-    ?>
+?>
 
 

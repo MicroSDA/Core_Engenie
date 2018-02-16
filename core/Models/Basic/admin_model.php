@@ -30,22 +30,54 @@ class admin_model extends Model
     public function index()
     {
 
+        if(isset($_GET['submit'])){
 
-        try{
+            switch ($_GET['submit']){
 
-            $logs = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_logs');
-            if($logs) {
+                case 'logs-erase':
+                    DataBase::getInstance()->getDB()->query("DELETE FROM c_logs");
+                    sleep(0.5);
+                    DataBase::getInstance()->getDB()->query("ALTER TABLE c_logs AUTO_INCREMENT = 1");
+                    header('Location:' . $_SERVER['HTTP_REFERER']);
+                    break;
+                case 'activity-erase':
+                    DataBase::getInstance()->getDB()->query("DELETE FROM c_visitor");
+                    sleep(0.5);
+                    DataBase::getInstance()->getDB()->query("ALTER TABLE c_visitor AUTO_INCREMENT = 1");
+                    header('Location:' . $_SERVER['HTTP_REFERER']);
+                    break;
+                default:
+                    break;
+
+            }
+        }
+
+
+        try {
+            $logs = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_logs ORDER BY id DESC');
+
+            if ($logs) {
 
                 DataManager::getInstance()->addData('Logs', $logs);
-            }else{
+            } else {
                 DataManager::getInstance()->addData('Logs', 'Logs wasn\'t found');
             }
-            
-        }catch (Exception $error){
-            
+
+            require_once URL_ROOT.'/core/Libs/Basic/General/Charts.php';
+
+            $charts_daily = new Charts('Day'); DataManager::getInstance()->addData('Day',$charts_daily);
+            $charts_weekly = new Charts('Week'); DataManager::getInstance()->addData('Week',$charts_weekly);
+            $charts_monthly = new Charts('Month'); DataManager::getInstance()->addData('Month',  $charts_monthly);
+            $charts_yearly = new Charts('Year'); DataManager::getInstance()->addData('Year',  $charts_yearly);
+
+
+
+
+
+        } catch (Exception $error) {
+
             echo $error->getMessage();
         }
-      
 
 
         $this->render();
@@ -66,9 +98,21 @@ class admin_model extends Model
     public function products()
     {
 
+        require_once URL_ROOT.'/core/Libs/Basic/General/Charts.php';
+
+        $charts = new Charts('Day');
+        DataManager::getInstance()->addData('Day',$charts);
+
         $this->render();
     }
 
+    public function articles(){
+
+
+        DataManager::getInstance()->addData('Articles',DataBase::getInstance()->getDB()->query('SELECT * FROM c_article'));
+
+        $this->render();
+    }
 
     public function settings()
     {
@@ -107,7 +151,7 @@ class admin_model extends Model
         }
 
 
-        DataManager::getInstance()->addData('URLS',UrlsDispatcher::getInstance()->getUrlsDataList());
+        DataManager::getInstance()->addData('URLS', UrlsDispatcher::getInstance()->getUrlsDataList());
         $this->render();
     }
 }

@@ -4,6 +4,8 @@
  * Class controller
  *
  */
+
+require_once URL_ROOT.'/core/Libs/Basic/General/Visitor.php';
 class controller
 {
 
@@ -20,10 +22,9 @@ class controller
     public function __construct()
     {
 
+        if (is_file(URL_ROOT . '/core/Models/' .UrlsDispatcher::getInstance()->getCurrentUrlData()['type'].'/'.UrlsDispatcher::getInstance()->getCurrentUrlData()['model']. '.php')) {
 
-        if (is_file(URL_ROOT . '/core/Models/' . UrlsDispatcher::getInstance()->getCurrentUrlData()['model']. '.php')) {
-
-            require_once URL_ROOT . '/core/Models/' . UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php';
+            require_once URL_ROOT . '/core/Models/' .UrlsDispatcher::getInstance()->getCurrentUrlData()['type'].'/'. UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php';
 
             $modelName =  basename(UrlsDispatcher::getInstance()->getCurrentUrlData()['model']);
             $this->model = new $modelName();
