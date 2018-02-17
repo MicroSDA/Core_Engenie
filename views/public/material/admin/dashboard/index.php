@@ -50,7 +50,25 @@
                             <?php DataManager::getInstance()->getDataByKey('Month')->draw(); ?>
                         </div>
                         <div class="col-lg-12 col-sm-12">
-                            <?php DataManager::getInstance()->getDataByKey('Year')->draw(); ?>
+                          <?php  DataManager::getInstance()->getDataByKey('Year')->draw(); ?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <hr><h5 style="text-align: center">Daily</h5>
+                            <?php DataManager::getInstance()->getDataByKey('DayPage')->draw(); ?>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <hr><h5 style="text-align: center">Weekly</h5>
+                            <?php  DataManager::getInstance()->getDataByKey('WeekPage')->draw(); ?>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <hr><h5 style="text-align: center">Monthly</h5>
+                            <?php DataManager::getInstance()->getDataByKey('MonthPage')->draw(); ?>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <hr><h5 style="text-align: center">Yearly</h5>
+                            <?php  DataManager::getInstance()->getDataByKey('YearPage')->draw(); ?>
                         </div>
                     </div>
                 </div>
@@ -114,7 +132,6 @@
     </div>
 </div>
 <?php
-
 /* foreach (array_reverse(UrlsDispatcher::getInstance()->getUrlsDataList()) as $value){
 
      DataBase::getInstance()->getDB()->query('INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method) VALUES (?s,?s,?s,?s,?s,?s,?s)',

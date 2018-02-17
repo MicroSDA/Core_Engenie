@@ -34,8 +34,8 @@ require_once URL_ROOT.'/core/Libs/Basic/General/CacheGenerator.php';
 
 ErrorLog::getInstance()->setLogFile(URL_ROOT.'/logs/LOG.xml');
 /** Enable all errors catch  */
-error_reporting(E_ALL);
-set_error_handler(array(ErrorLog::getInstance(),'addIntoLogDB'));       /** Function for catch  */
+//error_reporting(E_ALL);
+//set_error_handler(array(ErrorLog::getInstance(),'addIntoLogDB'));       /** Function for catch  */
 
 
 /**

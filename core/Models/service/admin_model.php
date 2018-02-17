@@ -70,6 +70,11 @@ class admin_model extends Model
             $charts_monthly = new Charts('Month'); DataManager::getInstance()->addData('Month',  $charts_monthly);
             $charts_yearly = new Charts('Year'); DataManager::getInstance()->addData('Year',  $charts_yearly);
 
+            $charts_daily_page = new Charts('DayPage'); DataManager::getInstance()->addData('DayPage',  $charts_daily_page);
+            $charts_weekly_page = new Charts('WeekPage'); DataManager::getInstance()->addData('WeekPage',  $charts_weekly_page);
+            $charts_monthly_page = new Charts('MonthPage'); DataManager::getInstance()->addData('MonthPage',  $charts_monthly_page);
+            $charts_yearly_page = new Charts('YearPage'); DataManager::getInstance()->addData('YearPage',  $charts_yearly_page);
+
 
 
 

@@ -14,6 +14,7 @@ class Charts
      */
     private $type;
 
+    private $unique;
 
     /**
      * Charts constructor.
@@ -34,9 +35,10 @@ class Charts
     /**
      *
      */
-    public function draw(){
+    public function draw()
+    {
 
-        switch ($this->type){
+        switch ($this->type) {
             case 'Year':
                 $this->yearlyChart();
                 break;
@@ -49,6 +51,19 @@ class Charts
             case 'Day':
                 $this->dailyChart();
                 break;
+            case 'DayPage':
+                $this->dailyChartPage();
+                break;
+            case 'WeekPage':
+                $this->weeklyChartPage();
+                break;
+            case 'MonthPage':
+                $this->monthlyChartPage();
+                break;
+            case 'YearPage':
+                $this->yearlyChartPage();
+                break;
+
 
         }
     }
@@ -59,7 +74,7 @@ class Charts
     private function dailyChart(){
 
         $day = date('d');
-        $month = date('m');
+        $month = date('F');
         $year = date('Y');
 
         try {
@@ -67,26 +82,42 @@ class Charts
             $charts = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_visitor WHERE Day=?s AND Month=?s AND Year=?s',
                 $day, $month, $year);
 
+
         } catch (Exception $exception) {
-            echo $exception->getMessage();
+           // echo $exception->getMessage();
         }
+
+
 
         $hour['00'] = 0; $hour['01'] = 0; $hour['02'] = 0; $hour['03'] = 0; $hour['04'] = 0; $hour['05'] = 0;
         $hour['06'] = 0; $hour['07'] = 0; $hour['08'] = 0; $hour['09'] = 0; $hour['10'] = 0; $hour['11'] = 0;
         $hour['12'] = 0; $hour['13'] = 0; $hour['14'] = 0; $hour['15'] = 0; $hour['16'] = 0; $hour['17'] = 0;
         $hour['18'] = 0; $hour['19'] = 0; $hour['20'] = 0; $hour['21'] = 0; $hour['22'] = 0; $hour['23'] = 0;
+
+
+        $unique['00'] = array('count'=>0); $unique['01']= array('count'=>0); $unique['02']= array('count'=>0); $unique['03']= array('count'=>0); $unique['04']= array('count'=>0); $unique['05']= array('count'=>0);
+        $unique['06'] = array('count'=>0); $unique['07'] = array('count'=>0); $unique['08'] = array('count'=>0); $unique['09'] = array('count'=>0); $unique['10']= array('count'=>0); $unique['11'] = array('count'=>0);
+        $unique['12'] = array('count'=>0); $unique['13'] = array('count'=>0); $unique['14']= array('count'=>0); $unique['15']= array('count'=>0); $unique['16'] = array('count'=>0); $unique['17']= array('count'=>0);
+        $unique['18'] = array('count'=>0); $unique['19']= array('count'=>0); $unique['20'] = array('count'=>0); $unique['21']= array('count'=>0); $unique['22'] = array('count'=>0); $unique['23'] =array('count'=>0);
+
+
+
+
+
+
         foreach ($charts as $value){
 
-            switch($value['Hour']){
-                case '00':$hour['00'] +=1;break; case '01':$hour['01'] +=1;break; case '02':$hour['02'] +=1;break; case '03':$hour['03'] +=1;break;
-                case '04':$hour['04'] +=1;break; case '05':$hour['05'] +=1;break; case '06':$hour['06'] +=1;break; case '07':$hour['07'] +=1;break;
-                case '08':$hour['08'] +=1;break; case '09':$hour['09'] +=1;break; case '10':$hour['10'] +=1;break; case '11':$hour['11'] +=1;break;
-                case '12':$hour['12'] +=1;break; case '13':$hour['13'] +=1;break; case '14':$hour['14'] +=1;break; case '15':$hour['15'] +=1;break;
-                case '16':$hour['16'] +=1;break; case '17':$hour['17'] +=1;break; case '18':$hour['18'] +=1;break; case '19':$hour['19'] +=1;break;
-                case '20':$hour['20'] +=1;break; case '21':$hour['21'] +=1;break; case '22':$hour['22'] +=1;break; case '23':$hour['23'] +=1;break;
+            $hour[$value['Hour']]+= 1;
+            $ip = preg_replace('(\.)', '', $value['Ip']);
+
+            if(empty( $unique[$value['Hour']][$ip])){
+                $unique[$value['Hour']]['count'] +=1;
             }
 
+            $unique[$value['Hour']][$ip]=$ip;
+
         }
+
 
 
         echo '<div id="daily_chart" style="width: 100%; height: 520px;"></div>';
@@ -95,10 +126,10 @@ class Charts
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Hour\', \'Visitors\'],';
+                       [\'Hour\', \'All\',\'Unique\'],';
         foreach ($hour as  $key=> $value){
+                echo '[\''.$key.':00\','.$value.','.$unique[$key]['count'].'],';
 
-            echo '[\''.$key.':00\','.$value.'],';
         }
         echo ' ]);
                         var options = {
@@ -116,7 +147,7 @@ class Charts
 
 
         $week_n = date('W');
-        $month = date('m');
+        $month = date('F');
         $year = date('Y');
 
         try {
@@ -132,13 +163,27 @@ class Charts
         $day['Monday'] = 0; $day['Tuesday'] = 0; $day['Wednesday'] = 0; $day['Thursday'] = 0;
         $day['Friday'] = 0; $day['Saturday'] = 0; $day['Sunday'] = 0;
 
+        $unique['Monday'] = array('count'=>0);$unique['Tuesday'] = array('count'=>0);$unique['Wednesday'] = array('count'=>0);
+        $unique['Thursday'] = array('count'=>0);$unique['Friday'] = array('count'=>0);$unique['Saturday'] = array('count'=>0);
+        $unique['Sunday'] = array('count'=>0);
+
+
+
+
+
         foreach ($charts as $value){
-            switch ($value['Week']){
-                case 'Monday': $day['Monday'] +=1;break; case 'Tuesday': $day['Tuesday'] +=1;break; case 'Wednesday': $day['Wednesday'] +=1;break;
-                case 'Thursday': $day['Thursday'] +=1;break; case 'Friday': $day['Friday'] +=1;break; case 'Saturday': $day['Saturday'] +=1;break;
-                case 'Sunday': $day['Sunday'] +=1;break;
+
+            $day[$value['Week']]+= 1;
+            $ip = preg_replace('(\.)', '', $value['Ip']);
+
+            if(empty($unique[$value['Week']][$ip])){
+                $unique[$value['Week']]['count'] +=1;
             }
+
+            $unique[$value['Week']][$ip]=$ip;
+
         }
+
 
         echo '<div id="weekly_chart" style="width: 100%; height: 600px;"></div>';
         echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
@@ -146,9 +191,9 @@ class Charts
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Day\', \'Visitors\'],';
+                       [\'Day\', \'All\',\'Unique\'],';
         foreach ($day as  $key=> $value){
-            echo '[\''.$key.'\','.$value.'],';
+            echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
         }
         echo ' ]);
                         var options = {
@@ -165,7 +210,7 @@ class Charts
 
     public function monthlyChart(){
 
-        $month = date('m');
+        $month = date('F');
         $year = date('Y');
 
         try {
@@ -178,30 +223,61 @@ class Charts
 
 
         $week['1']= 0; $week['2']= 0; $week['3']= 0; $week['4']= 0; $week['5']= 0;
+        $unique['1'] = array('count'=>0);$unique['2'] = array('count'=>0);$unique['3'] = array('count'=>0);
+        $unique['4'] = array('count'=>0);$unique['5'] = array('count'=>0);
+
 
         foreach ($charts as $value){
 
+            $ip = preg_replace('(\.)', '', $value['Ip']);
+
             if((int)$value['Day'] <= 7){
+
+                if(empty($unique['1'][$ip])){
+                    $unique['1']['count'] +=1;
+                }
+
+                $unique['1'][$ip]=$ip;
                 $week['1'] +=1;
                 continue;
             }
 
             if((int)$value['Day'] > 7 && (int)$value['Day'] <= 14){
+                if(empty($unique['2'][$ip])){
+                    $unique['2']['count'] +=1;
+                }
+
+                $unique['2'][$ip]=$ip;
                 $week['2'] +=1;
                 continue;
             }
 
             if((int)$value['Day'] > 14 && (int)$value['Day'] <= 21){
+                if(empty($unique['3'][$ip])){
+                    $unique['3']['count'] +=1;
+                }
+
+                $unique['3'][$ip]=$ip;
                 $week['3'] +=1;
                 continue;
             }
 
             if((int)$value['Day'] > 21 && (int)$value['Day'] <= 28 ){
+                if(empty($unique['4'][$ip])){
+                    $unique['4']['count'] +=1;
+                }
+
+                $unique['4'][$ip]=$ip;
                 $week['4'] +=1;
                 continue;
             }
 
             if((int)$value['Day'] > 28 ){
+                if(empty($unique['5'][$ip])){
+                    $unique['5']['count'] +=1;
+                }
+
+                $unique['5'][$ip]=$ip;
                 $week['5'] +=1;
                 continue;
             }
@@ -215,10 +291,10 @@ class Charts
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Week\', \'Visitors\'],';
+                       [\'Week\', \'All\',\'Unique\'],';
         foreach ($week as  $key=> $value){
 
-            echo '[\''.$key.'\','.$value.'],';
+            echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
         }
         echo ' ]);
                         var options = {
@@ -245,30 +321,40 @@ class Charts
             echo $exception->getMessage();
         }
 
+
         $month['September']=0;$month['October']=0;$month['November']=0;$month['December']=0;$month['January']=0;
         $month['February']=0;$month['March']=0;$month['April']=0;$month['May']=0;$month['June']=0;
         $month['July']=0;$month['August']=0;
 
+        $unique['September'] = array('count'=>0);$unique['October'] = array('count'=>0);$unique['November'] = array('count'=>0);$unique['December'] = array('count'=>0);
+        $unique['January'] = array('count'=>0);$unique['February'] = array('count'=>0);$unique['March'] = array('count'=>0);$unique['April'] = array('count'=>0);
+        $unique['May'] = array('count'=>0);$unique['June'] = array('count'=>0);$unique['July'] = array('count'=>0);$unique['August'] = array('count'=>0);
+
+
+
         foreach ($charts as $value){
 
-            switch($value['Month']){
-                case '01':$month['January']+=1;break; case '02':$month['February']+=1;break; case '03':$month['March']+=1;break;
-                case '04':$month['April']+=1;break; case '05':$month['May']+=1;break; case '06':$month['June']+=1;break;
-                case '07':$month['July']+=1;break; case '08':$month['August']+=1;break; case '09':$month['September']+=1;break;
-                case '10':$month['October']+=1;break; case '11':$month['November']+=1;break; case '12':$month['December']+=1;break;
+            $month[$value['Month']]+= 1;
+            $ip = preg_replace('(\.)', '', $value['Ip']);
+
+            if(empty($unique[$value['Month']][$ip])){
+                $unique[$value['Month']]['count'] +=1;
             }
 
+            $unique[$value['Month']][$ip]=$ip;
+
         }
+
             echo '<div id="yearly_chart" style="width: 100%; height: 600px;"></div>';
             echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
             echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Month\', \'Visitors\'],';
+                       [\'Month\', \'All\',\'Unique\'],';
             foreach ($month as  $key=> $value){
 
-                echo '[\''.$key.'\','.$value.'],';
+                echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
             }
             echo ' ]);
                         var options = {
@@ -281,5 +367,205 @@ class Charts
                     }';
             echo '});</script>';
 
+    }
+
+    public function dailyChartPage(){
+
+        $day = date('d');
+        $month = date('F');
+        $year = date('Y');
+
+        try {
+
+            $charts = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_visitor WHERE Day=?s AND Month=?s AND Year=?s',
+                $day, $month, $year);
+
+        } catch (Exception $exception) {
+            echo $exception->getMessage();
+        }
+
+
+        $day_page = array();
+         foreach ($charts as $value){
+
+            $day_page[$value['Name']]=0;
+
+         }
+
+
+        foreach ($charts as $value){
+            $day_page[$value['Name']]+= 1;
+        }
+
+        echo '<div id="daily_piechart" style="width: auto; height: 300px"></div>';
+        echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
+        echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
+                       google.charts.setOnLoadCallback(drawChart);
+                       function drawChart() {
+                       var data = google.visualization.arrayToDataTable([
+                       [\'Page\', \'Visitors\']';
+        foreach ($day_page as  $key=> $value){
+
+            echo ',[\''.$key.'\','.$value.']';
+        }
+        echo ' ]);
+                        var options = {
+                          title: \'Daily\',
+                          chartArea:{left:0,top:0,width:\'100%\',height:\'90%\'},
+                          legend: { position: \'bottom\', alignment: \'bottom\'}
+                        };
+                        var chart = new google.visualization.PieChart(document.getElementById(\'daily_piechart\'));
+                        chart.draw(data, options);
+                    }';
+        echo '});</script>';
+    }
+
+
+    public function weeklyChartPage(){
+
+        $week_n = date('W');
+        $month = date('F');
+        $year = date('Y');
+
+        try {
+
+            $charts = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_visitor WHERE WeekN=?s AND Month=?s AND Year=?s',
+                $week_n, $month, $year);
+
+        } catch (Exception $exception) {
+            echo $exception->getMessage();
+        }
+
+
+        $week_page = array();
+        foreach ($charts as $value){
+
+            $week_page[$value['Name']]=0;
+
+        }
+
+
+        foreach ($charts as $value){
+            $week_page[$value['Name']]+= 1;
+        }
+
+        echo '<div id="weekly_piechart" style="width: auto; height: 300px"></div>';
+        echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
+        echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
+                       google.charts.setOnLoadCallback(drawChart);
+                       function drawChart() {
+                       var data = google.visualization.arrayToDataTable([
+                       [\'Page\', \'Visitors\']';
+        foreach ($week_page as  $key=> $value){
+
+            echo ',[\''.$key.'\','.$value.']';
+        }
+        echo ' ]);
+                        var options = {
+                          title: \'Weekly\',
+                          chartArea:{left:0,top:0,width:\'100%\',height:\'90%\'},
+                          legend: { position: \'bottom\', alignment: \'bottom\'}
+                        };
+                        var chart = new google.visualization.PieChart(document.getElementById(\'weekly_piechart\'));
+                        chart.draw(data, options);
+                    }';
+        echo '});</script>';
+    }
+
+    public function monthlyChartPage(){
+
+        $month = date('F');
+        $year = date('Y');
+
+        try {
+
+            $charts = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_visitor WHERE Month=?s AND Year=?s',$month, $year);
+
+        } catch (Exception $exception) {
+            echo $exception->getMessage();
+        }
+
+        $month_page = array();
+        foreach ($charts as $value){
+
+            $month_page[$value['Name']]=0;
+
+        }
+
+
+        foreach ($charts as $value){
+            $month_page[$value['Name']]+= 1;
+        }
+
+        echo '<div id="monthly_piechart" style="width: auto; height: 300px"></div>';
+        echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
+        echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
+                       google.charts.setOnLoadCallback(drawChart);
+                       function drawChart() {
+                       var data = google.visualization.arrayToDataTable([
+                       [\'Page\', \'Visitors\']';
+        foreach ($month_page as  $key=> $value){
+
+            echo ',[\''.$key.'\','.$value.']';
+        }
+        echo ' ]);
+                        var options = {
+                          title: \'Monthly\',
+                            chartArea:{left:0,top:0,width:\'100%\',height:\'90%\'},
+                            legend:{ position: \'bottom\', alignment: \'bottom\'}
+                        };
+                        var chart = new google.visualization.PieChart(document.getElementById(\'monthly_piechart\'));
+                        chart.draw(data, options);
+                    }';
+        echo '});</script>';
+    }
+
+    public function yearlyChartPage(){
+
+
+        $year = date('Y');
+
+        try {
+
+            $charts = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_visitor WHERE Year=?s', $year);
+
+        } catch (Exception $exception) {
+            echo $exception->getMessage();
+        }
+
+        $year_page = array();
+        foreach ($charts as $value){
+
+            $year_page[$value['Name']]=0;
+
+        }
+
+
+        foreach ($charts as $value){
+            $year_page[$value['Name']]+= 1;
+        }
+
+        echo '<div id="yearly_piechart" style="width: auto; height: 300px"></div>';
+        echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
+        echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
+                       google.charts.setOnLoadCallback(drawChart);
+                       function drawChart() {
+                       var data = google.visualization.arrayToDataTable([
+                       [\'Page\', \'Visitors\']';
+        foreach ($year_page as  $key=> $value){
+
+            echo ',[\''.$key.'\','.$value.']';
+        }
+        echo ' ]);
+                        var options = {
+                          title: \'Yearly\',
+                          chartArea:{left:0,top:0,width:\'100%\',height:\'90%\'},
+                          legend: { position: \'bottom\', alignment: \'bottom\'}
+                         
+                        };
+                        var chart = new google.visualization.PieChart(document.getElementById(\'yearly_piechart\'));
+                        chart.draw(data, options);
+                    }';
+        echo '});</script>';
     }
 }

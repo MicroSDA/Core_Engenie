@@ -40,7 +40,7 @@ class  Visitor
             $day = date('d');
             $week = date('l');
             $week_n = date('W');
-            $month = date('m');
+            $month = date('F');
             $year = date('Y');
 
             try{

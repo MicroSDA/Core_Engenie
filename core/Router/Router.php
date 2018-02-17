@@ -46,8 +46,8 @@ class Router
         /**
          *  Visitors
          */
-        if(!preg_match('(\.(css|js|php|mp4|txt|jpeg|gif|png|woff|woff2|ttf)$)',UrlsDispatcher::getInstance()->getUlrRequest())
-            and UrlsDispatcher::getInstance()->getCurrentUrlData()['type'] == 'basic'){
+        if(!preg_match('(\.(css|js|php|mp4|txt|jpeg|gif|png|woff|woff2|ttf|map|ico)$)',UrlsDispatcher::getInstance()->getUlrRequest())
+            && UrlsDispatcher::getInstance()->getCurrentUrlData()['type'] != 'service'){
 
             Visitor::addVisitor();
 
