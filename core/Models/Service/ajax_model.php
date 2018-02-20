@@ -14,11 +14,14 @@ class ajax_model
         /**
          * If We are trying to open from direct link or from custom link from website
          */
-        if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) or ($_SERVER['HTTP_X_REQUESTED_WITH']) != 'XMLHttpRequest' or empty($_SERVER['HTTP_REFERER']) or empty($_SERVER['HTTP_AJAX']) or $_SERVER['HTTP_AJAX'] != 'Ajax') {
+        if (empty($_SERVER['HTTP_X_REQUESTED_WITH']) or $_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest' or empty($_SERVER['HTTP_REFERER']) or empty($_SERVER['HTTP_AJAX']) or $_SERVER['HTTP_AJAX'] != 'Ajax') {
 
             // UrlsDispatcher::getInstance()->setCurrentUrlData(array_pop(UrlsDispatcher::getInstance()->getUrlsDataList()));
             // $contorller = new Controller();
-            echo 'error';
+
+            foreach (getallheaders() as $name => $value) {
+                echo "$name: $value"."<br>";
+            }
             //die();
         }
 
@@ -37,8 +40,13 @@ class ajax_model
     public function add()
     {
 
-        echo ' Hello';
+        foreach (getallheaders() as $name => $value) {
+            echo "$name: $value"."<br>";
+        }
+
     }
+
+
 
 
     public function admin_add_newbrand()
@@ -107,9 +115,11 @@ class ajax_model
             DataBase::getInstance()->getDB()->query("UPDATE c_urls SET Pattern=?s, Name=?s, Type=?s, View=?s, Cache=?s, Model=?s, Method=?s, Status=?s WHERE Pattern=?s",
                 $page_pattern, $page_name, $page_type, $page_view, $page_cache, $page_model, $page_method, $page_status, $page_pattern_old);
 
-                   echo' <form type="Get" action="">';
-                   echo'<div style="text-align: center"><button type="submit" class="btn btn-outline-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
-                   echo' </form>';
+            $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
+            echo' <form type="Get" action="">';
+            echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
+            echo' </form>';
         } catch (Exception $error) {
 
             echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 113: ajax_model: admin_edit_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
@@ -167,8 +177,10 @@ class ajax_model
         try {
 
             DataBase::getInstance()->getDB()->query("DELETE FROM c_urls WHERE Pattern=?s", $_POST['data']);
+            $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
             echo' <form type="Get" action="">';
-            echo'<div style="text-align: center"><button type="submit" class="btn btn-outline-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+            echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
             echo' </form>';
 
         } catch (Exception $error) {
@@ -215,8 +227,10 @@ class ajax_model
                 DataBase::getInstance()->getDB()->query("INSERT INTO c_urls (Pattern, Name, Type, View, Cache, Model, Method, Status) VALUES (?s, ?s, ?s, ?s, ?s, ?s, ?s, ?s)",
                     $page_pattern, $page_name, $page_type, $page_view, $page_cache, $page_model, $page_method, $page_status);
 
+                $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
                 echo' <form type="Get" action="">';
-                echo'<div style="text-align: center"><button type="submit" class="btn btn-outline-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
                 echo' </form>';
 
             }else{
@@ -235,10 +249,9 @@ class ajax_model
     public function add_article(){
 
 
-
         try{
 
-            if(empty($_POST['data'][0]['value']) or empty($_POST['data'][1]['value']) or empty($_POST['data'][2]['value'])){
+            if(empty($_POST['data'][0]['value']) or empty($_POST['data'][1]['value']) or empty($_POST['body'])){
 
                 echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
 
@@ -249,13 +262,17 @@ class ajax_model
                     echo '<div style="text-align: center"><span class="btn btn-danger"><h5>Already exist</h5></span></div>';
 
                 }else{
-                    $description = strip_tags(mb_substr($_POST['data'][2]['value'],0,200));
+                    $description = strip_tags(mb_substr($_POST['body'],0,200));
 
                     $description.='...';
 
-                    if(DataBase::getInstance()->getDB()->query('INSERT INTO c_article (Url, Title, Description, Body, Writer) VALUES (?s,?s,?s,?s,?s)',$_POST['data'][1]['value'],$_POST['data'][0]['value'],$description, $_POST['data'][2]['value'], 'Ro')){
+                    if(DataBase::getInstance()->getDB()->query('INSERT INTO c_article (Url, Title, Description, Body, Writer) VALUES (?s,?s,?s,?s,?s)',$_POST['data'][1]['value'],$_POST['data'][0]['value'],$description, $_POST['body'], 'Ro')){
 
-                        echo'<div style="text-align: center"><button type="submit" class="btn btn-outline-success" name="submit" value="reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                        $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
+                        echo' <form type="Get" action="">';
+                        echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
+                        echo' </form>';
 
                     }else{
 
@@ -284,12 +301,12 @@ class ajax_model
         $article_title = $_POST['data'][0]['value'];
         $article_url = $_POST['data'][1]['value'];
         $article_writer = $_POST['data'][2]['value'];
-        $article_body = $_POST['data'][3]['value'];
+        $article_body = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_article WHERE Url=?s',$article_url);
 
         $outgoing['title'] = $article_title;
         $outgoing['url'] =  $article_url;
         $outgoing['writer'] = $article_writer;
-        $outgoing['body'] = $article_body;
+        $outgoing['body'] = $article_body[0]['Body'];
 
 
         echo json_encode($outgoing);
@@ -302,10 +319,10 @@ class ajax_model
         $article_url = $_POST['data'][1]['value'];
         $article_url_old = $_POST['data'][2]['value'];
         $article_writer = $_POST['data'][3]['value'];
-        $article_body = $_POST['data'][4]['value'];
+        $article_body = $_POST['body'];
 
 
-        if(empty($article_title) or empty( $article_url) or empty($article_writer) or empty($article_body) or empty($article_url_old)){
+        if(empty($article_title) or empty($article_url) or empty($article_writer) or empty($article_body) or empty($article_url_old)){
 
             echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
             die();
@@ -319,13 +336,15 @@ class ajax_model
 
                 $description.='...';
 
-
                 DataBase::getInstance()->getDB()->query("UPDATE c_article SET Url=?s, Title=?s, Description=?s, Body=?s WHERE Url=?s",
                     $article_url, $article_title, $description, $article_body, $article_url_old);
 
+                $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
                 echo' <form type="Get" action="">';
-                echo' <div style="text-align: center"><button type="button" class="btn btn-outline-success" name="submit" href="/settings?submit=reset-cache"><h5>Done, reset cache to get changes immediately</h5></button></div>';
+                echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
                 echo' </form>';
+
             } catch (Exception $error) {
 
                 echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 329: ajax_model: admin_edit_article()<hr>'.$error.'<hr>Contact with developer !</span></div>.';

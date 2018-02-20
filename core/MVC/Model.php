@@ -14,19 +14,9 @@ class Model
     public function __construct()
     {
 
-
     }
 
     protected function render($header = 'header.php', $footer ='footer.php',$index ='index.php'){
-
-        /**
-         * Add link to data base for site map
-         */
-        // $this->siteMap();
-
-        /**
-         * ----------------------------------------------------------------------------------------
-         */
 
         View::getInstance()->setViewFolder(UrlsDispatcher::getInstance()->getCurrentUrlData()['view']);
 
@@ -52,16 +42,4 @@ class Model
 
     }
 
-
-    private function siteMap(){
-
-
-        $host = 'https://'.$_SERVER['HTTP_HOST'].UrlsDispatcher::getInstance()->getUlrRequest();
-
-        $is_link = DataBase::getInstance()->getDB()->getAll("SELECT * FROM c_sitemap WHERE Url=?s",$host);
-
-        if(!$is_link){
-            DataBase::getInstance()->getDB()->query("INSERT INTO c_sitemap (Url) VALUES (?s)",$host);
-        }
-    }
 }

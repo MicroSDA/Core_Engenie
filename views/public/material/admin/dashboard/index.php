@@ -1,21 +1,33 @@
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="color: #343a40">
-        <a class="navbar-brand" href="/admin/secure/dashboard">Dashboard</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="font-size: 85%">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="/admin/secure/dashboard">Dashboard</a>
-                <a class="nav-link" href="/admin/secure/brands">Brands</a>
-                <a class="nav-link" href="/admin/secure/category">Categories</a>
-                <a class="nav-link" href="/admin/secure/products">Products</a>
-                <a class="nav-link" href="/admin/secure/articles">Articles</a>
-                <a class="nav-link" href="/admin/secure/settings">Settings</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/admin/secure/dashboard/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/brands/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/category/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/admin/secure/products/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/articles/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/settings/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Settings</a>
+                </li>
+            </ul>
+            <span class="navbar-text white-text">Welcome <span class="text-info"><?= DataManager::getInstance()->getDataByKey('employee-info')['FirstName'] ?>&nbsp;&nbsp;&nbsp;</span>
+                <span><a href="/admin/secure/dashboard/<?= DataManager::getInstance()->getDataByKey('admin-href')?>?submit=logout">Logout</a></span>
+            </span>
         </div>
     </nav>
 </header>
@@ -41,13 +53,13 @@
                     <p class="card-text"></p>
                     <div class="row">
                         <div class="col-lg-12 col-sm-12">
-                            <?php DataManager::getInstance()->getDataByKey('Day')->draw(); ?>
+                            <?php DataManager::getInstance()->getDataByKey('Day')->draw(); ?><hr>
                         </div>
                         <div class="col-lg-6 col-sm-12">
-                            <?php DataManager::getInstance()->getDataByKey('Week')->draw(); ?>
+                            <?php DataManager::getInstance()->getDataByKey('Week')->draw(); ?><hr>
                         </div>
                         <div class="col-lg-6 col-sm-12">
-                            <?php DataManager::getInstance()->getDataByKey('Month')->draw(); ?>
+                            <?php DataManager::getInstance()->getDataByKey('Month')->draw(); ?><hr>
                         </div>
                         <div class="col-lg-12 col-sm-12">
                           <?php  DataManager::getInstance()->getDataByKey('Year')->draw(); ?>

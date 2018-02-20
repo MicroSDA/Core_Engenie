@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Logs>
+  <Log Time="02.19.18/04-50" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: error_login</Log>
+  <Log Time="02.20.18/00-54" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/ckeditor.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/00-54" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="86">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/ckeditor.js</Log>
+  <Log Time="02.20.18/00-54" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="87">readfile(C:/xampp/htdocs/views/public/material/admin/js/ckeditor.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-00" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-00" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="65">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-00" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-00" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="86">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-00" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="87">readfile(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="65">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="65">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="86">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-01" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="87">readfile(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="65">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="86">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="87">readfile(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="65">filemtime(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="86">filesize(): stat failed for C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js</Log>
+  <Log Time="02.20.18/01-04" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="87">readfile(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/01-05" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
+  <Log Time="02.20.18/04-10" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="90">Undefined offset: 0</Log>
+  <Log Time="02.20.18/06-07" File="C:\xampp\htdocs\core\Models\service\file_manager_model.php" Line="26">Undefined offset: 0</Log>
 </Logs>

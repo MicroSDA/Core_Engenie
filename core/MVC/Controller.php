@@ -5,7 +5,8 @@
  *
  */
 
-require_once URL_ROOT.'/core/Libs/Basic/General/Visitor.php';
+
+
 class controller
 {
 
@@ -13,8 +14,6 @@ class controller
      * @var
      */
     private $model;
-
-
     /**
      * controller constructor.
      * @throws ErrorException
@@ -37,7 +36,8 @@ class controller
 
             } else {
 
-                throw new ErrorException(sprintf('METHOD "%s" IS NOT FOUND IN "%s"', UrlsDispatcher::getInstance()->getCurrentUrlData()['method'], URL_ROOT . '/core/Models/' .  UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php'));
+                throw new ErrorException(sprintf('METHOD "%s" IS NOT FOUND IN "%s"', UrlsDispatcher::getInstance()->getCurrentUrlData()['method'], URL_ROOT . '/core/Models/' .
+                    UrlsDispatcher::getInstance()->getCurrentUrlData()['model'] . '.php'));
             }
 
         } else {

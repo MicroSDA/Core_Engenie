@@ -103,15 +103,18 @@ class Charts
 
 
 
-
+        $all_count = 0;
+        $un_count = 0;
 
         foreach ($charts as $value){
 
             $hour[$value['Hour']]+= 1;
+            $all_count+=1;
             $ip = preg_replace('(\.)', '', $value['Ip']);
 
             if(empty( $unique[$value['Hour']][$ip])){
                 $unique[$value['Hour']]['count'] +=1;
+                $un_count+=1;
             }
 
             $unique[$value['Hour']][$ip]=$ip;
@@ -120,22 +123,22 @@ class Charts
 
 
 
-        echo '<div id="daily_chart" style="width: 100%; height: 520px;"></div>';
+        echo '<div id="daily_chart" style="width: 100%; height: 250px;"></div>';
         echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
         echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Hour\', \'All\',\'Unique\'],';
+                       [\'Hour\', \'All: '.$all_count.'\',\'Unique\'],';
         foreach ($hour as  $key=> $value){
-                echo '[\''.$key.':00\','.$value.','.$unique[$key]['count'].'],';
+                echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
 
         }
         echo ' ]);
                         var options = {
                             title: \'Daily\',
                             hAxis: {title: \'Hours\',  titleTextStyle: {color: \'#333\'}},
-                            vAxis: {minValue: 0}
+                            vAxis: {minValue: 0},
                         };
                         var chart = new google.visualization.AreaChart(document.getElementById(\'daily_chart\'));
                         chart.draw(data, options);
@@ -169,15 +172,18 @@ class Charts
 
 
 
-
+        $all_count = 0;
+        $un_count = 0;
 
         foreach ($charts as $value){
 
             $day[$value['Week']]+= 1;
+            $all_count+=1;
             $ip = preg_replace('(\.)', '', $value['Ip']);
 
             if(empty($unique[$value['Week']][$ip])){
                 $unique[$value['Week']]['count'] +=1;
+                $un_count+=1;
             }
 
             $unique[$value['Week']][$ip]=$ip;
@@ -185,13 +191,13 @@ class Charts
         }
 
 
-        echo '<div id="weekly_chart" style="width: 100%; height: 600px;"></div>';
+        echo '<div id="weekly_chart" style="width: 100%; height: 250px;"></div>';
         echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
         echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Day\', \'All\',\'Unique\'],';
+                       [\'Day\', \'All: '.$all_count.'\',\'Unique\'],';
         foreach ($day as  $key=> $value){
             echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
         }
@@ -226,9 +232,9 @@ class Charts
         $unique['1'] = array('count'=>0);$unique['2'] = array('count'=>0);$unique['3'] = array('count'=>0);
         $unique['4'] = array('count'=>0);$unique['5'] = array('count'=>0);
 
-
+        $all_count = 0;
         foreach ($charts as $value){
-
+            $all_count+=1;
             $ip = preg_replace('(\.)', '', $value['Ip']);
 
             if((int)$value['Day'] <= 7){
@@ -285,13 +291,13 @@ class Charts
         }
 
 
-        echo '<div id="monthly_chart" style="width: 100%; height: 600px;"></div>';
+        echo '<div id="monthly_chart" style="width: 100%; height: 250px;"></div>';
         echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
         echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Week\', \'All\',\'Unique\'],';
+                       [\'Week\', \'All: '.$all_count.'\',\'Unique\'],';
         foreach ($week as  $key=> $value){
 
             echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
@@ -331,9 +337,9 @@ class Charts
         $unique['May'] = array('count'=>0);$unique['June'] = array('count'=>0);$unique['July'] = array('count'=>0);$unique['August'] = array('count'=>0);
 
 
-
+        $all_count = 0;
         foreach ($charts as $value){
-
+            $all_count+=1;
             $month[$value['Month']]+= 1;
             $ip = preg_replace('(\.)', '', $value['Ip']);
 
@@ -345,13 +351,13 @@ class Charts
 
         }
 
-            echo '<div id="yearly_chart" style="width: 100%; height: 600px;"></div>';
+            echo '<div id="yearly_chart" style="width: 100%; height: 250px;"></div>';
             echo '<script type="text/javascript">document.addEventListener("DOMContentLoaded", function (){';
             echo ' google.charts.load(\'current\', {\'packages\':[\'corechart\']});
                        google.charts.setOnLoadCallback(drawChart);
                        function drawChart() {
                        var data = google.visualization.arrayToDataTable([
-                       [\'Month\', \'All\',\'Unique\'],';
+                       [\'Month\', \'All: '.$all_count.'\',\'Unique\'],';
             foreach ($month as  $key=> $value){
 
                 echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';

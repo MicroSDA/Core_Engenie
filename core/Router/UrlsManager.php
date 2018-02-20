@@ -39,19 +39,6 @@ class UrlsManager
 
     ];
 
-    /**
-     * @var array
-     * $urls_list = [
-     *     'key'=>[
-     *        'model' => '',
-     *        'method' => '',
-     *        'pattern' => '',
-     *        'type' => '',
-     *        'name' => ''
-     *        ]
-     *];
-     */
-
     private $urls_list = [];
 
 
@@ -79,7 +66,7 @@ class UrlsManager
                 if ($this->xml_parse_doc->localName == 'Url') {
 
 
-                    $this->url['key'] = $iteration_key;
+                    $this->url['key'] = $this->xml_parse_doc->getAttribute('pattern');
                     $this->url['pattern'] = $this->xml_parse_doc->getAttribute('pattern');
                     $this->url['model'] = mb_strtolower($this->xml_parse_doc->getAttribute('model'), 'UTF-8');
                     $this->url['method'] = mb_strtolower($this->xml_parse_doc->getAttribute('method'), 'UTF-8');
@@ -192,7 +179,6 @@ class UrlsManager
 
                 if (preg_match($value['pattern'], $url_request) and $value['status'] == 'active') {
 
-                    //var_dump($value);
                     return $value;
                 }
 

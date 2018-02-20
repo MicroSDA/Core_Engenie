@@ -13,6 +13,13 @@
 /**
  * Define global time of start script
  */
+
+   function arrayPrint($array_i){
+       echo '<pre>';
+       print_r($array_i);
+       echo '</pre>';
+   }
+
     $GLOBALS['time'] = microtime(true);
 
     try{
@@ -25,10 +32,6 @@
 
         /**
          * End of Predefine section
-         */
-
-        /**
-         * Enable Browser cache, set cache for an hour
          */
 
         require URL_ROOT.'/core/Libs/Config/Bootstrap.php';

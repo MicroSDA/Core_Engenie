@@ -1,27 +1,38 @@
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="color: #343a40">
-        <a class="navbar-brand" href="/admin/secure/dashboard">Dashboard</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark elegant-color" style="font-size: 85%">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="/admin/secure/dashboard">Dashboard</a>
-                <a class="nav-link" href="/admin/secure/brands">Brands</a>
-                <a class="nav-link" href="/admin/secure/category">Categories</a>
-                <a class="nav-link" href="/admin/secure/products">Products</a>
-                <a class="nav-link active" href="/admin/secure/articles">Articles</a>
-                <a class="nav-link" href="/admin/secure/settings">Settings</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/dashboard/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/brands/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/category/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/admin/secure/products/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Products</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/admin/secure/articles/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/settings/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Settings</a>
+                </li>
+            </ul>
+            <span class="navbar-text white-text">Welcome <span class="text-info"><?=DataManager::getInstance()->getDataByKey('employee-info')['FirstName']?></span></span>
         </div>
     </nav>
 </header>
+
 <div class="container-fluid">
     <h4 class="card-title" style="text-align: center"><span
-                class="btn btn-outline-dark"><h5>Articles</h5></span></h4>
+                class="btn btn-outline-dark"><h5>Articles</h5></span></h4><hr>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-justified">
         <li class="nav-item">
@@ -36,12 +47,6 @@
         <!--Panel 1-->
         <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
             <div id="add-article-error-message"></div>
-            <script>
-                document.addEventListener("DOMContentLoaded", function () {
-                    addArticleBody();
-                    editArticleBody();
-                });
-            </script>
             <hr>
             <br>
             <form id="add-article">
@@ -53,7 +58,14 @@
                         <input type="text" name="url" class="form-control" PLACEHOLDER="Url" required>
                     </div>
                     <div class="col-lg-12">
-                        <textarea id="article-body" name="article-body"></textarea>
+                       <!-- <textarea id="article-body" name="article-body"></textarea>-->
+                        <textarea name="article_body" id="article_body" rows="10" cols="80"></textarea>
+                        <script type="text/javascript">
+                            var CKEDITOR_BASEPATH = '/public/contents/ckeditor/';
+                            var CKEDITOR_CONFIG_BASEPATH = '/assets/js/?page=Admin&hash=44asdasdasdasdf27dbs39df6aee19b615b430f333a0/';
+                            document.addEventListener("DOMContentLoaded", function (){initAdd();});
+                        </script>
+                        <script>//CKEDITOR.replace('article_body');</script>
                     </div>
                 </div>
             </form>
@@ -65,8 +77,6 @@
         <!--/.Panel 1-->
         <!--Panel 2-->
         <div class="tab-pane fade" id="panel2" role="tabpanel">
-            <hr>
-            <br>
             <div style="height:507px; overflow-y: auto; display: block">
             <table class="table table-bordered">
                 <thead class="elegant-color">
@@ -81,21 +91,19 @@
                 </tr>
                 </thead>
                 <tbody>
-                <?php $i=1;?>
-                <?php foreach (DataManager::getInstance()->getDataByKey('Articles') as $value): ?>
+                <?php $i=1; foreach (DataManager::getInstance()->getDataByKey('Articles') as $value): ?>
                 <form id="form-article-edit-<?= $i?>">
                 <tr>
                     <td><?= $i?></td>
                     <td><?= $value['Title'] ?><input hidden name="title" type="text" value="<?= $value['Title'] ?>"></td>
-                    <td><?= $value['Description'] ?>></td>
+                    <td><?= $value['Description'] ?></td>
                     <td><?= $value['Url'] ?><input hidden name="url" type="text" value="<?= $value['Url'] ?>" ></td>
                     <td><?= $value['Writer'] ?><input hidden name="name" type="text" value="<?= $value['Writer'] ?>" ></td>
                     <td><button class="btn btn-outline-info" type="button" onclick="editArticleValidate('form-article-edit-<?=$i?>');">Edit</button></td>
                     <td><button class="btn btn-outline-warning" type="button" onclick="">Delete</button></td>
-                    <td hidden><input hidden name="body" type="text" value="<?= $value['Body'] ?>" ></td>
                 </tr>
                 </form>
-                    <?= $i++?>
+                    <?php $i++?>
                 <?php endforeach ?>
                 </tbody>
             </table>
@@ -126,7 +134,13 @@
                             <input type="text" id="edit-article-writer" name="writer" class="form-control" PLACEHOLDER="Writer name" required>
                         </div>
                         <div class="col-md-12">
-                            <textarea id="edit-article-body" name="edit-article-body"></textarea>
+                            <textarea name="edit_rticle_body" id="edit_article_body" rows="10" cols="80"></textarea>
+                            <script type="text/javascript">
+                                var CKEDITOR_BASEPATH = '/public/contents/ckeditor/';
+                                var CKEDITOR_CONFIG_BASEPATH = '/assets/js/?page=Admin&hash=44asdasdasdasdf27dbs39df6aee19b615b430f333a0/';
+                                document.addEventListener("DOMContentLoaded", function (){initEdit();});
+                            </script>
+                            <script>//CKEDITOR.replace('edit_article_body');</script>
                         </div>
                     </div>
                     </td>

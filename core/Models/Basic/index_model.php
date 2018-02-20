@@ -26,12 +26,6 @@ class index_model extends Model
     public function index()
     {
 
-        DataBase::getInstance();
-        DataManager::getInstance();
-
-        //DataManager::getInstance()->addData('Products',DataBase::getDB()->getAll('SELECT * FROM c_products'));
-
-
         $this->render();
 
     }

@@ -54,7 +54,6 @@ class categories_model extends Model
             header('Location:/categories');
         } else {
 
-            //$products_array =[];
 
             switch ($category_arry[0]['Type']){
 
@@ -77,25 +76,6 @@ class categories_model extends Model
 
             $this->render();
         }
-
-
-
-      /*  if($product_part == 'NOT FOUND'){
-
-            header('Location:/error');
-            die();
-        }
-
-        $product_arry = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_products WHERE Url=?s', $product_part);
-
-
-        if (!$product_arry) {
-            header('Location:/products');
-        } else {
-
-            DataManager::getInstance()->addData('Product', $product_arry);
-            $this->render();
-        }*/
 
 
     }

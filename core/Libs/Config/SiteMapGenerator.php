@@ -240,7 +240,7 @@ class SiteMapGenerator
     }
 
     //generates sitemap
-    public function generate_sitemap()
+    private function generate_sitemap()
     {
         $sitemap = new SimpleXMLElement('<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" />');
 
@@ -256,5 +256,14 @@ class SiteMapGenerator
 
         return $sitemap->asXML();
 
+    }
+
+    public function save($path){
+
+        $map = $this->generate_sitemap();
+        $file = $path;
+        $pf = fopen($file, "w");
+        fwrite($pf, $map);
+        fclose($pf);
     }
 }

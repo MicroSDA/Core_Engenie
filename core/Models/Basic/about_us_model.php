@@ -24,11 +24,6 @@ class about_us_model extends Model
      */
     public function index(){
 
-        DataBase::getInstance();
-        DataManager::getInstance();
-
-
-
         $this->render();
 
     }

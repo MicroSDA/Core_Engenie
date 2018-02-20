@@ -146,13 +146,15 @@ function addArticleBody() {
 function addArticle() {
 
     var this_data = $('#add-article').serializeArray();
+    var body = CKEDITOR.instances.article_body.getData();
     $.ajax({
         type: 'POST',
         url:  '/ajax-admin/add-article/',
         headers: { "Ajax": "Ajax" },
         data:
             {
-                data: this_data
+                data: this_data,
+                body : body
             },
         success: function (html){
 
@@ -166,16 +168,12 @@ function addArticle() {
 
 function editArticleBody() {
 
-    $("#edit-article-body").cleditor({
+   /* $("#edit-article-body").cleditor({
         height: 350,
-    });
+    });*/
 }
 
-function editArtcle() {
 
-    $('#edit-article-modal').modal();
-
-}
 
 function editArticleValidate(form_id) {
 
@@ -194,15 +192,16 @@ function editArticleValidate(form_id) {
 
             var obj = JSON.parse(html);
 
+
             $('#edit-article-message').empty();
             $('#edit-article-title').val(obj['title']);
             $('#edit-article-url').val(obj['url']);
             $('#edit-article-url-old').val(obj['url']);
             $('#edit-article-writer').val(obj['writer']);
-
-            $('#edit-article-body').val(obj['body']);
-
+            CKEDITOR.instances.edit_article_body.setData(obj['body']);
             $('#edit-article-modal').modal();
+
+
         }
 
     });
@@ -212,6 +211,7 @@ function editArticleValidate(form_id) {
 function editArticle() {
 
     var this_data = $('#edit-article-form').serializeArray();
+    var body = CKEDITOR.instances.edit_article_body.getData();
 
     $.ajax({
         type: 'POST',
@@ -219,7 +219,8 @@ function editArticle() {
         headers: { "Ajax": "Ajax" },
         data:
             {
-                data: this_data
+                data: this_data,
+                body: body
             },
         success: function (html){
 

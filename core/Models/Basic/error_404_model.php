@@ -26,10 +26,7 @@ class error_404_model extends Model {
      *
      */
     public function index(){
-
-        DataBase::getInstance();
-        DataManager::getInstance();
-
+         header('HTTP/1.1 404 Not Found');
         $this->render();
 
     }

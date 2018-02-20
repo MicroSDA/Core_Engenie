@@ -13,7 +13,7 @@ class UrlsDispatcher
     /**
      * @var
      */
-        protected static $_instance;
+    protected static $_instance;
     /**
      * @var array
      */
@@ -97,22 +97,12 @@ class UrlsDispatcher
         $this->ulr_request = $ulr_request;
     }
 
-
     /**
-     * @var array
+     * @return mixed
      */
-    private $patterns = [
-        'integer' => '[0-9]+',
-        'string' => '[a-zA-Z\.\-_%]+',
-        'any' => '[a-zA-Z0-9\.\-_%]+'
-    ];
-
-    /**
-     * @return array
-     */
-    public function getPatterns()
+    public function getUrlsDataListByKey($key)
     {
-        return $this->patterns;
+        return $this->urls_list[$key];
     }
 
     /**
@@ -122,7 +112,6 @@ class UrlsDispatcher
     {
         return $this->urls_list;
     }
-
     /**
      * @param mixed $urls_list
      */
@@ -140,8 +129,6 @@ class UrlsDispatcher
      */
     public function getValue($flag){
 
-        //$outgoing_data;
-
         if($flag == 'STR'){
 
             if(preg_match_all('|\/[a-zA-Z0-9_-]+$|', $this->ulr_request, $outgoing_data_first)){
@@ -156,7 +143,7 @@ class UrlsDispatcher
 
             }else{
 
-                return 'NOT FOUND';
+                throw new ErrorException('STR WAS NOT FOUND');
             }
 
         }
@@ -169,12 +156,18 @@ class UrlsDispatcher
 
             }else{
 
-                return 'NOT FOUND';
+                throw new ErrorException('NUMBER WAS NOT FOUND');
             }
 
         }
 
         throw new ErrorException('METHOD TAKE ONLY STRING OR NUMBER');
+    }
+
+    public function getToken(){
+
+        preg_match_all('/^\/.+\/([0-9a-zA-a]+)/',$this->getUlrRequest(),$match);
+        return $match[1][0];
     }
 
 
@@ -186,7 +179,6 @@ class UrlsDispatcher
 
         foreach ($urlArray as $url) {
             $url_tag = $newUrlListXML->addChild("Url",$url['Name']);
-           // $url_tag->addChild("Url",$url['Name']);
             $url_tag->addAttribute('model',$url['Model']);
             $url_tag->addAttribute('method',$url['Method']);
             $url_tag->addAttribute('pattern',$url['Pattern']);

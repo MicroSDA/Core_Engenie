@@ -170,6 +170,9 @@ class SafeMySQL
 		return $this->rawQuery($this->prepareQuery(func_get_args()));
 	}
 
+	public function mysqlQuery($query){
+	    mysqli_query($this->conn, $query);
+    }
 	/**
 	 * Conventional function to fetch single row. 
 	 * 

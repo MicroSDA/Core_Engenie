@@ -46,6 +46,7 @@ class Router
         /**
          *  Visitors
          */
+        require_once URL_ROOT.'/core/Libs/Basic/General/Visitor.php';
         if(!preg_match('(\.(css|js|php|mp4|txt|jpeg|gif|png|woff|woff2|ttf|map|ico)$)',UrlsDispatcher::getInstance()->getUlrRequest())
             && UrlsDispatcher::getInstance()->getCurrentUrlData()['type'] != 'service'){
 
@@ -59,16 +60,12 @@ class Router
 
         if(UrlsDispatcher::getInstance()->getCurrentUrlData()['cache']=='yes') {
 
-
             if (CacheGenerator::isCache()) {
 
-
                 CacheGenerator::getCache();
-
                 die();
 
             }else{
-
                 $this->controller = new Controller();
             }
 
@@ -87,14 +84,7 @@ class Router
          *  Getting url
          */
         $this->request_url = rtrim($_SERVER['REQUEST_URI'], '/');
-
         $this->request_url = mb_strtolower($this->request_url, 'UTF-8');
-
-       /** if(preg_match('(\.(js|php|mp4|txt)$)',$this->request_url)){
-
-            echo 'asd';
-           die();
-        }*/
         $this->url_data = $this->urls_manager->manegeUrl($this->request_url);
 
         /**
@@ -124,39 +114,3 @@ class Router
 
 
 }
-
-/**
- *   if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
-$file ='-index';
-
-}else{
-
-$file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
-}
-
-$file_path = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
-
-if(file_exists($file_path)){
-
-
-header("Cache-control: public");
-header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60*15) . " GMT");
-echo file_get_contents($file_path);
-echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
-echo ' <div style="text-align: center;">Time:'.(microtime(true) - $GLOBALS['time']) .'Sec</div>';
-
-die();
-
-}else{
-
-$this->controller = new Controller();
-}
-
-}else{
-
-$this->controller = new Controller();
-}
-
-
-
- */

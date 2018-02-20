@@ -167,11 +167,6 @@ class View
      */
     public function render($header = true, $footer = true){
 
-
-
-
-
-
         ob_start();
         ob_implicit_flush(0);
         try{
@@ -205,32 +200,9 @@ class View
               CacheGenerator::generateCache();
           }
         }
-
           /* echo '<div style="text-align: center;">Usage:'.round(memory_get_usage() / 1024 / 1024, 2).'MB</div>';
            echo ' <div style="text-align: center;">Time:'.(microtime(true) - $GLOBALS['time']) .'Sec</div>';*/
 
         echo ob_get_clean();
     }
 }
-
-/**
- *   if(UrlsDispatcher::getInstance()->getUlrRequest() ==''){
-
-echo UrlsDispatcher::getInstance()->getUlrRequest();
-$file ='-index';
-
-}else{
-
-$file = preg_replace('(\/)','-', UrlsDispatcher::getInstance()->getUlrRequest());
-}
-
-$cache_file = $_SERVER['DOCUMENT_ROOT'].'/cache/'.'cache'.$file.'.html';
-
-if(!file_exists($cache_file)){
-
-$cache_page = fopen($cache_file, 'w'); // Открываем файл для записи и стираем его содержимое
-fwrite($cache_page, ob_get_contents()); // Сохраняем всё содержимое буфера в файл
-fclose($cache_page); // Закрываем файл
-}
-
- */

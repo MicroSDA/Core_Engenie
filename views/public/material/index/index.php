@@ -48,7 +48,8 @@
         <hr>
         <small>
             <b>
-                <p style="text-align: center;"><?= md5(getenv("REMOTE_ADDR") . "key" . date("i")) ?></p>
+                <p style="text-align: center;"><?= md5(getenv("REMOTE_ADDR") . "key" . time()). md5(getenv("REMOTE_ADDR") . "key-2" .
+                            time()). md5(getenv("REMOTE_ADDR") . "key-3" . time()); ?></p>
             </b>
         </small>
     </div>
