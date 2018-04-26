@@ -28,4 +28,158 @@
   <Log Time="02.20.18/01-05" File="C:\xampp\htdocs\core\Models\service\assets_model.php" Line="66">md5_file(C:/xampp/htdocs/views/public/material/admin/js/editor/sample.js): failed to open stream: No such file or directory</Log>
   <Log Time="02.20.18/04-10" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="90">Undefined offset: 0</Log>
   <Log Time="02.20.18/06-07" File="C:\xampp\htdocs\core\Models\service\file_manager_model.php" Line="26">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.20.18/16-13" File="C:\xampp\htdocs\core\Models\basic\products_model.php" Line="125">Undefined offset: 0</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: name</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: Name</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: Name</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: Name</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: Name</Log>
+  <Log Time="02.21.18/03-04" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="39">Undefined index: Name</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="60">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: URLS</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="59">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: URLS</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="59">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: URLS</Log>
+  <Log Time="02.21.18/03-10" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="59">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-11" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="59">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-11" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: URLS</Log>
+  <Log Time="02.21.18/03-11" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="59">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-11" File="C:\xampp\htdocs\core\MVC\DataManager.php" Line="62">Undefined index: URLS</Log>
+  <Log Time="02.21.18/03-11" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="60">Invalid argument supplied for foreach()</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="64">Illegal string offset 'name'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="65">Illegal string offset 'pattern'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="67">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="75">Illegal string offset 'status'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="87">Illegal string offset 'model'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="88">Illegal string offset 'method'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="89">Illegal string offset 'view'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Illegal string offset 'type'</Log>
+  <Log Time="02.21.18/03-12" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="104">Illegal string offset 'cache'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="63">Illegal string offset 'FirstName'</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="72">Undefined index: FirstName</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="73">Undefined index: LastName</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="72">Undefined index: FirstName</Log>
+  <Log Time="02.21.18/03-13" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="73">Undefined index: LastName</Log>
+  <Log Time="02.21.18/03-14" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="74">Undefined index: LastName</Log>
+  <Log Time="02.21.18/03-14" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="90">Undefined index: FirstName</Log>
+  <Log Time="02.21.18/03-14" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="91">Undefined index: LastName</Log>
+  <Log Time="02.21.18/03-15" File="C:\xampp\htdocs\views\public\material\admin\employee\index.php" Line="97">Undefined index: LastName</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="200">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="201">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="202">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="203">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="204">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="205">Undefined index: data</Log>
+  <Log Time="02.21.18/03-29" File="C:\xampp\htdocs\core\Models\service\ajax_model.php" Line="206">Undefined index: data</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="02.21.18/03-47" File="C:\xampp\htdocs\core\Models\service\admin_model.php" Line="313">Undefined index: HTTP_REFERER</Log>
+  <Log Time="04.22.18/07-43" File="C:\xampp\htdocs\core\Libs\DataBase\safemysql.class.php" Line="605">mysqli_real_escape_string() expects parameter 2 to be string, array given</Log>
 </Logs>

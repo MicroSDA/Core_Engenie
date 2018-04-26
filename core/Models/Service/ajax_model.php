@@ -354,4 +354,71 @@ class ajax_model
 
     }
 
+
+    public function admin_validate_delete_article()
+    {
+
+        $outgoing['url'] = $_POST['data'][1]['value'];
+        echo json_encode($outgoing);
+
+    }
+
+
+    public function admin_delete_article(){
+        try {
+
+            DataBase::getInstance()->getDB()->query("DELETE FROM c_article WHERE Url=?s", $_POST['data']);
+            $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
+            echo' <form type="Get" action="">';
+            echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
+            echo' </form>';
+
+        } catch (Exception $error) {
+
+            echo '<div style="text-align: center"><span class="btn btn-warning">INTERNAL ERROR<br>Line 168: ajax_model: admin_delete_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
+        }
+
+    }
+
+    public function admin_add_employee(){
+
+
+        if(empty($_POST['data'][0]['value']) or empty($_POST['data'][1]['value']) or empty($_POST['data'][2]['value']) or empty($_POST['data'][3]['value']) or empty($_POST['data'][4]['value'])){
+
+            echo '<div style="text-align: center"><span class="btn btn-warning"><h5>All fields should be filled</h5></span></div>';
+
+        }else{
+
+            try {
+
+                if(!DataBase::getInstance()->getDB()->getAll("SELECT * FROM c_employee WHERE Email=?s",$_POST['data'][2]['value'])){
+
+                    DataBase::getInstance()->getDB()->query("INSERT INTO c_employee (FirstName, LastName, Email, Password, Role) VALUES (?s, ?s, ?s, ?s, ?s)",$_POST['data'][0]['value'],
+                        $_POST['data'][1]['value'],$_POST['data'][2]['value'],$_POST['data'][3]['value'],$_POST['data'][4]['value']);
+
+                    $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);
+
+                    echo' <form type="Get" action="">';
+                    echo' <div style="text-align: center"><a href="/admin/secure/settings/'.$token[0]['Token'].'?submit=reset-cache"><span class="btn btn-outline-success"><h6>Done, reset cache to get changes immediately</h6></span></a></div>';
+                    echo' </form>';
+
+                }else{
+
+                    echo '<div style="text-align: center"><span class="btn btn-warning"><h5>Already exist</h5></span></div>';
+                }
+
+
+            } catch (Exception $error) {
+
+                echo '<div style="text-align: center"><span class="btn btn-danger">INTERNAL ERROR<br>Line 218: ajax_model: admin_add_url()<hr>'.$error.'<hr>Contact with developer !</span></div>.';
+            }
+        }
+
+    }
+
+    public function admin_delete_employee(){
+
+
+    }
 }

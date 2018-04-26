@@ -22,10 +22,15 @@
                     <a class="nav-link" href="/admin/secure/articles/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Articles</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/admin/secure/employee/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Employee</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/admin/secure/settings/<?= DataManager::getInstance()->getDataByKey('admin-href')?>">Settings</a>
                 </li>
             </ul>
-            <span class="navbar-text white-text">Welcome <span class="text-info"><?=DataManager::getInstance()->getDataByKey('employee-info')['FirstName']?></span></span>
+            <span class="navbar-text white-text">Welcome <span class="text-info"><?= DataManager::getInstance()->getDataByKey('employee-info')['FirstName'] ?>&nbsp;&nbsp;&nbsp;</span>
+                <span><a href="/admin/secure/dashboard/<?= DataManager::getInstance()->getDataByKey('admin-href')?>?submit=logout">Logout</a></span>
+            </span>
         </div>
     </nav>
 </header>
@@ -100,7 +105,7 @@
                     <td><?= $value['Url'] ?><input hidden name="url" type="text" value="<?= $value['Url'] ?>" ></td>
                     <td><?= $value['Writer'] ?><input hidden name="name" type="text" value="<?= $value['Writer'] ?>" ></td>
                     <td><button class="btn btn-outline-info" type="button" onclick="editArticleValidate('form-article-edit-<?=$i?>');">Edit</button></td>
-                    <td><button class="btn btn-outline-warning" type="button" onclick="">Delete</button></td>
+                    <td><button class="btn btn-outline-warning" type="button" onclick="deleteArticleValidate('form-article-edit-<?=$i?>');">Delete</button></td>
                 </tr>
                 </form>
                     <?php $i++?>
@@ -155,4 +160,23 @@
         </div>
     </div>
 </div>
-
+<div id="delete-article-modal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                <input hidden type="text" name="pattern" id="delete-article-url">
+                <div style="text-align: center"><div class="btn btn-outline-warning"><h3>Are you sure ?</h3></div></div>
+                <br>
+                <div style="text-align: center"><button type="button" class="btn btn-danger" onclick="deleteArticle();">Yes</button></div>
+                <hr size="15">
+                <br>
+                <div id="delete-article-message"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-warning" type="button" data-dismiss="modal" onclick="">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

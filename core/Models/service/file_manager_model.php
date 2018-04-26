@@ -16,10 +16,6 @@ class file_manager_model
     }
 
 
-    /**
-     * Array ( [0] => Array ( [0] => http://127.0.0.1/admin/secure/articles/242543c58a0ee10af2d633e0d6c0e1c5b6fe107df476a0cec14fdb9dadaac0d2918d8b844f46d88a4f2d0155bdb29d79 ) [1] => Array ( [0] => 242543c58a0ee10af2d633e0d6c0e1c5b6fe107df476a0cec14fdb9dadaac0d2918d8b844f46d88a4f2d0155bdb29d79 ) )
-     */
-
     public function upload(){
 
         $token = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_settings WHERE id=?i',1);

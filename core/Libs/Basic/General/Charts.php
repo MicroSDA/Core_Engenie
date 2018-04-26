@@ -131,7 +131,7 @@ class Charts
                        var data = google.visualization.arrayToDataTable([
                        [\'Hour\', \'All: '.$all_count.'\',\'Unique\'],';
         foreach ($hour as  $key=> $value){
-                echo '[\''.$key.'\','.$value.','.$unique[$key]['count'].'],';
+                echo '[\''.$key.':00\','.$value.','.$unique[$key]['count'].'],';
 
         }
         echo ' ]);

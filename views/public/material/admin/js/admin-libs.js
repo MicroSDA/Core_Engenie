@@ -136,13 +136,6 @@ function addNewUrl() {
 
 }
 
-function addArticleBody() {
-
-     $("#article-body").cleditor({
-         height: 350
-     });
-}
-
 function addArticle() {
 
     var this_data = $('#add-article').serializeArray();
@@ -165,14 +158,6 @@ function addArticle() {
     });
 
 }
-
-function editArticleBody() {
-
-   /* $("#edit-article-body").cleditor({
-        height: 350,
-    });*/
-}
-
 
 
 function editArticleValidate(form_id) {
@@ -227,6 +212,79 @@ function editArticle() {
             $('#edit-article-message').empty();
             $('#edit-article-message').append(html);
 
+        }
+
+    });
+}
+
+function deleteArticleValidate(form_id){
+
+    var this_data = $('#'+form_id).serializeArray();
+
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/delete-article-validate/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            var obj = JSON.parse(html);
+
+            $('#delete-article-message').empty();
+            $('#delete-article-url').empty();
+            $('#delete-article-url').append(obj['url']);
+
+            $('#delete-article-modal').modal();
+        }
+
+    });
+
+};
+
+function deleteArticle(){
+
+    var this_data = $('#delete-article-url').text();
+
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/delete-article/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            $('#delete-article-message').empty();
+            $('#delete-article-message').append(html);
+        }
+
+    });
+
+};
+
+function addNewEmployee() {
+
+    var this_data = $('#add-new-employee-form').serializeArray();
+
+
+    $.ajax({
+        type: 'POST',
+        url:  '/ajax-admin/add-employee/',
+        headers: { "Ajax": "Ajax" },
+        data:
+            {
+                data: this_data
+            },
+        success: function (html){
+
+            $('#add-new-employee-message').empty();
+            $('#add-new-employee-message').append(html);
         }
 
     });

@@ -261,11 +261,18 @@ class admin_model extends Model
     public function articles(){
 
 
-        DataManager::getInstance()->addData('Articles',DataBase::getInstance()->getDB()->query('SELECT * FROM c_article'));
+        DataManager::getInstance()->addData('Articles',DataBase::getInstance()->getDB()->query('SELECT * FROM c_article ORDER BY id DESC'));
 
         $this->render();
     }
 
+
+    public function employee(){
+
+        $employee = DataBase::getInstance()->getDB()->getAll('SELECT * FROM c_employee');
+        DataManager::getInstance()->addData('Employee',$employee);
+        $this->render();
+    }
     /**
      *
      */
